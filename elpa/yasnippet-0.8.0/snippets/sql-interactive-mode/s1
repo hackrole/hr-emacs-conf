@@ -1,0 +1,4 @@
+# key: s1
+# name: select .. from ..;
+# --
+select ${0:*} from $1;

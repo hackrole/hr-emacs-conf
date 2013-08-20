@@ -1,0 +1,7 @@
+# name: #!/usr/bin/env python ...
+# key: pyhead
+# --
+#!/usr/bin/env python
+#coding=utf-8
+
+$0

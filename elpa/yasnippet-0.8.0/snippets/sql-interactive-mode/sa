@@ -1,0 +1,4 @@
+# key: sa
+# name: select .. from .. where order limit
+# --
+select ${0:*} from $1 where $2 order by $3 limit $4;
