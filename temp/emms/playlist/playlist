@@ -1,0 +1,4 @@
+;;; This is an EMMS playlist file. Play it with M-x emms-play-playlist
+((*track* (type . file) (name . "/home/daipeng/Music/Memories.mp3") (info-mtime 20875 30103))
+ (*track* (type . file) (name . "/home/daipeng/Music/Everything At Once.mp3") (info-mtime 20767 5382))
+ (*track* (type . file) (name . "/home/daipeng/Music/Borderland.mp3") (info-mtime 20958 28135)))

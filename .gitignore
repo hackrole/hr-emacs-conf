@@ -1,0 +1,15 @@
+*.log
+*.pyc
+*.elc
+*.out
+*.cache
+*.temp
+auto-save-list
+temp/eshell/history
+temp/eshell/lastdir
+temp/emms/cache
+temp/emms/history
+temp/emms/scores
+temp/auto-save-list/*
+temp/w3m/cookies
+elpa/*

@@ -1,0 +1,55 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("180logs"
+ (filename . "/scpc:ssc2@180.166.138.75#30167:/home/ssc2/project/crawler/lunwen/logs/")
+ (front-context-string . "run_2013_6_26_10")
+ (rear-context-string . "92 Jun 27 23:43 ")
+ (position . 244))
+("hr-keys"
+ (filename . "~/.emacs.d/my-lisps/hr-keys-conf.el")
+ (front-context-string . ";; hr keys conf\n")
+ (rear-context-string)
+ (position . 1))
+("scrapy"
+ (filename . "/usr/local/lib/python2.7/dist-packages/scrapy/")
+ (front-context-string . "contrib\n  drwxr-")
+ (rear-context-string . "96 May  2 10:12 ")
+ (position . 693))
+("58_ssc"
+ (filename . "/ssh:root@58.215.173.193#5108:/root/ssc/")
+ (front-context-string . "logs\n  drwxrwxr-")
+ (rear-context-string . "96 May 23 09:29 ")
+ (position . 524))
+("elpa"
+ (filename . "~/.emacs.d/elpa/")
+ (front-context-string)
+ (rear-context-string . "yasnippet-0.8.0\n")
+ (position . 1101))
+("snippets"
+ (filename . "~/.emacs.d/elpa/yasnippet-0.8.0/snippets/")
+ (front-context-string . "python-mode\n  dr")
+ (rear-context-string . "96 Mar 11 23:26 ")
+ (position . 1187))
+("org"
+ (filename . "~/.org/")
+ (front-context-string . "book.org\n  -rw-r")
+ (rear-context-string . " 0 Mar 27 11:53 ")
+ (position . 225))
+("emacs-conf"
+ (filename . "~/.emacs.d/")
+ (front-context-string . "my-lisps\n  drwxr")
+ (rear-context-string . "96 Mar 12 22:50 ")
+ (position . 467))
+("my-lisps"
+ (filename . "~/.emacs.d/my-lisps/")
+ (front-context-string . "hr-color-theme-c")
+ (rear-context-string . "35 Mar 11 23:00 ")
+ (position . 236))
+("p2_koans"
+ (filename . "/var/www/python_koans/python2/koans/")
+ (front-context-string . "about_asserts.py")
+ (rear-context-string . "01 Mar 11 21:31 ")
+ (position . 241))
+)

@@ -1,0 +1,16 @@
+alias cdnote cd ~/Desktop/program/note
+alias lcmysql (sql-mysql)
+alias cdc cd ~/Desktop/program/c
+alias cdpro cd ~/Desktop/program
+alias cdpy cd ~/Desktop/program/python
+alias cdjinja2 cd /usr/local/lib/python2.7/dist-packages/jinja2
+alias cdscrapy cd /usr/local/lib/python2.7/dist-packages/scrapy
+alias ff find-file nil
+alias cddesk cd ~/Desktop
+alias cddemo cd /var/www/demo
+alias cdwww cd /var/www
+alias cdvideo cd /var/www/video
+alias cdwork cd ~/Desktop/work
+alias cdfabric cd /usr/local/lib/python2.7/dist-packages/fabric
+alias cdapp cd /usr/local/app
+alias ffo find-file-other-window nil
