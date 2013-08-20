@@ -45,6 +45,7 @@
 
 ;; ede 
 (global-ede-mode t)
+(setq ede-project-placeholder-cache-file "~/.emacs.d/temp/ede/ede-project.el")
 
 ;; provide 
 (provide 'hr-cedet-conf)
