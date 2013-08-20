@@ -5,6 +5,9 @@
 (emms-standard)
 (emms-default-players)
 
+;; emms dir
+(setq emms-directory "~/.emacs.d/temp/emms")
+
 (setq emms-show-format "play: %s")
 (setq emms-source-file-default-directory "~/Music/")
 (setq emms-playlist-buffer-name "enjoy music")

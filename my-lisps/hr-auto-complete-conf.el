@@ -5,6 +5,9 @@
 (add-to-list 'ac-dictionary-directories ac-dict)
 (ac-config-default)
 
+;; auto-complete history file
+(setq ac-comphist-file "~/.emacs.d/temp/ac-comphist.dat")
+
 ;; set the auto-complete key to \C-1
 (define-key ac-mode-map (kbd "M-1") 'auto-complete)
 (ac-set-trigger-key nil)

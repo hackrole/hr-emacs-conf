@@ -1,3 +1,6 @@
+;; path settings
+(add-to-list 'load-path "~/.emacs.d/plugins/speedbar-ext")
+
 ;; the speedbar conf
 (require 'speedbar)
 ;; TODO: 当前有错，不可用

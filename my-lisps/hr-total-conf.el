@@ -44,5 +44,8 @@
 ;; org setting
 (require 'hr-org-conf)
 
+;; eshell settings
+(require 'hr-eshell-conf)
+
 ;; provide 
 (provide 'hr-total-conf)

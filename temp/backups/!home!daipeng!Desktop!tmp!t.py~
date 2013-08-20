@@ -1,0 +1,26 @@
+#!/user/bin/env python
+# encoding: utf-8
+
+def parse_item(self, response):
+    """
+     docstring for parse_
+    """
+    hxs = HtmlXPathSelector(response)
+    meta = response.meta
+    results = []
+
+
+import gevent
+from gevent import Timeout
+
+def out():
+    timeout = Timeout(10)
+    timeout.start()
+    print '>>>>>>...'
+    gevent.sleep(11)
+    print '>>>>>>...'
+
+try:
+    gevent.spawn(out).join()
+except Timeout:
+    print('time out !')

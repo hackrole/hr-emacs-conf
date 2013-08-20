@@ -11,12 +11,13 @@
 (when (not package-archive-contents)
   (package-refresh-contents))
 
-(defvar my-default-packages '(ecb
-			      yasnippet
-			      auto-complete
-			      sr-speedbar
-			      color-theme
-			      google-translate))
+(defvar my-default-packages
+  '(ecb
+	yasnippet
+	auto-complete
+	sr-speedbar
+	color-theme
+	google-translate))
 (dolist (p my-default-packages)
   (when (not (package-installed-p p))
 	(package-install p)))
