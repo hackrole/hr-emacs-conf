@@ -1,0 +1,55 @@
+;; mew for email send and receive
+;; add mew to load path. ugly now.
+;; TODO: beautiful it
+(add-to-list 'load-path "/user/local/share/emacs/site-lisp/mew")
+(autoload 'mew "mew" nil t)
+(autoload 'mew-send "mew" nil t)
+(if (boundp 'read-mail-command)
+	(setq read-mail-command 'mew))
+(autoload 'mew-user-agent-compose "mew" nil t)
+(if (boundp 'mail-user-agent)
+	(setq mail-user-agent 'mew-user-agent))
+(if (fboundp 'define-mail-user-agent)
+	(define-mail-user-agent
+	  'mew-user-agent
+	  'mew-user-agent-compose
+	  'mew-draft-send-message
+	  'mew-draft-kill
+	  'mew-send-hook))
+
+(setq mew-config-alist
+	  '((default ;;default fetch mailbox is imap
+		  (mailbox-type imap)
+		  (proto "%")
+		  (imap-server "imap.gmail.com")
+		  (imap-user "daipeng123456@gmail.com")
+		  (name "hackrole")
+		  (user "daipeng")
+		  (mail-domain "gmail.com")
+		  (imap-ssl . t)
+		  (imap-ssl-port . "993")
+		  (imap-size . 0)
+		  (imap-delete . t)
+		  (smtp-ssl . t)
+		  (smtp-ssl-port . "465")
+		  (imap-queue-folder "%queue")
+		  (imap-trash-folder "%Trash")
+		  (smtp-auth-list ("PLAIN" "LOGIN" "CRAM-MND5"))
+		  (smtp-user "daiepng123456@gmail.com")
+		  (smtp-server "smtp.gmail.com"))))
+
+(setq mew-ssl-verify-level 0)
+(setq mew-prog-ssl "/user/bin/stunnel4")
+(setq mew-use-master-passwd t)
+
+;; (set-default 'mew-decode-quoted t)
+;; (when (boundp 'utf-translate-cjk)
+;;   (setq utf-translate-cjk t)
+;;   (custom-set-variables '(utf-translate-cjk t)))
+;; (if (fboundp 'utf-translate-cjk-mode)
+;; 	(utf-translate-cjk-mode 1))
+;; (require 'flyspell)
+
+;; provide
+;;(provide 'hr-mew-conf)
+	

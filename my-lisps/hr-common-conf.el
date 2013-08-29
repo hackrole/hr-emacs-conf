@@ -49,6 +49,9 @@
 (setq default-tab-width 4)
 ;;(setq tab-width 4) set on the marjor-mode hook
 
+;; bookmark settings
+(setq bookmark-default-file "~/.emacs.d/conf_data/bookmarks")
+
 ;; back up settings
 (setq make-backup-files t)
 (setq auto-save-default nil)
@@ -57,5 +60,7 @@
 (setq delete-old-versions t)
 (setq backup-directory-alist (quote (("." . "~/.emacs.d/temp/backups"))))
 
+;; debug error
+(setq debug-on-error t)
 ;; provide
 (provide 'hr-common-conf)
