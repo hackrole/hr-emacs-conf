@@ -1,8 +1,35 @@
+;; some usefill message
+(setq user-full-name "hackrole")
+(setq user-mail-address "daipeng123456@gmail.com")
+
+;; 光标显示为直线
+(setq-default cursor-type 'bar)
+;; 光标不闪
+(blink-cursor-mode nil)
+
+;; 显示时间
+(display-time-mode t)
+
 ;; linum mode
 (global-linum-mode t)
 
+;; 高亮当前行
+(require 'hl-line)
+;;(global-hl-line-mode t)
 ;; highlight
 (font-lock-mode t)
+
+;; 关闭自动保存模式
+(setq auto-save-mode t)
+;; 不生成##文件
+(setq auto-save-default nil)
+
+;; 可以递归的使用minibuffer
+(setq enable-recursive-minibuffers t)
+(setq max-mini-window-height 1)
+
+;; 行首时同时删除该行
+(setq-default kill-whole-line t)
 
 ;; not menu-bar, tool-bar, scroll-bar
 (menu-bar-mode -1)
@@ -35,7 +62,7 @@
 (defalias 'yes-or-no-p 'y-or-n-p)
 
 ;; break line , TODO no use
-(setq-default truncate-lines nil)
+(setq-default truncate-lines t)
 (auto-fill-mode t)
 
 ;; set frame title
