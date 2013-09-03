@@ -3,6 +3,7 @@
 (setq user-mail-address "daipeng123456@gmail.com")
 
 ;; 设置等宽字体，其实我还是比较喜欢ubuntu默认字体
+;; TODO: 等寛字体对org无效
 (set-default-font "-unknown-文泉驿等宽正黑-normal-normal-normal-*-17-*-*-*-*-0-iso10646-1")
 
 ;; 光标显示为直线
