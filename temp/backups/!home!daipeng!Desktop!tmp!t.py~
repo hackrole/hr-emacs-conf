@@ -13,12 +13,11 @@ def parse_item(self, response):
 import gevent
 from gevent import Timeout
 
+
 def out():
     timeout = Timeout(10)
     timeout.start()
-    print '>>>>>>...'
-    gevent.sleep(11)
-    print '>>>>>>...'
+
 
 try:
     gevent.spawn(out).join()
