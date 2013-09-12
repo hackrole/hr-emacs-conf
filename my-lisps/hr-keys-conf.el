@@ -43,7 +43,7 @@
 ;; reload file
 ;; 文件重加载
 (global-set-key (kbd "C-c r") 'revert-buffer)
-;; 覆盖道歉buffer
+;; 覆盖buffer
 (global-set-key (kbd "C-c Y") 'bury-buffer)
 
 ;; scroll

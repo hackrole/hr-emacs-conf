@@ -4,7 +4,7 @@
 
 
 ;;;### (autoloads nil "evernote-mode-pkg" "evernote-mode-pkg.el"
-;;;;;;  (20892 15559))
+;;;;;;  (21041 11358))
 ;;; Generated autoloads from evernote-mode-pkg.el
  (require 'evernote-mode)
  (setq evernote-enml-formatter-command '("w3m" "-dump" "-I" "UTF8" "-O" "UTF8"))
@@ -18,7 +18,7 @@
 
 ;;;***
 
-;;;### (autoloads nil nil ("evernote-mode.el") (20892 15561 955016))
+;;;### (autoloads nil nil ("evernote-mode.el") (21041 11360 350528))
 
 ;;;***
 

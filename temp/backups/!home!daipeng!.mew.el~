@@ -1,0 +1,41 @@
+(setq mew-fcc "+sent")
+(setq mew-demo-picture nil)
+(setq mew-pop-size 0)
+(setq mew-auto-get t)
+(setq toolbar-mail-reader 'Mew)
+(setq mew-use-cached-passwd t)
+(setq mew-passwd-timer-unit 999)
+(setq mew-passwd-lifetime 999)
+(setq-default 'mew-decode-quoted 't)
+(setq mew-prog-pgp "pgp")
+(setq mew-pop-delete nil)
+
+(setq mew-config-alist
+;; gmail
+	  '(("default"
+		 ("name" . "hackrole")
+		 ("user" . "daipeng123456@gmail.com")
+		 ("mail-domain" . "gmail.com")
+		 ("proto" . "+")
+		 ("pop-ssl" . t)
+		 ("pop-ssl-port" . "995")
+		 ("prog-ssl" . "/usr/bin/stunnel")
+		 ("pop-auth" . "dp123456")
+		 ("pop-user" . "daipeng123456@gmail.com")
+		 ("pop-server" . "pop.gmail.com")
+		 ("smtp-ssl" . t)
+		 ("smtp-ssl-port" . "465")
+		 ("smtp-auth-list" . ("PLAIN" "LOGIN" "CRAM-MD5"))
+		 ("smtp-user" . "daipeng123456@gmail.com")
+		 ("smtp-server" . "smtp.gmail.com"))
+		)) 
+(setq mew-ssl-verify-level 0)
+(setq mew-prog-ssl "/usr/bin/stunnel")
+
+;; biff
+(setq mew-use-buiff t)
+(setq mew-use-biff-bell t)
+(setq mew-pop-biff-interval 10)
+
+;; reply
+

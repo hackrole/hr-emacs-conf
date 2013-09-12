@@ -1,0 +1,16 @@
+#+Author: hackrole
+#+Email: daipeng123456@gmail.com
+#+Date: 2013-09-11
+
+redis学习计划
+
+* TODO 基本特点/功能/概述/百科/书签/资源
+
+* TODO redis-cli使用 数据类型
++ strings
++ hashes
++ lists
++ set
++ order set
+
+

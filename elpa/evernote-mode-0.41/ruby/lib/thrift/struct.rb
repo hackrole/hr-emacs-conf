@@ -87,9 +87,11 @@ module Thrift
         iprot.read_field_end
       end
       iprot.read_struct_end
+      validate
     end
 
     def write(oprot)
+      validate
       oprot.write_struct_begin(self.class.name)
       each_field do |fid, field_info|
         name = field_info[:name]

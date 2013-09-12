@@ -18,33 +18,50 @@
 	  'mew-send-hook))
 
 ;; set mailbox list
-(setq mew-config-alist
-	  '(
-		;; default gmail
-		(default
-		  (mailbox-type imap)
-		  (proto "%")
-		  (name "hackrole")
-		  (user "daipeng123456")
-		  (mail-domain "gmail.com")
-		  (imap-server "imap.gmail.com")
-		  (imap-user "daipeng123456@gmail.com")
-		  (imap-auth t)
-		  (imap-ssl t)
-		  (imap-ssl-port 993)
-		  (imap-size 0)
-		  (imap-delete t)
-		  (imap-queue-folder "%queue")
-		  (imap-trash-folder "%Trash")
-		  (smtp-ssl t)
-		  (smtp-ssl-port 587)
-		  (smtp-auth t)
-		  (smtp-auth-list ("PLAIN" "LOGIN" "CRAM-MD5"))
-		  (smtp-user "daipeng123456@gmail.com")
-		  (smtp-server "smtp.gmail.com"))
-		;; todo others
-))
+;; .mew.el
+(setq mew-ssl-verify-level 0) 
+;; cache the password temporarily in momery
+;;(setq mew-use-cached-passwd t) 
+;; cache the password forever,due to google two steps valid
+(setq mew-use-cached-passwd t)
+
+(setq mew-config-alist 
+ '( 
+   ("default" 
+	 ("mailbox-type"	 imap) 
+	 ("proto"	 "%") 
+	 ("prog-ssl" "/usr/bin/mewstunnel") 
+	 ("imap-ssl" t) 
+	 ("imap-server"  "imap.gmail.com") 
+	 ("imap-user"	 "daipeng123456") 
+	 ("imap-ssl-port" "993") 
+	 ("user"   "daipeng123456") 
+	 ("mail-domain"	 "gmail.com")
+	 ("imap-size"	 0) 
+	 ("imap-delete"	 t) 
+	 ("imap-queue-folder"	"%queue") 
+	 ("imap-trash-folder"	"%Trash") 
+	 ("smtp-ssl" t) 
+	 ("smtp-auth-list"	("PLAIN" "LOGIN" "CRAM-MD5")) 
+	 ("smtp-user"	 "daipeng123456") 
+	 ("smtp-server"	 "smtp.gmail.com") 
+	 ("smtp-ssl-port" "465") 
+	 )
+   ("163"
+	("name" . "daipeng45645")
+	("user" . "daipeng45645")
+	("mail-domain" . "163.com")
+	("pop-server" . "pop.163.com")
+	("pop-port" . "110")
+	("pop-user" . "daipeng45645")
+	("pop-auth" . pass)
+	("smtp-server" . "smtp.163.com")
+	("smtp-port" . "25")
+	("smtp-user" . "daipeng45645")
+	("smtp-auth-list" . ("PALIN" "LOGIN" "CRAM-MD5"))
+	)
+   ))
 
 ;; provide
-;;(provide 'hr-mew-conf)
+(provide 'hr-mew-conf)
 	

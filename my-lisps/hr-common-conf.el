@@ -29,7 +29,7 @@
 (setq auto-save-default nil)
 
 ;; 可以递归的使用minibuffer
-(setq enable-recursive-minibuffers t)
+;;(setq enable-recursive-minibuffers t)
 (setq max-mini-window-height 1)
 
 ;; 行首时同时删除该行
@@ -93,5 +93,6 @@
 
 ;; debug error
 (setq debug-on-error t)
+
 ;; provide
 (provide 'hr-common-conf)
