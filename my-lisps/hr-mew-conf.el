@@ -23,7 +23,7 @@
 ;; cache the password temporarily in momery
 ;;(setq mew-use-cached-passwd t) 
 ;; cache the password forever,due to google two steps valid
-(setq mew-use-cached-passwd t)
+(setq mew-use-master-passwd t)
 
 (setq mew-config-alist 
  '( 
