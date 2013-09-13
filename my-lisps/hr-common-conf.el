@@ -69,6 +69,9 @@
 (setq-default truncate-lines t)
 (auto-fill-mode t)
 
+;; 显示行尾空白
+(setq show-trailing-whitespace t)
+
 ;; set frame title
 ;; 设置emacs标题栏文字
 (when window-system
