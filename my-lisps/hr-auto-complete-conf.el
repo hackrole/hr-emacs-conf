@@ -33,6 +33,21 @@
 
 ;; eshell complete
 
+;; python complete
+(defun hr-python-mode-complete ()
+  "set the auto-complete sources for python-mode"
+  (setq ac-sources '(ac-source-dictionary
+					 ac-source-words-in-same-mode-buffers
+					 ac-source-filename)))
+(add-hook 'python-mode-hook 'hr-python-mode-hook)
+
+;; c complete
+(defun hr-cc-mode-complete ()
+  "set the auto-complete sources for cc-mode"
+  (setq ac-sources '(ac-source-dictionary
+					 ac-source-words-in-same-mode-buffers
+					 ac-source-filename)))
+(add-hook 'c-mode-hook 'hr-cc-mode-complete)
 
 ;; provide
 (provide 'hr-auto-complete-conf)

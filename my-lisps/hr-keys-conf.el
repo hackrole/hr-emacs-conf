@@ -52,14 +52,10 @@
 (global-set-key (kbd "C-{") (lambda () (interactive) (scroll-down 2)))
 
 ;; windmove
-(define-key 'ctrl-L-map (kbd "h") 'windmove-left)
-(define-key 'ctrl-L-map (kbd "k") 'windmove-up)
-(define-key 'ctrl-L-map (kbd "j") 'windmove-down)
-(define-key 'ctrl-L-map (kbd "l") 'windmove-right)
-;; (global-set-key (kbd "<M-up>") 'windmove-up)
-;; (global-set-key (kbd "<M-down>") 'windmove-down)
-;; (global-set-key (kbd "<M-left>") 'windmove-left)
-;; (global-set-key (kbd "<M-right>") 'windmove-right)
+(global-set-key (kbd "<M-up>") 'windmove-up)
+(global-set-key (kbd "<M-down>") 'windmove-down)
+(global-set-key (kbd "<M-left>") 'windmove-left)
+(global-set-key (kbd "<M-right>") 'windmove-right)
 
 ;; org conf keys
 (global-set-key "\C-cl" 'org-store-link)

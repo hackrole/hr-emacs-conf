@@ -22,6 +22,9 @@
 ;; python develop conf
 (require 'hr-python-conf)
 
+;; ruby develop conf
+(require 'hr-ruby-conf)
+
 ;; speedbar and sr-speedbar
 (require  'hr-speedbar-conf)
 

@@ -2,7 +2,12 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("note"
+(("hr-keys-conf.el"
+ (filename . "~/.emacs.d/my-lisps/hr-keys-conf.el")
+ (front-context-string . ";; hr keys conf\n")
+ (rear-context-string)
+ (position . 1))
+("note"
  (filename . "~/Desktop/program/note/")
  (front-context-string . "emacs\n  drwxrwxr")
  (rear-context-string . "96 Jun  5 09:06 ")

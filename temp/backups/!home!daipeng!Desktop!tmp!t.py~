@@ -11,15 +11,16 @@ def parse_item(self, response):
 
 
 import gevent
-from gevent import Timeout
-
 
 def out():
     timeout = Timeout(10)
     timeout.start()
 
+def ttd():
+    yield 1
+    yield 2
+    raise Exception('time or excetpion')
 
-try:
-    gevent.spawn(out).join()
-except Timeout:
-    print('time out !')
+for t in ttd():
+    print t
+

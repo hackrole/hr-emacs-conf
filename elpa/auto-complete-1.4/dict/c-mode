@@ -35,3 +35,9 @@ unsigned
 void
 volatile
 while
+pthread_t
+pthread_create
+pthread_join
+pthread_cancer
+pthread_wait
+pthread
