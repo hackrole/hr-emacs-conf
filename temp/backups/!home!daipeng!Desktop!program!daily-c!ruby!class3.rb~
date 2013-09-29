@@ -1,0 +1,7 @@
+class MyClass
+  def method1 # default is public
+  end
+  
+  protected
+  def method2
+  end

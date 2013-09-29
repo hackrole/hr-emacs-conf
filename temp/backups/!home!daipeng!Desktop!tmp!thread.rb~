@@ -1,0 +1,14 @@
+require 'net/http'
+
+pages = %w( www.ruby.org www.google.com)
+threads = []
+
+for page in pages
+  threads << Thread.new(page) do |url|
+    h = Net::HTTP::new(url, 80)
+    puts "Fetching: #{url}"
+    res = h.get('/', nil)
+    puts "got #{url}: #{res.message}"
+  end
+end
+threads.each(|thr| thr.join)

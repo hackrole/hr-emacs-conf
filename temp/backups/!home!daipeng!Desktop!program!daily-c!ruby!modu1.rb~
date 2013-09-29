@@ -1,0 +1,11 @@
+module Trig
+
+  PI = 3.14
+  
+  def Trig.sin(s)
+  end
+  
+  def Trig.cos(s)
+  end
+end
+

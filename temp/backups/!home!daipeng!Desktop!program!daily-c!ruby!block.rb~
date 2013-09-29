@@ -1,0 +1,5 @@
+def three_times
+  yield
+  yield
+  yield
+end

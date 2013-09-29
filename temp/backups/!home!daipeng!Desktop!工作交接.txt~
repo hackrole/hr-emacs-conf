@@ -1,0 +1,28 @@
+# 浙江传媒视频抓取
+
+项目git源地址： ssh://root@112.11.119.233:5108/www/video.git
+项目地址: ssh://root@112.11.119.233:5108/www-run/video
+
+1. 项目运行
+项目用ebu用户的crontab运行，包括几个爬虫任务
+
+登录 112 服务器，进入/www-run/video目录,
+运行scrapy list可查看到所有的爬虫名. 如下
+urls2     获取最新一小时内插入的关键词,用于抓取视频百度搜索出的url链接
+soku_urls 用所有关键字抓取soku搜索出的url链接
+youku_c   抓取youku视频评论
+tudou_c   抓取土豆视频评论
+qq_urls	  抓取v.qq.com搜索出的url链接，只抓取qq视频网的视频信息		
+le_urls
+56_c
+qq_c
+comments
+sina_c
+sogu
+urls
+letv_c
+sogu2
+data2
+data
+qiyi_url
+sohu_c
