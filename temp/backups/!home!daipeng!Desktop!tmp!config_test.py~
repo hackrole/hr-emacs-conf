@@ -1,0 +1,6 @@
+import ConfigParser, os
+
+
+config = ConfigParser.ConfigParser()
+config.readfp(open('./test.conf'))
+token = config.get('evernote', 'token')

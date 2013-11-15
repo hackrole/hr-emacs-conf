@@ -67,7 +67,7 @@
 (defalias 'yes-or-no-p 'y-or-n-p)
 
 ;; break line , TODO no use
-(setq-default truncate-lines t)
+(setq-default truncate-lines nil)
 (auto-fill-mode t)
 
 ;; 显示行尾空白

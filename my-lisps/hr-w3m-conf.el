@@ -27,6 +27,11 @@
 (setq w3m-use-cookies t)
 (setq w3m-cookie-file "~/.emacs.d/temp/w3m/cookies")
 
+(defun hr-max-w3m ()
+  (interactive)
+  (w3m)
+  (delete-other-windows))
+(global-set-key (kbd "<f9>") 'hr-max-w3m)
 ;; provide
 (provide 'hr-w3m-conf)
 

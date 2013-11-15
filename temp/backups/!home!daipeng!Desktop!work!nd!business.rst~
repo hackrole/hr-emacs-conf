@@ -1,0 +1,49 @@
+二手交易:
+=========
+
+获取分类列表
+------------
+/api1/business/sec/getcate?level=1
+/api1/business/sec/getcate?level=2&pid=
+
+gclist: [
+{
+  分类父id：pid
+  分类id: id
+  分类名: name
+  分类全名: full_name
+}
+]
+
+获取新旧列表
+------------
+/api1/business/sec/getnew
+
+
+
+获取首页
+--------
+/api1/business/sec?type=0&page=1
+/api1/business/sec?types=1&page=1
+/api1/business/sec?types=2&page=1
+
+type:分类，0 全部，1 求购列表, 2 转让列表
+page:
+
+
+发布帖子(post)
+--------------
+/api1/business/sec/post
+
+cid=5284390201f5b411b4671cec
+uid=52834bb61d41c80b4e0883a8
+types: (1求购/2转让)
+title:
+content:
+price:
+new:新旧程度(1...9)
+mobile:
+
+搜索功能：
+----------
+

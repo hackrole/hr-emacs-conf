@@ -1,0 +1,9 @@
+from evernote.api.client import EvernoteClient
+
+
+token = "S=s1:U=6a524:E=14621df994d:C=13eca2e6d4f:P=1cd:A=en-devtoken:V=2:H=70c0d7eb3ad2a17e7e5ed3e077eb7863"
+client = EvernoteClient(token=token)
+
+# the note store
+noteStore = client.get_note_store()
+notebooks = noteStore.listNotbooks()

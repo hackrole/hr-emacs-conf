@@ -1,16 +1,12 @@
-alias cddesk cd ~/Desktop
-alias ffo find-file-other-window nil
-alias cdapp cd /usr/local/app
-alias cdfabric cd /usr/local/lib/python2.7/dist-packages/fabric
-alias cdwork cd ~/Desktop/work
-alias cdvideo cd /var/www/video
-alias cdwww cd /var/www
-alias cddemo cd /var/www/demo
-alias ff find-file nil
-alias cdscrapy cd /usr/local/lib/python2.7/dist-packages/scrapy
-alias cdjinja2 cd /usr/local/lib/python2.7/dist-packages/jinja2
-alias cdpy cd ~/Desktop/program/python
-alias cdpro cd ~/Desktop/program
-alias cdc cd ~/Desktop/program/c
-alias lcmysql (sql-mysql)
+alias djserver python manage.py runserver 0.0.0.0:8001
+alias cdtnd cd /var/www/nextdoor/trunk/nextdoor
+alias cdnd cd /var/www/nextdoor
 alias cdnote cd ~/Desktop/program/note
+alias lcmysql (sql-mysql)
+alias cdc cd ~/Desktop/program/c
+alias cdpro cd ~/Desktop/program
+alias cdpy cd ~/Desktop/program/python
+alias cdwww cd /var/www
+alias cdwork cd ~/Desktop/work
+alias cdapp cd /usr/local/app
+alias cddesk cd ~/Desktop

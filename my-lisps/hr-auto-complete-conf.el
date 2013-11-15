@@ -39,7 +39,7 @@
   (setq ac-sources '(ac-source-dictionary
 					 ac-source-words-in-same-mode-buffers
 					 ac-source-filename)))
-(add-hook 'python-mode-hook 'hr-python-mode-hook)
+(add-hook 'python-mode-hook 'hr-python-mode-complete)
 
 ;; c complete
 (defun hr-cc-mode-complete ()
