@@ -95,6 +95,9 @@
 (setq delete-old-versions t)
 (setq backup-directory-alist (quote (("." . "~/.emacs.d/temp/backups"))))
 
+;; start the ido-mode for switch-buffer and open-file
+(ido-mode 1)
+
 ;; debug error
 (setq debug-on-error t)
 

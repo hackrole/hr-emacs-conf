@@ -22,25 +22,32 @@
 (global-set-key (kbd "<f7>") 'ielm)
 (global-set-key (kbd "C-c <f6>") 'emms-add-playlist)
 (global-set-key (kbd "<f6>") 'emms-playlist-mode-go)
-(global-set-key (kbd "\C-ch") 'windmove-left)
-(global-set-key (kbd "\C-cj") 'windmove-down)
-(global-set-key (kbd "\C-ck") 'windmove-up)
-(global-set-key (kbd "\C-cl") 'windmove-right)
 (global-set-key (kbd "<f10>") 'menu-bar-mode)
 (global-set-key (kbd "<C-f2>") 'sr-speedbar-toggle)
 (global-set-key (kbd "<f2>") 'speedbar)
 (global-set-key (kbd "\C-t") 'set-mark-command)
 (global-set-key (kbd "\C-cB") 'eval-buffer)
-(global-set-key (kbd "\C-x\C-b") 'ibuffer)
+;; (global-set-key (kbd "C-q C-b") 'ibuffer)
+(defalias 'list-buffers 'ibuffer)
 
 ;; yasnipett
 (global-set-key (kbd "\C-c y") 'yas-expand)
+
+;; search and replace keys
+
 
 ;; font size
 ;; emacs 字体大小快捷键
 (global-set-key (kbd "C-c C-=") 'text-scale-increase) 
 (global-set-key (kbd "C-c C--") 'text-scale-decrease)
-          
+
+;; easy key to split window.
+(global-set-key (kbd "M-3") 'delete-other-windows)
+(global-set-key (kbd "M-4") 'split-window-vertically)
+(global-set-key (kbd "C-4") 'split-window-horizontally)
+(global-set-key (kbd "C-3") 'delete-window)
+(global-set-key (kbd "M-s") 'other-window)
+
 ;; reload file
 ;; 文件重加载
 (global-set-key (kbd "C-c r") 'revert-buffer)

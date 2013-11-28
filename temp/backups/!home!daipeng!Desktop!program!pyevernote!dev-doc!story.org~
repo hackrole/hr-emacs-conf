@@ -1,0 +1,46 @@
+#+Author: hackrole
+#+Email: daipeng123456@gmail.com
+#+Date: 2013-11-26
+
+
+* 查看日记
+查看日记应该有以下几种方式
+** 正常流程
+*** listnotebooks
+无参数，列出所有的notebook和notebook_guid
+输出可以如下:
+
+===================================
+notebook_guid1          notebook_title1
+notebook_guid2          notebook_title2
+
+*** shownotebook <notebook_guid>
+列出对应notebook中的所有note的guid, title等信息。
+但是不给出内容(出于网速考虑).
+输出可以如下:
+
+notebook_guid        notebook_title
+=====================================
+note_guid1           note_title1
+note_guid2           note_title2
+..........
+
+*** downnote <note_guid>
+终端列出note相关信息,
+如果settings.py里配置了日记的目录和默认文件后缀，
+则讲文件内容输出到note_title.后缀中。否则输出到终端.
+输出可以如下:
+
+===========================
+note_guid
+note_title
+....
+
+the note has download to the </home/test/example.org>文件中
+
+或者<输出到终端如下>
+the note content
+==============================
+.............
+
+

@@ -2,7 +2,17 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("hr-keys-conf.el"
+(("nd"
+ (filename . "/var/www/nextdoor/trunk/nextdoor/")
+ (front-context-string . "admin\n  drwxrwxr")
+ (rear-context-string . "96 11月 16 11:12 ")
+ (position . 240))
+("nextdoor"
+ (filename . "/var/www/nextdoor/trunk/nextdoor/")
+ (front-context-string . "__init__.py\n  -r")
+ (rear-context-string . "24 11月  7 15:43 ")
+ (position . 2554))
+("hr-keys-conf.el"
  (filename . "~/.emacs.d/my-lisps/hr-keys-conf.el")
  (front-context-string . ";; hr keys conf\n")
  (rear-context-string)
