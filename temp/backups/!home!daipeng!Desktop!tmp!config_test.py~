@@ -1,6 +1,5 @@
-import ConfigParser, os
+print "========== notebook list ============"
+print "notebook_guid\tnotebook_title\tnotebook_create_time"
+import os
 
-
-config = ConfigParser.ConfigParser()
-config.readfp(open('./test.conf'))
-token = config.get('evernote', 'token')
+from selenium import webdriver

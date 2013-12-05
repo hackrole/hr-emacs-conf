@@ -1,0 +1,159 @@
+==============
+ 修改密码接口
+==============
+url
+  /api1/ditu/password
+
+method
+  get
+
+paramter
+  :old_password:
+      旧密码
+  :new_password:
+     新密码
+  :nwe_password_again:
+     新密码确认
+
+result
+  1、密码错误
+
+  2、两次新密码不匹配
+
+  3、success
+
+==================
+ 获取分类列表接口
+==================
+url
+  /api1/ditu/catelist
+
+method
+  get
+
+paramter
+   
+
+result
+  返回所有分类列表
+
+==========
+ 保存草稿
+==========
+url
+  /api1/ditu/post_draft
+
+method
+  post
+
+paramter
+  :content:
+    内容
+  
+  :villageId:
+     选择的小区id
+  
+  :types:
+     1、 公告
+     2、 生活号码通
+  
+  :fcateId: 
+     第一级分类id，生活号码通
+   
+  :scateId:
+      第二级分类id,生活号码通   
+
+result
+  1、缺少小区id错误
+
+  2、缺少types错误
+
+  3、success
+
+==========
+ 提交草稿
+==========
+url
+  /api1/ditu/post_message
+
+method
+  post
+
+paramter
+  :content:
+    内容
+  
+  :villageId:
+     选择的小区id
+  
+  :types:
+     1、 公告
+     2、 生活号码通
+  
+  :fcateId: 
+     第一级分类id，生活号码通
+   
+  :scateId:
+      第二级分类id,生活号码通   
+
+result
+  1、缺少小区id错误
+
+  2、缺少types错误
+
+  3、success
+
+====================
+ 获取未提交草稿列表
+====================
+url
+  /api1/ditu/dlist
+
+method
+  get
+
+paramter
+  :page:
+     分页
+
+results:
+   :data:
+     数据列表
+   :if_next:
+     是否有下一页
+
+====================
+ 获取已提交草稿列表
+====================
+url
+  /api1/ditu/mlist
+
+method
+  get
+
+paramter
+  :page:
+     分页
+
+results:
+   :data:
+     数据列表
+   :if_next:
+     是否有下一页
+
+==============
+ 地推登录接口
+==============
+
+
+==============
+ 选择小区接口
+==============
+
+==============
+ 搜索小区接口
+==============
+
+==============
+ 添加小区接口
+==============

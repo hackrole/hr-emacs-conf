@@ -1,0 +1,14 @@
+#!/usr/bin/env python
+# encoding: utf-8
+
+import settings
+from evernote.api.client import EvernoteClient
+
+
+def listnotes():
+    client = EvernoteClient(token=settings.TOKEN)
+    notestore = client.get_note_store()
+
+
+if __name__ == '__main__':
+    listnotes()

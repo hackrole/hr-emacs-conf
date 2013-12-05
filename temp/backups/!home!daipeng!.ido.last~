@@ -1,0 +1,150 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/daipeng/" . ".org/")
+ ("/home/daipeng/.emacs.d/elpa/" . "python-pylint-1.1/")
+ ("/home/daipeng/.emacs.d/" . "elpa/")
+ ("/home/" . "daipeng/")
+ ("/home/daipeng/Desktop/program/google_appengine/gblog/" . "templates/")
+ ("/var/www/nextdoor/" . "trunk/")
+ ("/var/www/" . "nextdoor/")
+ ("/var/" . "www/")
+ ("/var/www/nextdoor/trunk/nextdoor/" . "ditu/")
+ ("/var/www/nextdoor/trunk/" . "nextdoor/")
+ ("/var/www/nextdoor/trunk/nextdoor/business/management/" . "commands/")
+ ("/var/www/nextdoor/trunk/nextdoor/business/" . "views/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/daipeng/Desktop/tmp/"
+ "/home/daipeng/.org/"
+ "/home/daipeng/.emacs.d/elpa/python-pylint-1.1/"
+ "/home/daipeng/.emacs.d/elpa/pep8-1.2/"
+ "/var/www/nextdoor/trunk/nextdoor/ditu/"
+ "/var/www/nextdoor/trunk/nextdoor/business/"
+ "/home/daipeng/Desktop/program/pyevernote/pyevernote/"
+ "/var/www/nextdoor/trunk/nextdoor/business/views/"
+ "/var/www/nextdoor/trunk/nextdoor/village/"
+ "/var/www/nextdoor/trunk/nextdoor/nextdoor/"
+ "/var/www/nextdoor/trunk/nextdoor/users/"
+ "/var/www/nextdoor/trunk/nextdoor/helps/"
+ "/home/daipeng/Desktop/program/pyevernote/pyevernote/tests/"
+ "/var/www/nextdoor/trunk/nextdoor/business/management/commands/"
+ "/home/daipeng/.emacs.d/elpa/yasnippet-0.8.0/"
+ "/home/daipeng/Desktop/program/google_appengine/gblog/"
+ "/home/daipeng/Desktop/program/google_appengine/gblog/static/static_html/"
+ "/home/daipeng/.emacs.d/elpa/evernote-mode-0.41/"
+ "/home/daipeng/Desktop/program/google_appengine/gblog/templates/"
+ "/var/www/nextdoor/trunk/nextdoor/"
+ "/home/daipeng/.emacs.d/elpa/sr-speedbar-0.1.8/"
+ "/home/daipeng/Desktop/work/nd/"
+ "/home/daipeng/.emacs.d/my-lisps/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "config_test.py"
+ "life.org"
+ "t.org"
+ "python-pylint.el"
+ "pep8.el"
+ "views.py"
+ "formhelps.py"
+ "deletenote.py"
+ "models.py"
+ "tests.py"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/daipeng/Desktop/tmp/" (21152 9816) "optparse_test.py" "qiniu_test.py" "pyevernote_shownote.py" "c.py" "rst/" "b.py" "a.py" "echosever.py" "chatdemo/" "gae/" "./" "objectid.py" "../" "mgeng_test.py" "ttt.py" ".#config_test.py" "gbclient.py" ".ropeproject/" "test.conf" "config_test.py" "qiniu_test.conf" "t.org")
+
+ ("/home/daipeng/.org/" (21151 61916) "read.org" "./" "../" "learn.org" "life.org")
+
+ ("/home/daipeng/" (21151 60006) ".profile" ".gnome2_private/" "village.dat/" ".viminfo" "Downloads/" ".xsession-errors.old" ".vim/" "Music/" ".dbshell" ".cache/" ".thunderbird/" ".screenrc" ".mongorc.js" ".bashrc.bak" ".profile.bak" ".dbus/" "workspace/" ".viminfz.tmp" ".gconf/" ".bash_history" "Templates/" ".emacs.d/" ".gitconfig" ".viminfo.tmp" ".local/" ".mozilla/" ".evervim/" ".pki/" ".ssh/" ".vimrc" ".bash_logout" ".adobe/" ".w3m/" ".bashrc" ".pip/" "./" ".xmind/" ".dmrc" ".Xauthority" "examples.desktop" "VirtualBox VMs/" ".ido.last" ".macromedia/" ".config/" ".xsession-errors" ".org/" "../" ".pylint.d/" ".VirtualBox/" "Videos/" ".apport-ignore.xml" "Public/" ".gnomerc" ".NERDTreeBookmarks" ".gnome2/" ".alias" ".mplayer/" "Documents/" ".gvfs/" ".compiz/" ".curlrc" "Pictures/" "Desktop/" ".appcfg_nag" ".mysql_history" ".ecb-tip-of-day.el" ".appcfg_cookies" ".subversion/" ".ICEauthority")
+
+ ("/home/daipeng/Desktop/" (21151 59366) "tmp/" "xmind.desktop" "gnome-system-monitor.desktop" "MongoDB-data-models-guide.pdf" "ubuntu-software-center.desktop" "python-2.7.6-docs-html.zip" "python-2.7.6-docs-html/" "ipython.pdf" "ipython07_pe-gr_cise.pdf" "work/" "orgguide.pdf" "./" "TChat.zip" "../" "api/" "emacs24.desktop" "t.html" "book/" "bootstrap.zip" "empathy.desktop" "gnome-system-monitor-kde.desktop" "program/" "hr-conf/")
+
+ ("/home/daipeng/Desktop/program/" (21134 47606) "google_appengine/" "rst/" "pyevernote/" "sph/" "./" "tutorial/" "../" "python/" "test/" "note/")
+
+ ("/home/daipeng/Desktop/program/note/work/" (21139 12900) "python.org" "./" "plan.org" "../" "移动开发流程感想.org")
+
+ ("/home/daipeng/Desktop/program/note/" (21145 24257) "README.md" "c/" "sqlalchemy/" "work/" "gae/" "./" "plan.org" "vim/" "scrapy/" "../" "emacs/" ".git/" "redis/" "learn_todo.org" "gblo_plan.org")
+
+ ("/home/daipeng/.emacs.d/elpa/python-pylint-1.1/" (21112 34089) "python-pylint.el" "./" "python-pylint-pkg.el" "../" "python-pylint-autoloads.el")
+
+ ("/home/daipeng/.emacs.d/elpa/pep8-1.2/" (21112 34089) "pep8-pkg.el" "./" "pep8-autoloads.el" "../" "pep8.el")
+
+ ("/var/www/nextdoor/trunk/nextdoor/ditu/" (21151 58279) "__init__.py" "models.py" "../" "./" "views.py" "tests.py")
+
+ ("/var/www/nextdoor/trunk/nextdoor/business/views/" (21148 53061) "teacher.pyc" "car.py" "__init__.pyc" "car.pyc" "__init__.py" "pet.pyc" "pet.py" "lifeyellow.py" "seconds.pyc" "../" "./" "views.py" "seconds.py" "house.pyc" "views.pyc")
+
+ ("/var/www/nextdoor/trunk/nextdoor/business/" (21148 52050) "tests/" "__init__.pyc" "views/" "__init__.py" "formhelps.pyc" "models.py" "enums.pyc" "management/" "../" "business_helps.py" "./" "formhelps.py" "forms.py" "models.pyc" "enums.py")
+
+ ("/var/www/nextdoor/trunk/nextdoor/users/" (21148 43784) "home.py" "register.pyc" "__init__.pyc" "register.py" "__init__.py" "models.py" "home.pyc" "../" "upgrade.py" "verify.py" "./" "friends.py" "models.pyc" "sms.pyc" "sms.py" "mapi.py")
+
+ ("/home/daipeng/Desktop/program/pyevernote/pyevernote/" (21148 34022) "downnote.py" "listnotebooks.py" "shownotebook.py" "searchnotes.py" "deletenote.py" "listnotes.py" "./" "updatenote.py" "../" "settings.py" "create_note.py" "tests/" "showtags.py" "__init__.py" "time.html")
+
+ ("/home/daipeng/Desktop/program/pyevernote/pyevernote/tests/" (21148 24290) "test_shownote.py" "test_shownotebook.py" "./" "../" "test_listnotebooks.py" "test_showtags.py" "__init__.py")
+
+ ("/var/www/nextdoor/trunk/nextdoor/helps/" (21148 43784) "decorators.pyc" "basemodel.pyc" "get_first_letter.pyc" "__init__.pyc" "decorators.py" "sendsms.py" "location.pyc" "__init__.py" "timestr.pyc" "sendsms.pyc" "encrypt.pyc" "utils.pyc" "utils.py" "dbrouter.pyc" "enums.pyc" "encrypt.py" "timestr.py" "get_first_letter.py" "../" "location.py" "image.py" "./")
+
+ ("/var/www/nextdoor/trunk/nextdoor/village/" (21148 47705) "__init__.pyc" "bbs.py" "__init__.py" "models.py" "enums.pyc" "../" "bbs.pyc" "./" "announcement.pyc" "models.pyc" "enums.py")
+
+ ("/var/www/nextdoor/trunk/nextdoor/nextdoor/" (21148 47465) "wsgi.pyc" "urls_users.pyc" "__init__.pyc" "wsgi.py" "urls_ditu.py" "settings.pyc" "__init__.py" "urls_admin.pyc" "test_wsgi.py" "urls_business.py" "urls_admin.py" "urls_village.pyc" "../" "production_settings.py" "urls_business.pyc" "./" "urls_village.py" "urls.pyc" "urls_users.py" "test_settings.py" "production_wsgi.py" "urls.py" "settings.py" "update/")
+
+ ("/var/" (21145 42882) "tmp/" "log/" "local/" "lock/" "crash/" "logs/" "mail/" "opt/" "www/" "lib/" "cache/" "../" "spool/" "backups/" "lost+found/" "./" "run/" "metrics/")
+
+ ("/home/daipeng/Desktop/program/pyevernote/" (21124 29623) "README.md" ".gitignore" "elisp/" "pyevernote/" "./" "doc/" "../" "develop_readme.md" ".git/" "dev-doc/")
+
+ ("/var/www/nextdoor/trunk/nextdoor/" (21148 9650) "test_uwsgi.ini" "business/" "web/" "helps/" "village/" "ditu/" "manage.py" "tasks/" "users/" "offline/" "admin/" "../" "./" "uwsgi.ini" "nextdoor/" "start.sh" "xmpp/" "db/")
+
+ ("/home/daipeng/.emacs.d/my-lisps/" (21147 64390) "hr-keys-conf.el" "hr-yasnippet-conf.el" "hr-python-conf.el" "hr-total-conf.el" "hr-google-translate-conf.el" "hr-dired-conf.el" "hr-auto-complete-conf.el" "hr-emms-conf.el" "hr-anything-conf.el" "hr-ecb-conf.el" "./" "hr-ruby-conf.el" "hr-common-conf.el" "../" "hr-org-conf.el" "hr-sql-conf.el" "hr-undo-tree-conf.el" "hr-w3m-conf.el" "hr-speedbar-conf.el" "hr-mew-conf.el" "hr-eshell-conf.el" "hr-cedet-conf.el" "hr-color-theme-conf.el")
+
+ ("/home/daipeng/.emacs.d/elpa/yasnippet-0.8.0/" (21112 34089) "yasnippet-pkg.el" "dropdown-list.el" "ChangeLog" "./" "yasnippet-autoloads.el" "yasnippet-autoloads.el~" "../" "snippets/" "yasnippet.el" "README")
+
+ ("/home/daipeng/.emacs.d/elpa/" (21143 60438) "anything-ipython-0.1.2009/" "ecb-2.40/" "anything-show-completion-20091119/" "pylint-1.0/" "mongo-0.5/" "undo-tree-0.6.3/" "sr-speedbar-0.1.8/" "python-pep8-1.1/" "google-translate-0.3.2/" "dired+-21.2/" "markdown-mode-1.9/" "eredis-0.5.0/" "./" "tabbar-2.0.1/" "../" "yasnippet-0.8.0/" "archives/" "popup-0.5/" "python-pylint-1.1/" "color-theme-6.5.5/" "ipython-2927/" "zencoding-mode-0.5.1/" "python-mode-6.0.10/" "anything-1.287/" "evernote-mode-0.41/" "pep8-1.2/" "magit-1.2.0/" "auto-complete-1.4/")
+
+ ("/home/daipeng/.emacs.d/" (21143 64784) "session.10694ba87bf773cc76138415354512562100000020030068" "temp/" "README.md" ".gitignore" "tags/" "url/" "elpa/" "conf_data/" "auto-save-list/" "./" "my-lisps/" "tramp" "init.el" "../" "custom.el" "semanticdb/" "session.10279d64aec3f50a138560211453852500000021340039" ".git/" "plugins/" "eshell/" "install.sh")
+
+ ("/home/daipeng/Desktop/program/google_appengine/gblog/static/static_html/" (21145 37186) "index.html" "index_new.html" "./" "../" "blog.html" "t2.html" "side1.html" "t.css" "t1.html")
+
+ ("/usr/" (20856 4111) "games/" "sbin/" "local/" "include/" "./" "src/" "share/" "../" "bin/" "lib/")
+
+ ("/usr/share/" (21114 63181) "speech-dispatcher/" "mibs/" "brltty/" "enchant/" "friends/" "pixmaps/" "bug/" "hwdata/" "info/" "libparse-debianchangelog-perl/" "ibus-pinyin/" "evince/" "alsa/" "debhelper/" "app-install/" "libtimezonemap/" "empathy/" "nautilus-sendto/" "farstream/" "cmake-2.8/" "libvisual-plugins-0.4/" "misc/" "mobile-broadband-provider-info/" "grub-gfxpayload-lists/" "poppler/" "guile/" "dpkg/" "grub/" "gdm/" "adium/" "gnome-power-manager/" "terminfo/" "hyphen/" "foo2zjs/" "gnome-vpn-properties/" "base-files/" "ccsm/" "consoletrans/" "snmp/" "consolefonts/" "nautilus/" "ca-certificates-java/" "glib-2.0/" "lightdm-remote-session-uccsconfigure/" "pkgconfig/" "liblangtag/" "ri/" "system-config-printer/" "debconf/" "compiz/" "gnome/" "man/" "im-config/" "perl/" "help/" "gnupg/" "libthai/" "build-essential/" "recovery-mode/" "aclocal/" "cups/" "doc/" "i18n/" "xsessions/" "emacs23/" "accounts/" "locales/" "media-player-info/" "dictionaries-common/" "hunspell/" "shotwell/" "libquvi-scripts/" "pygtk/" "yelp-xsl/" "gnome-control-center-unity/" "software-center/" "lightdm/" "software-properties/" "zoneinfo/" "oneconf/" "cogl/" "deja-dup/" "sgml-base/" "libgksu/" "gnome-session/" "kde4/" "dconf-editor/" "ubufox/" "gksu/" "application-registry/" "djvu/" "file-roller/" "indicator-application/" "seahorse/" "gitweb/" "mythes/" "emacs24/" "libc-bin/" "acpi-support/" "telepathy/" "libindicator/" "dict/" "unattended-upgrades/" "gnome-control-center/" "example-content/" "xdiagnose/" "binfmts/" "aptitude/" "transmission/" "aclocal-1.11/" "dbus-1/" "debianutils/" "gst-plugins-base/" "checkbox/" "samba/" "gvfs/" "ubuntu-drivers-common/" "automake-1.11/" "libaudio2/" "nautilus-share/" "gnome-mahjongg/" "ssl-cert/" "icedtea-web/" "pam-configs/" "help-langpack/" "insserv/" "thumbnailers/" "sgml/" "php5/" "javazi/" "gnome-2.0/" "aisleriot/" "nm-applet/" "mime/" "java/" "usb-creator/" "gconf/" "chromium-browser/" "gettext/" "intltool-debian/" "applications/" "pulseaudio/" "themes/" "ca-certificates/" "adduser/" "vim/" "ghostscript/" "upstart/" "xul-ext/" "iptables/" "pyshared/" "gnome-disk-utility/" "hardening-includes/" "gdb/" "gtksourceview-3.0/" "mercurial/" "qt4/" "GeoIP/" "bash-completion/" "m17n/" "gnome-shell/" "avahi/" "apt-xapian-index/" "fcitx/" "eog/" "xgreeters/" "gnome-mines/" "rhythmbox/" "ubuntu-release-upgrader/" "unity-webapps/" "color/" "gtk-engines/" "webkitgtk-3.0/" "libgweather/" "metacity/" "indicator-datetime/" "language-selector/" "update-notifier/" "gnome-bluetooth/" "apport/" "initramfs-tools/" "gnome-calculator/" "perl5/" "hplip/" "doc-base/" "polkit-1/" "file/" "omf-langpack/" "gnome-settings-daemon/" "ImageMagick-6.7.7/" "common-licenses/" "totem/" "gutenprint/" "nano/" "ufw/" "notify-osd/" "colord/" "pkg-config-crosswrapper" "base-passwd/" "ppp/" "simple-scan/" "apps/" "libtool/" "readline/" "compizconfig/" "gnome-background-properties/" "python-apt/" "purple/" "console-setup/" "unity/" "libwacom/" "geoclue-providers/" "libsensors4/" "locale-langpack/" "ubuntuone-control-panel/" "apt/" "evolution-data-server-3.6/" "git-core/" "GConf/" "gnome-system-monitor/" "icons/" "python/" "foo2qpdl/" "liblouis/" "aspell/" "libgnomekbd/" "libexttextcat/" "locale/" "linux-sound-base/" "myspell/" "autoconf/" "rsyslog/" "xml-core/" "python3/" "update-manager/" "os-prober/" "groff/" "initscripts/" "gnome-user-share/" "language-tools/" "tabset/" "command-not-found/" "gnome-sudoku/" "language-support/" "mplayer/" "gstreamer-1.0/" "unity-lens-friends/" "branding/" "mime-info/" "sounds/" "session-migration/" "popularity-contest/" "desktop-directories/" "ppd/" "gstreamer-0.10/" "mimelnk/" "fonts/" "mozilla/" "gnome-terminal/" "foomatic/" "yelp/" "onboard/" "memcached/" "indicators/" "X11/" "libgphoto2/" "usb_modeswitch/" "directfb-1.2.10/" "backgrounds/" "man-db/" "libnm-gtk/" "nginx/" "virtualbox/" "gedit/" "libreoffice/" "alsa-base/" "pnm2ppa/" "sysv-rc/" "package-data-downloads/" "orca/" "apturl/" "gtk-doc/" "tcltk/" "gcr-3/" "mysql/" "mousetweaks/" "pam/" "xml/" "zenity/" "lintian/" "vino/" "idl/" "menu/" "libdbi-perl/" "nux/" "w3m/" "calendar/" "brasero/" "columbus0/" "lightdm-remote-session-freerdp/" "unity-greeter/" "emacs/" "hal/" "omf/" "shtool/" "keyrings/" "../" "./")
+
+ ("/usr/share/info/" (21114 61767) "mime-ja.info.gz" "emacs-w3m-ja.info.gz" "spd-say.info.gz" "sed.info.gz" "coreutils.info.gz" "bc.info.gz" "m4.info-2.gz" "ed.info.gz" "automake-1.11.info-1.gz" "dir" "nano.info.gz" "dir.old" "mtools.info.gz" "time.info.gz" "grep.info.gz" "autosprintf.info.gz" "emacs-24/" "./" "automake-1.11.info-2.gz" "gettext.info.gz" "gdbm.info.gz" "speech-dispatcher.info.gz" "gzip.info.gz" "wget.info.gz" "m4.info-1.gz" "emacs-23/" "m4.info.gz" "gnupg1.info.gz" "ssip.info.gz" "diffutils.info.gz" "grub.info.gz" "automake-1.11.info-3.gz" "emacs-w3m.info.gz" "find.info.gz" "grub-dev.info.gz" "../" "dc.info.gz" "emms.info.gz" "automake-1.11.info.gz" "rluserman.info.gz" "mime-en.info.gz")
+
+ ("/usr/share/info/emacs-24/" (21112 32004) "eintr.gz" "emacs-8.gz" "pcl-cvs.gz" "emacs-gnutls.gz" "org-1.gz" "widget.gz" "gnus-3.gz" "speedbar.gz" "emacs-1.gz" "reftex.gz" "elisp-10.gz" "eintr-2.gz" "ccmode.gz" "elisp-7.gz" "elisp.gz" "emacs.gz" "dired-x.gz" "mh-e-2.gz" "emacs-6.gz" "calc-5.gz" "elisp-4.gz" "autotype.gz" "ebrowse.gz" "eintr-3.gz" "calc-3.gz" "emacs-2.gz" "emacs-3.gz" "elisp-6.gz" "idlwave.gz" "gnus.gz" "pgg.gz" "nxml-mode.gz" "eintr-1.gz" "woman.gz" "erc.gz" "org-2.gz" "edt.gz" "org-3.gz" "remember.gz" "forms.gz" "ede.gz" "semantic.gz" "epa.gz" "ert.gz" "sasl.gz" "eieio.gz" "emacs-4.gz" "message.gz" "org.gz" "rcirc.gz" "sc.gz" "cl.gz" "./" "eshell.gz" "gnus-5.gz" "emacs-7.gz" "info.gz" "calc-6.gz" "sieve.gz" "smtpmail.gz" "calc-4.gz" "emacs-mime.gz" "gnus-4.gz" "mairix-el.gz" "eudc.gz" "gnus-2.gz" "mh-e.gz" "efaq.gz" "ccmode-1.gz" "calc-2.gz" "ediff.gz" "elisp-2.gz" "mh-e-1.gz" "vip.gz" "auth.gz" "gnus-1.gz" "calc-1.gz" "emacs-5.gz" "dbus.gz" "newsticker.gz" "elisp-9.gz" "flymake.gz" "elisp-11.gz" "elisp-1.gz" "../" "url.gz" "ccmode-2.gz" "tramp.gz" "calc.gz" "elisp-5.gz" "ada-mode.gz" "ses.gz" "elisp-8.gz" "viper.gz" "elisp-3.gz")
+
+ ("/home/daipeng/Desktop/program/google_appengine/gblog/" (21145 38990) "README.md" ".gitignore" "blog.pyc" "models.pyc" "lib/" "blog.py" "./" "models.py" "../" "tests.pyc" "static/" "fts.py" "tests.py" ".git/" "app.yaml" "templates/" "makefile")
+
+ ("/home/daipeng/Desktop/program/google_appengine/gblog/templates/" (21144 15491) "index.html" "sidebar.html" "title.html" "bl.html" "bbase.html" "./" "hello.html" "../" "base.html" "pub.html")
+
+ ("/var/www/nextdoor/trunk/nextdoor/business/management/commands/" (21144 31881) "__init__.py" "../" "./" "initbusiness.py")
+
+ ("/home/daipeng/.emacs.d/elpa/evernote-mode-0.41/" (21112 34089) "emacs-evernote-mode-developer-token/" "evernote-mode-autoloads.el" "evernote-mode.el.rej" "APACHE-LICENSE-2.0.txt" "evernote-mode.el.orig" "./" "doc/" "../" "credits.txt" "evernote-mode.el" "ruby/" "evernote-mode-pkg.el")
+
+ ("/home/daipeng/Desktop/program/google_appengine/gblog/static/" (21120 14791) "js/" "bootstrap/" "./" "../" "image/" "static_html/" "css/")
+
+ ("/home/daipeng/.emacs.d/elpa/sr-speedbar-0.1.8/" (21112 34089) "sr-speedbar-pkg.el" "sr-speedbar-autoloads.el~" "./" "sr-speedbar-autoloads.el" "../" "sr-speedbar.el")
+
+ ("/home/daipeng/Desktop/work/nd/" (21144 2817) "api_tmp.org" "business.html" "apierror.org" "point.js" "business.org" "./" "../" "business.rst" "document/" "ditu.rst" "ditu.html")
+
+ ("/var/www/" (21136 3631) "mmbang/" "mysite/" "../" "./" "nginx/" "nextdoor/" "madmin/")
+
+ ("/home/" (21112 34728) "lost+found/" "recovery/" "daipeng/" "./" "../")
+
+ ("/home/daipeng/Desktop/work/" (21120 43395) "tornado/" "gevent/" "yaya_qiniu.py" "share/" "./" "django-mongoadmin/" "../" "qiniu.conf" "nd/")
+
+ ("/var/www/nextdoor/trunk/" (21136 27797) "env/" "../" "./" "nextdoor/")
+
+ ("/var/www/nextdoor/" (21140 30889) "branches/" "tags/" "../" ".svn/" "./" "trunk/")
+
+ ("/var/www/nextdoor/trunk/nextdoor/business/management/" (21140 32803) "__init__.py" "commands/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

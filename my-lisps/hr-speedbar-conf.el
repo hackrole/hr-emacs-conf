@@ -10,7 +10,12 @@
 ;; the keybind, see hr-keys
 
 ;; set the direction
-(setq sr-speedbar-right-side nil)
+(setq sr-speedbar-right-side t)
+
+(defun hr-speedbar-key-hook ()
+  "define some useful key for speedbar"
+  )
+(add-hook 'speedbar-mode-hook 'hr-speedbar-key-hook)
 
 ;; speedbar
 ;; (defun hr-sr-speedbar-fun ()

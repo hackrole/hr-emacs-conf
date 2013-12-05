@@ -4,9 +4,15 @@
 (yas/load-directory "~/.emacs.d/elpa/yasnippet-0.8.0/snippets")
 
 ;; set keys
-(setq yas-trigger-key (kbd "\C-c y"))
-;; (setq yas-next-field-key (kbd "\C->"))
-;; (setq yas-prev-field-key (kbd "\C-"))
+(define-key yas-minor-mode-map (kbd "<tab>") nil)
+(define-key yas-minor-mode-map (kbd "TAB") nil)
+(define-key yas-minor-mode-map (kbd "C-1") 'yas-expand)
+(define-key yas-keymap [(tab)] nil)
+(define-key yas-keymap (kbd "TAB") nil)
+(define-key yas-keymap [(shift tab)] nil)
+(define-key yas-keymap [backtab] nil)
+(define-key yas-keymap (kbd "M-2") 'yas-next-field-or-maybe-expand)
+(define-key yas-keymap (kbd "C-2") 'yas-prev-field)
 
 ;; provide
 (provide 'hr-yasnippet-conf)

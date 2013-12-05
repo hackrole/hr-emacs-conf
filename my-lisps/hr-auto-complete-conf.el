@@ -8,18 +8,21 @@
 ;; auto-complete history file
 (setq ac-comphist-file "~/.emacs.d/temp/ac-comphist.dat")
 
-;; set the auto-complete key to \C-1
-(define-key ac-mode-map (kbd "M-1") 'auto-complete)
+;; redefine the key
+(define-key ac-completing-map (kbd "\M-n") 'ac-next)
+(define-key ac-completing-map (kbd "\M-p") 'ac-previous)
+(define-key ac-mode-map (kbd "\M-1") 'auto-complete)
 (ac-set-trigger-key nil)
-(setq ac-auto-start 3)
 
+;; others
+(setq ac-auto-start 2)
+(setq ac-dwim t)
+
+;; ac-sources
 (set-default 'ac-sources '(ac-source-words-in-same-mode-buffers
 						  ac-source-dictionary
 						  ;;ac-source-yasnippet ;; not correct now
 						  ac-source-filename))
-;; TODO: redefine the use key, undefine the RET to nil
-;;(define-key ac-mode-map (kbd "") nil)
-;;(define-key ac-mode-map (kbd "<return>") nil)
 
 ;; sql-interactive-mode complete
 (defun hr-sql-interactive-complete ()
@@ -37,6 +40,8 @@
 (defun hr-python-mode-complete ()
   "set the auto-complete sources for python-mode"
   (setq ac-sources '(ac-source-dictionary
+					 ac-source-semantic
+					 ac-source-ropemacs
 					 ac-source-words-in-same-mode-buffers
 					 ac-source-filename)))
 (add-hook 'python-mode-hook 'hr-python-mode-complete)

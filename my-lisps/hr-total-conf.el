@@ -13,6 +13,9 @@
 ;; google-translate 
 (require 'hr-google-translate-conf)
 
+;; undo-tree
+(require 'hr-undo-tree-conf)
+
 ;; yasnippet
 (require 'hr-yasnippet-conf)
 
