@@ -1,14 +1,17 @@
-;; hr keys conf
-;; this will be often to improve and change
+;; hr keys conf, this will be often to improve and change
+
 ;; C-\ map
 (define-prefix-command 'ctrl-L-map)
-(global-set-key (kbd "C-\\") 'ctrl-L-map)
+(global-set-key (kbd "\\") 'ctrl-L-map)
+(defun insert_backlash ()
+  "use to insert a backlash"
+  (interactive)
+  (insert-char ?\\ 1))
+(global-set-key (kbd "C-\\") 'insert_backlash)
+
 ;; C-r map, for register
-(define-prefix-command 'ctrl-register-map)
-(global-set-key (kbd "\C-r") 'register-map)
-;; M-h map, for mark
-(define-prefix-command 'meta-mark-map)
-(global-set-key (kbd "M-h") 'meta-mark-map)
+;; (define-prefix-command 'ctrl-register-map)
+;; (global-set-key (kbd "\C-r") 'register-map)
 
 ;; for the key translate
 ;; redefine the ctrl-x to ctrl-q, and unset the ctrl-x
@@ -31,10 +34,18 @@
 (defalias 'list-buffers 'ibuffer)
 
 ;; yasnipett
-(global-set-key (kbd "\C-c y") 'yas-expand)
+;; (global-set-key (kbd "\C-c y") 'yas-expand)
 
 ;; search and replace keys
 
+;; some often-use edit key
+(global-set-key (kbd "C-d") 'kill-whole-line)
+(global-set-key (kbd "<RET>") 'newline-and-indent)
+(global-set-key (kbd "C-<RET>") 'newline)
+(global-unset-key (kbd "C-k"))
+(global-unset-key (kbd "C-j"))
+(global-unset-key (kbd "C-<SPC>"))
+(global-set-key (kbd "\\ j") 'join-line)
 
 ;; font size
 ;; emacs 字体大小快捷键
@@ -46,7 +57,7 @@
 (global-set-key (kbd "M-4") 'split-window-vertically)
 (global-set-key (kbd "C-4") 'split-window-horizontally)
 (global-set-key (kbd "C-3") 'delete-window)
-(global-set-key (kbd "M-s") 'other-window)
+(global-set-key (kbd "M-o") 'other-window)
 
 ;; reload file
 ;; 文件重加载
@@ -60,30 +71,19 @@
 (global-set-key (kbd "C-{") (lambda () (interactive) (scroll-down 2)))
 
 ;; windmove
-(global-set-key (kbd "<M-up>") 'windmove-up)
-(global-set-key (kbd "<M-down>") 'windmove-down)
-(global-set-key (kbd "<M-left>") 'windmove-left)
-(global-set-key (kbd "<M-right>") 'windmove-right)
+(global-set-key (kbd "\\ k") 'windmove-up)
+(global-set-key (kbd "\\ j") 'windmove-down)
+(global-set-key (kbd "\\ h") 'windmove-left)
+(global-set-key (kbd "\\ l") 'windmove-right)
 
 ;; org conf keys
 (global-set-key "\C-cl" 'org-store-link)
 (global-set-key "\C-ca" 'org-agenda)
 (global-set-key "\C-cb" 'org-iswitchb)
 
-;; set the mark keys
-;; (define-key 'meta-mark-map (kbd "c") 'exchange-point-and-mark)
-;; (define-key 'meta-mark-map (kbd "w") 'mark-word)
-;; (define-key 'meta-mark-map (kbd "s") 'mark-sexp)
-;; (define-key 'meta-mark-map (kbd "f") 'mark-defun)
-;; (define-key 'meta-mark-map (kbd "p") 'mark-page)
-;; (define-key 'meta-mark-map (kbd "b") 'mark-whole-buffer)
-
 ;; register 
 (define-key 'ctrl-register-map (kbd "j") 'jump-to-register)
 (define-key 'ctrl-register-map (kbd "r") 'point-to-register)
-
-;; for python_koans 
-;;(global-set-key (kbd "<C-return>") (lambda () (interactive) (search-forword "__")))
 
 ;; provide
 (provide 'hr-keys-conf)

@@ -59,7 +59,9 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/daipeng/Desktop/tmp/" (21152 9816) "optparse_test.py" "qiniu_test.py" "pyevernote_shownote.py" "c.py" "rst/" "b.py" "a.py" "echosever.py" "chatdemo/" "gae/" "./" "objectid.py" "../" "mgeng_test.py" "ttt.py" ".#config_test.py" "gbclient.py" ".ropeproject/" "test.conf" "config_test.py" "qiniu_test.conf" "t.org")
+ ("/home/daipeng/Desktop/tmp/" (21152 7454) "optparse_test.py" "qiniu_test.py" "pyevernote_shownote.py" "c.py" "rst/" "b.py" "a.py" "echosever.py" "chatdemo/" "gae/" "./" "objectid.py" "../" "mgeng_test.py" "ttt.py" "gbclient.py" ".ropeproject/" "test.conf" "config_test.py" "qiniu_test.conf" "t.org")
+
+ ("/home/daipeng/.emacs.d/my-lisps/" (21152 9796) "hr-keys-conf.el" "hr-yasnippet-conf.el" "hr-python-conf.el" "hr-total-conf.el" "hr-google-translate-conf.el" "hr-dired-conf.el" "hr-auto-complete-conf.el" "hr-emms-conf.el" "hr-anything-conf.el" "hr-ecb-conf.el" "./" "hr-ruby-conf.el" "hr-common-conf.el" "../" "hr-org-conf.el" "hr-sql-conf.el" "hr-undo-tree-conf.el" "hr-w3m-conf.el" "hr-speedbar-conf.el" "hr-mew-conf.el" "hr-eshell-conf.el" "hr-cedet-conf.el" "hr-color-theme-conf.el")
 
  ("/home/daipeng/.org/" (21151 61916) "read.org" "./" "../" "learn.org" "life.org")
 
@@ -100,8 +102,6 @@
  ("/home/daipeng/Desktop/program/pyevernote/" (21124 29623) "README.md" ".gitignore" "elisp/" "pyevernote/" "./" "doc/" "../" "develop_readme.md" ".git/" "dev-doc/")
 
  ("/var/www/nextdoor/trunk/nextdoor/" (21148 9650) "test_uwsgi.ini" "business/" "web/" "helps/" "village/" "ditu/" "manage.py" "tasks/" "users/" "offline/" "admin/" "../" "./" "uwsgi.ini" "nextdoor/" "start.sh" "xmpp/" "db/")
-
- ("/home/daipeng/.emacs.d/my-lisps/" (21147 64390) "hr-keys-conf.el" "hr-yasnippet-conf.el" "hr-python-conf.el" "hr-total-conf.el" "hr-google-translate-conf.el" "hr-dired-conf.el" "hr-auto-complete-conf.el" "hr-emms-conf.el" "hr-anything-conf.el" "hr-ecb-conf.el" "./" "hr-ruby-conf.el" "hr-common-conf.el" "../" "hr-org-conf.el" "hr-sql-conf.el" "hr-undo-tree-conf.el" "hr-w3m-conf.el" "hr-speedbar-conf.el" "hr-mew-conf.el" "hr-eshell-conf.el" "hr-cedet-conf.el" "hr-color-theme-conf.el")
 
  ("/home/daipeng/.emacs.d/elpa/yasnippet-0.8.0/" (21112 34089) "yasnippet-pkg.el" "dropdown-list.el" "ChangeLog" "./" "yasnippet-autoloads.el" "yasnippet-autoloads.el~" "../" "snippets/" "yasnippet.el" "README")
 
