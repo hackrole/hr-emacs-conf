@@ -30,11 +30,7 @@
 (global-set-key (kbd "<f2>") 'speedbar)
 (global-set-key (kbd "\C-t") 'set-mark-command)
 (global-set-key (kbd "\C-cB") 'eval-buffer)
-;; (global-set-key (kbd "C-q C-b") 'ibuffer)
 (defalias 'list-buffers 'ibuffer)
-
-;; yasnipett
-;; (global-set-key (kbd "\C-c y") 'yas-expand)
 
 ;; search and replace keys
 
@@ -80,10 +76,6 @@
 (global-set-key "\C-cl" 'org-store-link)
 (global-set-key "\C-ca" 'org-agenda)
 (global-set-key "\C-cb" 'org-iswitchb)
-
-;; register 
-(define-key 'ctrl-register-map (kbd "j") 'jump-to-register)
-(define-key 'ctrl-register-map (kbd "r") 'point-to-register)
 
 ;; provide
 (provide 'hr-keys-conf)

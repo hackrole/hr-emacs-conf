@@ -41,10 +41,10 @@
 ;;											#'autopair-python-triple-quote-action))))
 
 
-;; python pep8
+;; python pep8 and pyling
+; fix pep8 and pylint errors
+(require 'tramp)
 (require 'python-pep8)
-
-;; python pylint
 (require 'python-pylint)
 
 ;; provide

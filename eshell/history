@@ -1,3 +1,11 @@
 cd .emacs.d/
 ls
 cd my-lisps
+cdpr
+cdnote
+cd Desktop/program/note/
+cd emacs/
+ls
+cd ..
+git status
+git push origin master

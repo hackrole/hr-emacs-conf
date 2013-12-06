@@ -10,7 +10,7 @@
  ("/var/www/nextdoor/" . "trunk/")
  ("/var/www/" . "nextdoor/")
  ("/var/" . "www/")
- ("/var/www/nextdoor/trunk/nextdoor/" . "ditu/")
+ ("/var/www/nextdoor/trunk/nextdoor/" . "village/")
  ("/var/www/nextdoor/trunk/" . "nextdoor/")
  ("/var/www/nextdoor/trunk/nextdoor/business/management/" . "commands/")
  ("/var/www/nextdoor/trunk/nextdoor/business/" . "views/")
@@ -18,16 +18,20 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/daipeng/Desktop/tmp/"
+ "/home/daipeng/Desktop/program/note/emacs/"
+ "/var/www/nextdoor/trunk/nextdoor/business/"
+ "/var/www/nextdoor/trunk/nextdoor/business/views/"
+ "/var/www/nextdoor/trunk/nextdoor/business/tests/"
  "/home/daipeng/.org/"
+ "/var/www/nextdoor/trunk/nextdoor/village/"
+ "/var/www/nextdoor/trunk/nextdoor/ditu/"
+ "/home/daipeng/.emacs.d/elpa/yasnippet-0.8.0/snippets/python-mode/"
+ "/var/www/nextdoor/trunk/nextdoor/nextdoor/"
+ "/var/www/nextdoor/trunk/nextdoor/admin/"
+ "/home/daipeng/Desktop/tmp/"
  "/home/daipeng/.emacs.d/elpa/python-pylint-1.1/"
  "/home/daipeng/.emacs.d/elpa/pep8-1.2/"
- "/var/www/nextdoor/trunk/nextdoor/ditu/"
- "/var/www/nextdoor/trunk/nextdoor/business/"
  "/home/daipeng/Desktop/program/pyevernote/pyevernote/"
- "/var/www/nextdoor/trunk/nextdoor/business/views/"
- "/var/www/nextdoor/trunk/nextdoor/village/"
- "/var/www/nextdoor/trunk/nextdoor/nextdoor/"
  "/var/www/nextdoor/trunk/nextdoor/users/"
  "/var/www/nextdoor/trunk/nextdoor/helps/"
  "/home/daipeng/Desktop/program/pyevernote/pyevernote/tests/"
@@ -45,27 +49,53 @@
 
 ;; ----- ido-work-file-list -----
 (
- "config_test.py"
- "life.org"
- "t.org"
- "python-pylint.el"
- "pep8.el"
- "views.py"
- "formhelps.py"
- "deletenote.py"
+ "keys.org"
  "models.py"
+ "business_helps.py"
+ "views.py"
+ "dbinit.py"
+ "read.org"
  "tests.py"
+ "def"
+ "defdv"
+ "urls_admin.py"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/daipeng/Desktop/tmp/" (21152 7454) "optparse_test.py" "qiniu_test.py" "pyevernote_shownote.py" "c.py" "rst/" "b.py" "a.py" "echosever.py" "chatdemo/" "gae/" "./" "objectid.py" "../" "mgeng_test.py" "ttt.py" "gbclient.py" ".ropeproject/" "test.conf" "config_test.py" "qiniu_test.conf" "t.org")
+ ("/home/daipeng/Desktop/program/note/emacs/" (21112 32660) "keys.org" "org-mode/" "sql-mode.org" "./" "w3m.org" "../" "ediff.org" "yasnippet.org" "cc-mode/")
 
- ("/home/daipeng/.emacs.d/my-lisps/" (21152 9796) "hr-keys-conf.el" "hr-yasnippet-conf.el" "hr-python-conf.el" "hr-total-conf.el" "hr-google-translate-conf.el" "hr-dired-conf.el" "hr-auto-complete-conf.el" "hr-emms-conf.el" "hr-anything-conf.el" "hr-ecb-conf.el" "./" "hr-ruby-conf.el" "hr-common-conf.el" "../" "hr-org-conf.el" "hr-sql-conf.el" "hr-undo-tree-conf.el" "hr-w3m-conf.el" "hr-speedbar-conf.el" "hr-mew-conf.el" "hr-eshell-conf.el" "hr-cedet-conf.el" "hr-color-theme-conf.el")
+ ("/home/daipeng/" (21153 30237) ".profile" ".gnome2_private/" "village.dat/" ".viminfo" "Downloads/" ".xsession-errors.old" ".vim/" "Music/" ".dbshell" ".cache/" ".thunderbird/" ".screenrc" ".mongorc.js" ".bashrc.bak" ".profile.bak" ".dbus/" "workspace/" ".viminfz.tmp" ".gconf/" ".bash_history" "Templates/" ".emacs.d/" ".gitconfig" ".viminfo.tmp" ".local/" ".mozilla/" ".evervim/" ".pki/" ".ssh/" ".vimrc" ".bash_logout" ".adobe/" ".w3m/" ".bashrc" ".pip/" "./" ".xmind/" ".dmrc" ".Xauthority" "examples.desktop" "VirtualBox VMs/" ".ido.last" ".macromedia/" ".config/" ".xsession-errors" ".org/" "../" ".pylint.d/" ".VirtualBox/" "Videos/" ".apport-ignore.xml" "Public/" ".gnomerc" ".NERDTreeBookmarks" ".gnome2/" ".alias" ".mplayer/" "Documents/" ".gvfs/" ".compiz/" ".curlrc" "Pictures/" "Desktop/" ".appcfg_nag" ".mysql_history" ".ecb-tip-of-day.el" ".appcfg_cookies" ".subversion/" ".ICEauthority")
 
- ("/home/daipeng/.org/" (21151 61916) "read.org" "./" "../" "learn.org" "life.org")
+ ("/var/www/nextdoor/trunk/nextdoor/business/views/" (21152 26543) "teacher.pyc" "car.py" "__init__.pyc" ".#views.py" "car.pyc" "__init__.py" "pet.pyc" "pet.py" "lifeyellow.py" "seconds.pyc" "../" "./" "views.py" "seconds.py" "house.pyc" "views.pyc")
 
- ("/home/daipeng/" (21151 60006) ".profile" ".gnome2_private/" "village.dat/" ".viminfo" "Downloads/" ".xsession-errors.old" ".vim/" "Music/" ".dbshell" ".cache/" ".thunderbird/" ".screenrc" ".mongorc.js" ".bashrc.bak" ".profile.bak" ".dbus/" "workspace/" ".viminfz.tmp" ".gconf/" ".bash_history" "Templates/" ".emacs.d/" ".gitconfig" ".viminfo.tmp" ".local/" ".mozilla/" ".evervim/" ".pki/" ".ssh/" ".vimrc" ".bash_logout" ".adobe/" ".w3m/" ".bashrc" ".pip/" "./" ".xmind/" ".dmrc" ".Xauthority" "examples.desktop" "VirtualBox VMs/" ".ido.last" ".macromedia/" ".config/" ".xsession-errors" ".org/" "../" ".pylint.d/" ".VirtualBox/" "Videos/" ".apport-ignore.xml" "Public/" ".gnomerc" ".NERDTreeBookmarks" ".gnome2/" ".alias" ".mplayer/" "Documents/" ".gvfs/" ".compiz/" ".curlrc" "Pictures/" "Desktop/" ".appcfg_nag" ".mysql_history" ".ecb-tip-of-day.el" ".appcfg_cookies" ".subversion/" ".ICEauthority")
+ ("/home/daipeng/.org/" (21152 24728) "read.org" "./" "../" "learn.org" "life.org")
+
+ ("/var/www/nextdoor/trunk/nextdoor/business/" (21152 22213) "tests/" "__init__.pyc" "views/" "__init__.py" "formhelps.pyc" "models.py" "enums.pyc" "management/" "../" "business_helps.py" "./" "formhelps.py" "forms.py" "models.pyc" "enums.py")
+
+ ("/var/www/nextdoor/trunk/nextdoor/business/tests/" (21152 26093) "__init__.py" "dbinit.py" "../" "carpool.py" "./" "views.py" "seconds.py")
+
+ ("/var/www/nextdoor/trunk/nextdoor/village/" (21152 17012) "__init__.pyc" "bbs.py" "__init__.py" "models.py" "enums.pyc" "../" "bbs.pyc" "./" "announcement.pyc" "models.pyc" "enums.py")
+
+ ("/var/www/nextdoor/trunk/nextdoor/ditu/" (21152 21938) "__init__.py" "models.py" "../" "./" "views.py" "tests.py")
+
+ ("/home/daipeng/.emacs.d/my-lisps/" (21152 10334) "hr-keys-conf.el" "hr-yasnippet-conf.el" "hr-python-conf.el" "hr-total-conf.el" "hr-google-translate-conf.el" "hr-dired-conf.el" "hr-auto-complete-conf.el" "hr-emms-conf.el" "hr-anything-conf.el" "hr-ecb-conf.el" "./" "hr-ruby-conf.el" "hr-common-conf.el" "../" "hr-org-conf.el" "hr-sql-conf.el" "hr-undo-tree-conf.el" "hr-w3m-conf.el" "hr-speedbar-conf.el" "hr-mew-conf.el" "hr-eshell-conf.el" "hr-cedet-conf.el" "hr-color-theme-conf.el")
+
+ ("/var/www/nextdoor/trunk/nextdoor/helps/" (21151 58327) "decorators.pyc" "basemodel.pyc" "get_first_letter.pyc" "__init__.pyc" "decorators.py" "sendsms.py" "location.pyc" "__init__.py" "timestr.pyc" "sendsms.pyc" "encrypt.pyc" "utils.pyc" "utils.py" "dbrouter.pyc" "enums.pyc" "encrypt.py" "timestr.py" "get_first_letter.py" "../" "location.py" "image.py" "./")
+
+ ("/var/www/nextdoor/trunk/nextdoor/users/" (21148 63310) "home.py" "register.pyc" "__init__.pyc" "register.py" "__init__.py" "models.py" "home.pyc" "../" "upgrade.py" "verify.py" "./" "friends.py" "models.pyc" "sms.pyc" "sms.py" "mapi.py")
+
+ ("/home/daipeng/.emacs.d/elpa/python-pylint-1.1/" (21151 61096) "python-pylint.el" "./" "python-pylint-pkg.el" "../" "python-pylint-autoloads.el")
+
+ ("/home/daipeng/Desktop/tmp/" (21152 10176) "optparse_test.py" "qiniu_test.py" "pyevernote_shownote.py" "c.py" "rst/" "b.py" "a.py" "echosever.py" "chatdemo/" "gae/" "./" "objectid.py" "../" "mgeng_test.py" "ttt.py" "gbclient.py" ".ropeproject/" "test.conf" "config_test.py" "qiniu_test.conf" "t.org")
+
+ ("/var/www/nextdoor/trunk/nextdoor/admin/" (21152 7774) "templates/" "tests/" "login.pyc" "__init__.pyc" "views/" "buscate.py" "__init__.py" "login.py" "models.py" "index.py" "bus_manage.py" "static_html/" "../" "index.pyc" "./" "forms.py" "models.pyc" "forms.pyc" "static/")
+
+ ("/var/www/nextdoor/trunk/nextdoor/nextdoor/" (21152 7788) "wsgi.pyc" "urls_users.pyc" "__init__.pyc" "wsgi.py" "urls_ditu.py" "settings.pyc" "__init__.py" "urls_admin.pyc" "test_wsgi.py" "urls_business.py" "urls_admin.py" "urls_village.pyc" "../" "production_settings.py" "urls_business.pyc" "./" "urls_village.py" "urls.pyc" "urls_users.py" "test_settings.py" "production_wsgi.py" "urls.py" "settings.py" "update/")
+
+ ("/home/daipeng/.emacs.d/elpa/yasnippet-0.8.0/snippets/python-mode/" (21152 10541) ".yas-parents" "ifmain" "while" "class" "tormain" "prop" "head" "./" "def" "../" "propg" "for" "defm" "__" ".yas-compiled-snippets.el" "propsg" "TRhand")
+
+ ("/var/www/nextdoor/trunk/nextdoor/" (21152 7475) "test_uwsgi.ini" "business/" "web/" "helps/" "village/" "ditu/" "manage.py" "tasks/" "users/" "offline/" "admin/" "../" "./" "uwsgi.ini" "nextdoor/" "start.sh" "xmpp/" "db/")
 
  ("/home/daipeng/Desktop/" (21151 59366) "tmp/" "xmind.desktop" "gnome-system-monitor.desktop" "MongoDB-data-models-guide.pdf" "ubuntu-software-center.desktop" "python-2.7.6-docs-html.zip" "python-2.7.6-docs-html/" "ipython.pdf" "ipython07_pe-gr_cise.pdf" "work/" "orgguide.pdf" "./" "TChat.zip" "../" "api/" "emacs24.desktop" "t.html" "book/" "bootstrap.zip" "empathy.desktop" "gnome-system-monitor-kde.desktop" "program/" "hr-conf/")
 
@@ -75,33 +105,15 @@
 
  ("/home/daipeng/Desktop/program/note/" (21145 24257) "README.md" "c/" "sqlalchemy/" "work/" "gae/" "./" "plan.org" "vim/" "scrapy/" "../" "emacs/" ".git/" "redis/" "learn_todo.org" "gblo_plan.org")
 
- ("/home/daipeng/.emacs.d/elpa/python-pylint-1.1/" (21112 34089) "python-pylint.el" "./" "python-pylint-pkg.el" "../" "python-pylint-autoloads.el")
-
  ("/home/daipeng/.emacs.d/elpa/pep8-1.2/" (21112 34089) "pep8-pkg.el" "./" "pep8-autoloads.el" "../" "pep8.el")
-
- ("/var/www/nextdoor/trunk/nextdoor/ditu/" (21151 58279) "__init__.py" "models.py" "../" "./" "views.py" "tests.py")
-
- ("/var/www/nextdoor/trunk/nextdoor/business/views/" (21148 53061) "teacher.pyc" "car.py" "__init__.pyc" "car.pyc" "__init__.py" "pet.pyc" "pet.py" "lifeyellow.py" "seconds.pyc" "../" "./" "views.py" "seconds.py" "house.pyc" "views.pyc")
-
- ("/var/www/nextdoor/trunk/nextdoor/business/" (21148 52050) "tests/" "__init__.pyc" "views/" "__init__.py" "formhelps.pyc" "models.py" "enums.pyc" "management/" "../" "business_helps.py" "./" "formhelps.py" "forms.py" "models.pyc" "enums.py")
-
- ("/var/www/nextdoor/trunk/nextdoor/users/" (21148 43784) "home.py" "register.pyc" "__init__.pyc" "register.py" "__init__.py" "models.py" "home.pyc" "../" "upgrade.py" "verify.py" "./" "friends.py" "models.pyc" "sms.pyc" "sms.py" "mapi.py")
 
  ("/home/daipeng/Desktop/program/pyevernote/pyevernote/" (21148 34022) "downnote.py" "listnotebooks.py" "shownotebook.py" "searchnotes.py" "deletenote.py" "listnotes.py" "./" "updatenote.py" "../" "settings.py" "create_note.py" "tests/" "showtags.py" "__init__.py" "time.html")
 
  ("/home/daipeng/Desktop/program/pyevernote/pyevernote/tests/" (21148 24290) "test_shownote.py" "test_shownotebook.py" "./" "../" "test_listnotebooks.py" "test_showtags.py" "__init__.py")
 
- ("/var/www/nextdoor/trunk/nextdoor/helps/" (21148 43784) "decorators.pyc" "basemodel.pyc" "get_first_letter.pyc" "__init__.pyc" "decorators.py" "sendsms.py" "location.pyc" "__init__.py" "timestr.pyc" "sendsms.pyc" "encrypt.pyc" "utils.pyc" "utils.py" "dbrouter.pyc" "enums.pyc" "encrypt.py" "timestr.py" "get_first_letter.py" "../" "location.py" "image.py" "./")
-
- ("/var/www/nextdoor/trunk/nextdoor/village/" (21148 47705) "__init__.pyc" "bbs.py" "__init__.py" "models.py" "enums.pyc" "../" "bbs.pyc" "./" "announcement.pyc" "models.pyc" "enums.py")
-
- ("/var/www/nextdoor/trunk/nextdoor/nextdoor/" (21148 47465) "wsgi.pyc" "urls_users.pyc" "__init__.pyc" "wsgi.py" "urls_ditu.py" "settings.pyc" "__init__.py" "urls_admin.pyc" "test_wsgi.py" "urls_business.py" "urls_admin.py" "urls_village.pyc" "../" "production_settings.py" "urls_business.pyc" "./" "urls_village.py" "urls.pyc" "urls_users.py" "test_settings.py" "production_wsgi.py" "urls.py" "settings.py" "update/")
-
  ("/var/" (21145 42882) "tmp/" "log/" "local/" "lock/" "crash/" "logs/" "mail/" "opt/" "www/" "lib/" "cache/" "../" "spool/" "backups/" "lost+found/" "./" "run/" "metrics/")
 
  ("/home/daipeng/Desktop/program/pyevernote/" (21124 29623) "README.md" ".gitignore" "elisp/" "pyevernote/" "./" "doc/" "../" "develop_readme.md" ".git/" "dev-doc/")
-
- ("/var/www/nextdoor/trunk/nextdoor/" (21148 9650) "test_uwsgi.ini" "business/" "web/" "helps/" "village/" "ditu/" "manage.py" "tasks/" "users/" "offline/" "admin/" "../" "./" "uwsgi.ini" "nextdoor/" "start.sh" "xmpp/" "db/")
 
  ("/home/daipeng/.emacs.d/elpa/yasnippet-0.8.0/" (21112 34089) "yasnippet-pkg.el" "dropdown-list.el" "ChangeLog" "./" "yasnippet-autoloads.el" "yasnippet-autoloads.el~" "../" "snippets/" "yasnippet.el" "README")
 

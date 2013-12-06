@@ -5,5 +5,9 @@
 (setq org-agenda-files '("~/.org/learn.org"
 						 "~/.org/read.org"
 						 "~/.org/life.org"))
+
+;; set keys
+;; (define-key )
+
 ;; provide
 (provide 'hr-org-conf)
