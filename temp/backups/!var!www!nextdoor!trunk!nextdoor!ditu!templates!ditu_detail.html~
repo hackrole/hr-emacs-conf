@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>管理后台</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css">
+    <style>
+      
+    </style>
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="content" class="container" style="margin-top: 40px;">
+      <div class="row">
+        <div class="offset1 span10">
+          <div>
+            <table class="table table-striped">
+			  <caption>地退用户列表</caption>
+			  <thead>
+				<tr>
+				  <td>用户id</td>
+				  <td>用户名</td>
+				  <td>用户手机号</td>
+				  <td>功能</td>
+			   </tr>
+			  </thead>
+			  <tbody>
+				{% for user in users %}
+				<tr>
+				  <td>{{ user.id }}</td>
+				  <td>{{ user.name }}</td>
+				  <td>{{ user.mobile }}</td>
+				  <td>
+					<a href="/api1/ditu/admin/add/{{ user.id }}">添加小区</a>
+					<a href="/api1/ditu/admin/del/{{ user.id }}">删除小区</a>
+				  </td>
+				</tr>
+				{% endfor %}
+			  </tbody>
+            </table>
+          </div>
+        </div>
+        <!-- /content -->
+      </div>
+    </div>
+    <script src="/static/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

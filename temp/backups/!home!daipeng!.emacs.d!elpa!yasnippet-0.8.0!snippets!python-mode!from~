@@ -1,0 +1,6 @@
+# -*- coding: utf-8 -*-
+# name: from
+# author: hackrole
+# key: from
+# --
+from $1 import $2

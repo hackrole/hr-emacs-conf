@@ -144,11 +144,58 @@ results:
 ==============
  地推登录接口
 ==============
+url:
+  /api1/ditu/login
 
+method:
+  get
+
+paramter:
+  :email:
+     邮箱
+	
+  :password:
+     密码
+
+results:
+   1> 缺少邮箱或密码
+   
+   2> 用户名密码错误
+
+   3> success: {uid: '', 'email': '','name': '', 'realname':''}
+
+================
+ 列出所有的城市
+================
+url:
+  /api1/users/get_citys/
+
+method:
+  GET
+
+========================
+ 根据城市名字获取生活圈
+========================
+url  
+  /api1/users/get_circles_by_city/
+
+method
+  GET
+
+params
+   city_code  str
 
 ==============
- 选择小区接口
+ 获取小区列表
 ==============
+url
+  /api1/users/get_villages_by_circle/
+
+method
+  GET
+
+params
+  city_code str
 
 ==============
  搜索小区接口
@@ -157,3 +204,19 @@ results:
 ==============
  添加小区接口
 ==============
+url
+  /api1/users/create_village/
+
+method
+  POST
+
+params
+     :name:
+        小区名称
+
+     :city_code:
+        城市代码
+
+     :address:
+        地址
+

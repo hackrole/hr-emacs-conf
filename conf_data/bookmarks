@@ -2,7 +2,17 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("nd"
+(("agent-read"
+ (filename . "~/.org/read.org")
+ (front-context-string)
+ (rear-context-string . " <2013-12-05 四>\n")
+ (position . 62))
+("agent"
+ (filename . "~/.org/")
+ (front-context-string . "learn.org\n  -rw-")
+ (rear-context-string . "66 11月 29 11:45 ")
+ (position . 226))
+("nd"
  (filename . "/var/www/nextdoor/trunk/nextdoor/")
  (front-context-string . "admin\n  drwxrwxr")
  (rear-context-string . "96 11月 16 11:12 ")

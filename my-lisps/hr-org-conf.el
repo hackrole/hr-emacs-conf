@@ -7,7 +7,9 @@
 						 "~/.org/life.org"))
 
 ;; set keys
-;; (define-key )
-
+(add-hook 'org-mode-hook (lambda ()
+						   (local-set-key (kbd "C-.") 'org-time-stamp)
+						   (local-set-key (kbd "C-,") 'org-time-stamp-inactive)))
+						   
 ;; provide
 (provide 'hr-org-conf)

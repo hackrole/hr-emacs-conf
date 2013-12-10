@@ -1,0 +1,39 @@
+#!/usr/bin/env python
+#coding=utf8
+
+from bson import ObjectId
+from django.shorcuts import render_to_response
+
+from village import models as vmodels
+
+def ditu_user_list(request):
+    users = vmodels.User.objects.filter(is_public=True)
+    return render_to_response('ditu_user_list.html', {'users': users})
+
+def add_village(request, uid):
+    uid = ObjectId(uid)
+    user = vmodels.User.object.get(is_public=True, id=uid)
+    villages = vmodels.Village.objects.all()
+    if request.method == "GET":
+        return render_to_response('ditu_detail.html', {'user': user, 'villages': villages})
+    else:
+        vid = request.POST.get('vid')
+        assert vid is not None, "not give the village id"
+        v = ObjectId(vid)
+        village = vmodels.Village.ObjectId.get(id=v)
+        # TODO: model save
+        return render_to_response('ditu_detail.html', {'user': user, 'villages': villages})
+
+def del_village(request, uid):
+    uid = ObjectId(uid)
+    user = vmodels.User.object.get(is_public=True, id=uid)
+    villages = vmodels.Village.objects.all()
+    if request.method == "GET":
+        return render_to_response('ditu_detail.html', {'user': user, 'villages': villages})
+    else:
+        vid = request.POST.get('vid')
+        assert vid is not None, "not give the village id"
+        v = ObjectId(vid)
+        village = vmodels.Village.ObjectId.get(id=v)
+        # TODO: model delete
+        return render_to_response('ditu_detail.html', {'user': user, 'villages': villages})

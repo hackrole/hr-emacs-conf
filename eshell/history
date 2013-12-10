@@ -9,3 +9,8 @@ ls
 cd ..
 git status
 git push origin master
+cd ..
+git status
+git add -A
+git commit -m "fix"
+git push origin master

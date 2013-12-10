@@ -1,6 +1,6 @@
 ;; hr keys conf, this will be often to improve and change
 
-;; C-\ map
+;; \ key-map
 (define-prefix-command 'ctrl-L-map)
 (global-set-key (kbd "\\") 'ctrl-L-map)
 (defun insert_backlash ()
@@ -9,9 +9,16 @@
   (insert-char ?\\ 1))
 (global-set-key (kbd "C-\\") 'insert_backlash)
 
-;; C-r map, for register
-;; (define-prefix-command 'ctrl-register-map)
-;; (global-set-key (kbd "\C-r") 'register-map)
+;; \ r key-map (register key map)
+(define-prefix-command 'L-R-map)
+(global-set-key (kbd "\\ r") 'L-R-map)
+
+;; register key define
+(define-key 'L-R-map (kbd "r") 'point-to-register)
+(define-key 'L-R-map (kbd "j") 'jump-to-register)
+(define-key 'L-R-map (kbd "s") 'copy-to-register)
+(define-key 'L-R-map (kbd "i") 'insert-register)
+(define-key 'L-R-map (kbd "t") 'copy-rectangle-to-register)
 
 ;; for the key translate
 ;; redefine the ctrl-x to ctrl-q, and unset the ctrl-x
@@ -27,7 +34,7 @@
 (global-set-key (kbd "<f6>") 'emms-playlist-mode-go)
 (global-set-key (kbd "<f10>") 'menu-bar-mode)
 (global-set-key (kbd "<C-f2>") 'sr-speedbar-toggle)
-(global-set-key (kbd "<f2>") 'speedbar)
+(global-set-key (kbd "<f1>") 'speedbar)
 (global-set-key (kbd "\C-t") 'set-mark-command)
 (global-set-key (kbd "\C-cB") 'eval-buffer)
 (defalias 'list-buffers 'ibuffer)
@@ -38,7 +45,6 @@
 (global-set-key (kbd "C-d") 'kill-whole-line)
 (global-set-key (kbd "<RET>") 'newline-and-indent)
 (global-set-key (kbd "C-<RET>") 'newline)
-(global-unset-key (kbd "C-k"))
 (global-unset-key (kbd "C-j"))
 (global-unset-key (kbd "C-<SPC>"))
 (global-set-key (kbd "\\ j") 'join-line)

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+  <h1>地推用户列表</h1>
+  <ul>
+  {% for user in user %}
+  <li><a href="">{{ user.name }}</a></li>
+  {% endfor %}
+  </ul>
+
+</body>
+</html>
