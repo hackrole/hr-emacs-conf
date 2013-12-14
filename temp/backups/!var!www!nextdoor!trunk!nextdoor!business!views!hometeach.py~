@@ -1,0 +1,4 @@
+#!/usr/bin/env python
+#coding=utf8
+
+from djanog.shortchuts import render_to_response, redirect

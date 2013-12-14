@@ -35,13 +35,13 @@
 (global-set-key (kbd "<f10>") 'menu-bar-mode)
 (global-set-key (kbd "<C-f2>") 'sr-speedbar-toggle)
 (global-set-key (kbd "<f1>") 'speedbar)
-(global-set-key (kbd "\C-t") 'set-mark-command)
 (global-set-key (kbd "\C-cB") 'eval-buffer)
 (defalias 'list-buffers 'ibuffer)
 
 ;; search and replace keys
 
 ;; some often-use edit key
+(global-set-key (kbd "\C-t") 'set-mark-command)
 (global-set-key (kbd "C-d") 'kill-whole-line)
 (global-set-key (kbd "<RET>") 'newline-and-indent)
 (global-set-key (kbd "C-<RET>") 'newline)
@@ -49,8 +49,7 @@
 (global-unset-key (kbd "C-<SPC>"))
 (global-set-key (kbd "\\ j") 'join-line)
 
-;; font size
-;; emacs 字体大小快捷键
+;; font size, emacs 字体大小快捷键
 (global-set-key (kbd "C-c C-=") 'text-scale-increase) 
 (global-set-key (kbd "C-c C--") 'text-scale-decrease)
 
@@ -63,14 +62,14 @@
 
 ;; reload file
 ;; 文件重加载
-(global-set-key (kbd "C-c r") 'revert-buffer)
+(global-set-key (kbd "\\ r") 'revert-buffer)
 ;; 覆盖buffer
-(global-set-key (kbd "C-c Y") 'bury-buffer)
+(global-set-key (kbd "\\ Y") 'bury-buffer)
 
 ;; scroll
 ;; 一次滚动2行
-(global-set-key (kbd "C-}") (lambda () (interactive) (scroll-up 2)))
-(global-set-key (kbd "C-{") (lambda () (interactive) (scroll-down 2)))
+(global-set-key (kbd "C-v") (lambda () (interactive) (scroll-up 5)))
+(global-set-key (kbd "M-v") (lambda () (interactive) (scroll-down 5)))
 
 ;; windmove
 (global-set-key (kbd "\\ k") 'windmove-up)

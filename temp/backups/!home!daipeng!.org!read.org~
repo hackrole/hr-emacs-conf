@@ -1,3 +1,15 @@
 
 * DONE 地图客户端 生活号码通分类问题 跟侯丹确认
 * DONE 商家分类数据录入 <2013-12-05 四>
+* TODO 小区2.0 <2013-12-10 二>--<2013-12-22 日>
+** DONE 家教2级分类
+** TODO 详情页通过id返回详情与评论列表
+** TODO 家教 <2013-12-12 四>
+*** DONE 家教age排序与家教category排序, 分类页完成
+*** DONE 家教 data_json function(for->try)
+*** TODO jsonapi/auth 包装器
+* DONE 兴邦 python源码剖析 <2013-12-11 三>
+* DONE 地退错误问题 <2013-12-10 二>
+* DONE business索引问题 <2013-12-11 三>
+* DONE 地退后台完成 <2013-12-12 四>
+* DONE 邮件回复leetchau <2013-12-12 四>

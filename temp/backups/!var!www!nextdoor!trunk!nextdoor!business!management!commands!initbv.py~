@@ -1,0 +1,14 @@
+#!/usr/bin/env python
+#coding=utf8
+
+from pymongo.connection import MongoClient
+from django.core.management.base import BaseCommand, CommandError
+from django.conf import settings
+
+from business import models
+from village import models as vmodels
+from haversine import haversine
+
+HOST = settings.MONGO_HOST
+PORT = settings.MONGO_PORT
+DEBUG = False # 51:True, 23: False
