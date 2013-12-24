@@ -1,0 +1,5 @@
+#!/usr/bin/env python
+#coding=utf8
+
+from business import models as bmodels
+from ditu import models as dmodels

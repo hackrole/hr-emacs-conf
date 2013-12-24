@@ -1,0 +1,14 @@
+#!/usr/bin/env python
+#coding=utf8
+
+from django.core.management.base import BaseCommand, CommandError
+from business import models as bmodels
+from village import models as vmodels
+
+
+class Command(BaseCommand):
+
+    args = "none"
+    help = "copy the business model's attr category to business_village"
+
+    def handle(self, *args, **options):

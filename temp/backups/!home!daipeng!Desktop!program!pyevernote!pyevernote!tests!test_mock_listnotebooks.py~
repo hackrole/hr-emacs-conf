@@ -1,0 +1,6 @@
+#!/usr/bin/env python
+#coding=utf8
+
+import mock
+from evernote.api.client import EvernoteClient
+from evernote.edam.notestore import ttypes

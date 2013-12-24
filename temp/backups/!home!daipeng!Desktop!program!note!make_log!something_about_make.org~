@@ -1,0 +1,36 @@
+#+Author: hackrole
+#+Email: daipeng123456@gmail.com
+#+Date: 2013-12-20
+#+TITLE: 关于编译安装的小记
+
+
+* 编译安装的一般流程
++ ./configure
++ make
++ sudo make install
+
+* 可能遇到的问题
+** 依赖问题
+一般都是缺少某些必须的依赖包导致, 可以通过安装相应的依赖包解决
+
+部分软件在编译前 通过:
+#+BEGIN_SRC bash
+sudo aptitude build-dep <name> 
+#+END_SRC
+解决大部分甚至全部的依赖问题。
+
+** 安装后的卸载问题
+有些编译安装程序生成的makefile会包含
+#BEGIN_SRC bash
+make uninstall
+#END_SRC
+可以用来执行卸载
+
+关于make的一些通用约定
+| make target     | desc                                                                                             |   |
+|-----------------+--------------------------------------------------------------------------------------------------+---|
+| make/(make all) | usually use to compile the soft                                                                  |   |
+| make install    | use to move the compiled target to the right directory, as to say install the soft on the system |   |
+| make uninstall  | use to remove the soft from the system                                                           |   |
+| make clean      | use to remove the comile middle file                                                             |   |
+

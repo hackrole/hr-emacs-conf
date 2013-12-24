@@ -1,0 +1,17 @@
+#+Author: hackrole
+#+Email: daipeng123456@gmail.com
+#+Date: 2013-12-19
+#+TITLE: pdb调试小记
+
+
+
+* 常用命令
+| short | long     | desc                         |   |
+|-------+----------+------------------------------+---|
+| n     | next     | go to next, step over method |   |
+| s     | step     | go to next, step into method |   |
+| b     | break    | make a break point           |   |
+| c     | continue | continue to next breakpoint  |   |
+| r     | return   | go to the method end         |   |
+| p     | print    | print value                  |   |
+

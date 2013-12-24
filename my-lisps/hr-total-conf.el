@@ -10,6 +10,9 @@
 ;; ecb
 (require 'hr-ecb-conf)
 
+;; rst-mode
+(require 'hr-rst-conf)
+
 ;; google-translate 
 (require 'hr-google-translate-conf)
 

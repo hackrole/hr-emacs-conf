@@ -1,7 +1,11 @@
 ;; yasnippet conf
+;; (require 'yasnippet)
+;; (yas--initialize)
+;; (yas/load-directory "~/.emacs.d/elpa/yasnippet-0.8.0/snippets")
+
+;; test for new init
 (require 'yasnippet)
-(yas--initialize)
-(yas/load-directory "~/.emacs.d/elpa/yasnippet-0.8.0/snippets")
+(yas-global-mode 1)
 
 ;; set keys
 (define-key yas-minor-mode-map (kbd "<tab>") nil)
