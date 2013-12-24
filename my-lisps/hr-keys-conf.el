@@ -26,8 +26,6 @@
 (global-unset-key (kbd "C-x"))
 
 (global-set-key (kbd "<f8>") 'eshell)
-;; move to the hr-w3m-conf.el
-;;(global-set-key (kbd "<f9>") 'w3m)
 (global-set-key (kbd "\C-c <f8>") 'shell)
 (global-set-key (kbd "<f7>") 'ielm)
 (global-set-key (kbd "C-c <f6>") 'emms-add-playlist)
