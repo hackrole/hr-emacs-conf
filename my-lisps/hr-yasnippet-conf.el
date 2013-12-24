@@ -15,6 +15,7 @@
 (define-key yas-minor-mode-map (kbd "C-1") 'yas-expand)
 (define-key yas-keymap (kbd "M-2") 'yas-next-field-or-maybe-expand)
 (define-key yas-keymap (kbd "C-2") 'yas-prev-field)
+(global-set-key (kbd "C-1") 'yas-expand)
 ;; global keys for yas use(desc table/new snippet)
 (define-prefix-command 'yas-global-map)
 (global-set-key (kbd "\\ y") 'yas-global-map)
