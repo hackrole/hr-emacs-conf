@@ -6,7 +6,7 @@
 (defun insert_backlash ()
   "use to insert a backlash"
   (interactive)
-  (insert-char ?\\ 1))
+  (insert-char ?\\ 1)
 (global-set-key (kbd "C-\\") 'insert_backlash)
 
 ;; \ r key-map (register key map)
