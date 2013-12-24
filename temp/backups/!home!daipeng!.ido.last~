@@ -72,21 +72,21 @@
 
 ;; ----- ido-work-file-list -----
 (
+ ".#t.rst"
+ "t.rst"
  "t1.rst"
  "hr-rst-conf.el"
  "hr-total-conf.el"
- "t.rst"
  "config_test.py"
  "intro.org"
  "views.py"
  "manage.py"
  "face_question.org"
- "t1.py"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/daipeng/Desktop/tmp/" (21177 14772) "a.html" "optparse_test.py" "qiniu_test.py" "pyevernote_shownote.py" "c.py" "rst/" "listnotebooks.py" "b.py" "a.py" "echosever.py" "chatdemo/" "gae/" "./" "objectid.py" "../" "mgeng_test.py" "mock/" "ttt.py" "gbclient.py" "mongo_index/" ".ropeproject/" "t.php" "test.conf" "eshell" "t.js" "config_test.py" "qiniu_test.conf" "argparse/" "t.org")
+ ("/home/daipeng/Desktop/tmp/" (21177 17280) "a.html" "optparse_test.py" "qiniu_test.py" "pyevernote_shownote.py" "c.py" "rst/" "listnotebooks.py" "b.py" "a.py" "echosever.py" "chatdemo/" "gae/" "./" "objectid.py" "../" "mgeng_test.py" "mock/" "ttt.py" "gbclient.py" "mongo_index/" "daipeng@daipeng.3540:1387849024" ".ropeproject/" "t.php" ".#t.rst" "test.conf" "eshell" "t.js" "config_test.py" "qiniu_test.conf" "argparse/" "t.org" ".#daipeng@daipeng.3540:1387849024")
 
  ("/home/daipeng/Desktop/" (21176 58798) "tmp/" "xmind.desktop" "gnome-system-monitor.desktop" "MongoDB-data-models-guide.pdf" "ubuntu-software-center.desktop" "python-2.7.6-docs-html.zip" "python-2.7.6-docs-html/" "ipython.pdf" "ipython07_pe-gr_cise.pdf" "work/" "orgguide.pdf" "./" "yii-api-1.1.10.chm" "TChat.zip" "../" "xq_重要.txt" "api/" "mongo-1.4.5.tgz" "emacs24.desktop" "php-5.3.28.tar.gz" "book/" "bootstrap.zip" "empathy.desktop" "gnome-system-monitor-kde.desktop" "program/" "hr-conf/")
 
