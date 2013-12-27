@@ -52,9 +52,14 @@
 (setq visible-bell t)
 (setq inhibit-startup-message t);; not show welcome screen
 (setq column-number-mode t)
-(setq default-tab-width 4);; default tab width
+
 (show-paren-mode t);; TODO
 (setq show-paren-style 'parentheses);; TODO
+
+;; tab/indent set, 缩进设置
+(setq-default indent-tabs-mode nil)
+(setq default-tab-width 4)
+(setq-default tab-width 4)
 
 ;; dired 
 (setq dired-recursive-copies 'top)

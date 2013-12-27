@@ -31,7 +31,9 @@
   (interactive)
   (w3m)
   (delete-other-windows))
-(global-set-key (kbd "<f9>") 'hr-max-w3m)
+(global-set-key (kbd "C-c <f9>") 'hr-max-w3m)
+(global-set-key (kbd "<f9>") 'w3m)
+
 ;; provide
 (provide 'hr-w3m-conf)
 

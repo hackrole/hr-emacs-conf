@@ -56,7 +56,6 @@
 (global-set-key (kbd "M-4") 'split-window-vertically)
 (global-set-key (kbd "C-4") 'split-window-horizontally)
 (global-set-key (kbd "C-3") 'delete-window)
-(global-set-key (kbd "M-o") 'other-window)
 
 ;; reload file
 ;; 文件重加载

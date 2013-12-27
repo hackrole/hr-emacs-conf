@@ -1,0 +1,23 @@
+==========
+ 用户管理
+==========
+
+1.1 用户列表接口
+----------------
+
+  ::
+		
+		@url  /index.php?r=rUser/list
+
+		@method GET
+
+		@param
+
+			:page相关: 分页相关的参数
+			:user_role: 用户分类值(1/2/3)
+			:user_status: 用户状态值(1/0/-1/-2/-3)
+			:village_id: 小区id
+			:user_mobile: 手机号(模糊匹配)
+			:user_name:  用户名(模糊匹配)
+
+		@result  
