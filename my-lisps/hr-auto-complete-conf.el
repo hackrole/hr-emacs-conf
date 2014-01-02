@@ -11,7 +11,7 @@
 ;; redefine the key
 (define-key ac-completing-map (kbd "\M-n") 'ac-next)
 (define-key ac-completing-map (kbd "\M-p") 'ac-previous)
-(define-key ac-mode-map (kbd "\M-1") 'auto-complete)
+(global-set-key (kbd "\M-1") 'auto-complete)
 (ac-set-trigger-key nil)
 
 ;; others

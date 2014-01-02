@@ -45,3 +45,4 @@
 ;; the init end here
 
 (put 'dired-find-alternate-file 'disabled nil)
+(put 'scroll-left 'disabled nil)
