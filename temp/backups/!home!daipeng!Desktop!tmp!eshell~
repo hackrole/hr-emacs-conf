@@ -1,0 +1,537 @@
+Welcome to the Emacs shell
+
+~ $ cdpro 
+~/Desktop/program $ ls
+daily-python  google_appengine  jekyll_demo  note  pyevernote  python  rst  sph  test  tutorial
+~/Desktop/program $ cd pyevernote/pyevernote/
+~/Desktop/program/pyevernote/pyevernote $ ls
+__init__.py  createnote.py  deletenote.py  downnote.py  listnotebooks.py  listnotes.py  listtags.py  searchnotes.py  settings.py  tests  time.html  updatenote.py  utils.py
+~/Desktop/program/pyevernote/pyevernote $ python listnotebooks.py
+notebook_guid                                      notebook_name                  notebook_create_time
+----------------------------------------------------------------------------------------------------
+'6ccaa7d7-cbdb-4190-8c28-121e603f0b8c'             "emacs_ever's notebook"        2013-05-22 03:00:24
+'38d25963-2af9-4c4e-843a-0edc4ebd75a2'             'emacs'                        2013-11-25 12:20:03
+'82d55c68-0363-4dae-98fa-dd525055df55'             'vim'                          2013-11-25 12:20:58
+~/Desktop/program/pyevernote/pyevernote $ rm -rf time.html 
+~/Desktop/program/pyevernote/pyevernote $ python listnotes.py -h
+Usage: listnotes.py [options]
+
+Options:
+  -h, --help            show this help message and exit
+  -b NBN, --nbn=NBN     set the notebook name to list, cover the --nbg
+  -t TagName, --tn=TagName
+                        set the tag name to list, cover the --tn
+~/Desktop/program/pyevernote/pyevernote $ python listnotes.py -b vim
+82d55c68-0363-4dae-98fa-dd525055df55
+==========
+find 1 notes
+>>>>>>>>
+e61cc3de-fbec-4333-bf7a-a53f985dbd56
+vim test
+293
+2013-11-25 12:21:27
+2013-11-25 12:22:56
+82d55c68-0363-4dae-98fa-dd525055df55
+~/Desktop/program/pyevernote/pyevernote $ python listnotes.py -b emacs
+38d25963-2af9-4c4e-843a-0edc4ebd75a2
+no notes found
+~/Desktop/program/pyevernote/pyevernote $ python listnotes.py -b "emacs_ever's notebook"
+6ccaa7d7-cbdb-4190-8c28-121e603f0b8c
+==========
+find 3 notes
+>>>>>>>>
+d4b69402-5d4f-4636-8978-4246841cdb88
+Getting Started
+10451
+2013-05-22 03:00:24
+2013-05-22 03:00:24
+6ccaa7d7-cbdb-4190-8c28-121e603f0b8c
+>>>>>>>>
+8615e7f9-0b97-408b-b40b-d547ff1be81a
+test for you
+163
+2013-11-29 05:54:40
+2013-11-29 05:55:33
+6ccaa7d7-cbdb-4190-8c28-121e603f0b8c
+>>>>>>>>
+9cd8b1bb-81bf-4878-ba35-3760f18dc8fd
+some ever for yu
+168
+2013-11-29 06:00:13
+2013-11-29 06:00:54
+6ccaa7d7-cbdb-4190-8c28-121e603f0b8c
+~/Desktop/program/pyevernote/pyevernote $ cd ~/Desktop/tmp/
+~/Desktop/tmp $ ls
+a.html  argparse  c.py      config_test.py  gae          mgeng_test.py  objectid.py       pyevernote_shownote.py  qiniu_test.py  t.js   test.conf
+a.py    b.py      chatdemo  echosever.py    gbclient.py  mongo_index    optparse_test.py  qiniu_test.conf         rst            t.org  ttt.py
+~/Desktop/tmp $ cd -
+~/Desktop/program/pyevernote/pyevernote $ ls
+__init__.py  createnote.py  deletenote.py  downnote.py  listnotebooks.py  listnotes.py  listtags.py  searchnotes.py  settings.py  tests  updatenote.py  utils.py
+~/Desktop/program/pyevernote/pyevernote $ python downnote.py -h
+Usage: downnote.py <-f file> note_guid
+
+Options:
+  -h, --help            show this help message and exit
+  -f FILE, --file=FILE  write the note content to file
+~/Desktop/program/pyevernote/pyevernote $ python downnote.py 6ccaa7d7-cbdb-4190-8c28-121e603f0b8c -f ~/Desktop/t.html
+Traceback (most recent call last):
+  File "downnote.py", line 48, in <module>
+    downnote()
+  File "downnote.py", line 24, in downnote
+    note  =  noteStore.getNote(note_guid, True, True, False, False)
+  File "/usr/local/lib/python2.7/dist-packages/evernote/api/client.py", line 138, in delegate_method
+    )(**dict(zip(arg_names, args)))
+  File "/usr/local/lib/python2.7/dist-packages/evernote/edam/notestore/NoteStore.py", line 4142, in getNote
+    return self.recv_getNote()
+  File "/usr/local/lib/python2.7/dist-packages/evernote/edam/notestore/NoteStore.py", line 4174, in recv_getNote
+    raise result.notFoundException
+evernote.edam.error.ttypes.EDAMNotFoundException: EDAMNotFoundException(identifier='Note.guid', key='6ccaa7d7-cbdb-4190-8c28-121e603f0b8c')
+~/Desktop/program/pyevernote/pyevernote $ python downnote.py 9cd8b1bb-81bf-4878-ba35-3760f18dc8fd -f ~/Desktop/t.html
+>>>>>>>>>>>
+note_guid: 9cd8b1bb-81bf-4878-ba35-3760f18dc8fd
+title: some ever for yu
+create_time: 1385704813000
+update_time: 1385704854000
+notebook_guid: 6ccaa7d7-cbdb-4190-8c28-121e603f0b8c
+~/Desktop/program/pyevernote/pyevernote $ ls
+__init__.py  createnote.py  deletenote.py  downnote.py  listnotebooks.py  listnotes.py  listtags.py  searchnotes.py  settings.py  tests  updatenote.py  utils.py
+~/Desktop/program/pyevernote/pyevernote $ python createnote.py -h
+  File "createnote.py", line 29
+    help="set the note tag name", metavar="tags_name")
+       ^
+SyntaxError: invalid syntax
+~/Desktop/program/pyevernote/pyevernote $ python createnote.py -h
+  File "createnote.py", line 37
+    if options.note_title
+                        ^
+SyntaxError: invalid syntax
+~/Desktop/program/pyevernote/pyevernote $ python createnote.py -h
+Traceback (most recent call last):
+  File "createnote.py", line 8, in <module>
+    from evernote.edam.noteStore import ttypes
+ImportError: No module named noteStore
+~/Desktop/program/pyevernote/pyevernote $ python createnote.py -h
+~/Desktop/program/pyevernote/pyevernote $ python createnote.py -h
+Usage: createnote.py <-t title> <-T tag1>.. <-n notebookguid>  file
+
+Options:
+  -h, --help            show this help message and exit
+  -n TITLE, --title=TITLE
+                        set the note title
+  -t tags_name, --tag=tags_name
+                        set the note tag name
+  -b notebook_name, --notebook=notebook_name
+                        set the notebook
+~/Desktop/program/pyevernote/pyevernote $ python createnote.py /home/daipeng/Desktop/tmp/t.org 
+Traceback (most recent call last):
+  File "createnote.py", line 62, in <module>
+    create_note()
+  File "createnote.py", line 42, in create_note
+    if options.notebook:
+AttributeError: Values instance has no attribute 'notebook'
+~/Desktop/program/pyevernote/pyevernote $ ls
+__init__.py  createnote.py  deletenote.py  downnote.py  listnotebooks.py  listnotes.py  listtags.py  searchnotes.py  settings.py  tests  updatenote.py  utils.py
+~/Desktop/program/pyevernote/pyevernote $ python deletenote.py -h
+~/Desktop/program/pyevernote/pyevernote $ python deletenote.py -h
+Traceback (most recent call last):
+  File "deletenote.py", line 34, in <module>
+    delete_note()
+  File "deletenote.py", line 12, in delete_note
+    parser = OptionParser(usage=usage)
+NameError: global name 'OptionParser' is not defined
+~/Desktop/program/pyevernote/pyevernote $ python deletenote.py -h
+Usage: deletenote.py note_guid
+
+Options:
+  -h, --help  show this help message and exit
+~/Desktop/program/pyevernote/pyevernote $ ls
+__init__.py  createnote.py  deletenote.py  downnote.py  listnotebooks.py  listnotes.py  listtags.py  searchnotes.py  settings.py  tests  updatenote.py  utils.py
+~/Desktop/program/pyevernote/pyevernote $ python updatenote.py -h
+Traceback (most recent call last):
+  File "updatenote.py", line 6, in <module>
+    from optparser import OptionParser, OptionValueError
+ImportError: No module named optparser
+~/Desktop/program/pyevernote/pyevernote $ python listnotebooks.py
+notebook_guid                                      notebook_name                  notebook_create_time
+----------------------------------------------------------------------------------------------------
+'6ccaa7d7-cbdb-4190-8c28-121e603f0b8c'             "emacs_ever's notebook"        2013-05-22 03:00:24
+'38d25963-2af9-4c4e-843a-0edc4ebd75a2'             'emacs'                        2013-11-25 12:20:03
+'82d55c68-0363-4dae-98fa-dd525055df55'             'vim'                          2013-11-25 12:20:58
+~/Desktop/program/pyevernote/pyevernote $ python listtags.py 
+==============
+15e1d91b-1e54-4563-83d4-c0db28e9e0bb
+vim
+None
+19
+==============
+a6cb4201-cef4-402f-b13d-b41640297c9d
+test
+None
+21
+==============
+2f54ca11-aa07-4bfd-a3c6-96a25b36a0c7
+emacs
+None
+22
+==============
+da379a6b-0ed4-4194-a3d5-4c4431d30eb1
+time
+None
+30
+==============
+a2df5aae-1e21-49ab-a534-733cde6a8512
+fro you
+None
+36
+~/Desktop/program/pyevernote/pyevernote $ python searchnotes.py -h
+~/Desktop/program/pyevernote/pyevernote $ cdtnd 
+/var/www/nextdoor/trunk/nextdoor $ ls
+admin  business  db  ditu  helps  manage.py  mmb.rst  nextdoor  offline  start.sh  tasks  test_uwsgi.ini  users  uwsgi.ini  village  web  xmpp
+/var/www/nextdoor/trunk/nextdoor $ cdpro 
+~/Desktop/program $ ls
+daily-python  google_appengine  jekyll_demo  mongodb  note  pyevernote  python  rst  sph  test  tutorial
+~/Desktop/program $ cd pyevernote/pyevernote/
+~/Desktop/program/pyevernote/pyevernote $ ls
+__init__.py  createnote.py  deletenote.py  downnote.py  listnotebooks.py  listnotes.py  listtags.py  searchnotes.py  settings.py  tests  updatenote.py  utils.py
+~/Desktop/program/pyevernote/pyevernote $ cdtnd 
+/var/www/nextdoor/trunk/nextdoor $ ls
+admin  business  db  ditu  helps  manage.py  mmb.rst  nextdoor  offline  start.sh  tasks  test_uwsgi.ini  users  uwsgi.ini  village  web  xmpp
+/var/www/nextdoor/trunk/nextdoor $ cdnd 
+/var/www/nextdoor $ svn status
+M       trunk/nextdoor/business/views/lifeyellow.py
+M       trunk/nextdoor/business/views/hometeach.py
+M       trunk/nextdoor/business/models.py
+M       trunk/nextdoor/business/business_helps.py
+M       trunk/nextdoor/ditu/views.py
+/var/www/nextdoor $ svn up
+Updating '.':
+U    trunk/nextdoor/business/views/stores_views.py
+U    trunk/nextdoor/village/models.py
+U    trunk/nextdoor/village/enums.py
+U    trunk/nextdoor/users/home.py
+U    trunk/nextdoor/nextdoor/test_settings.py
+U    trunk/nextdoor/nextdoor/settings.py
+U    trunk/nextdoor/nextdoor/urls_business.py
+U    trunk/nextdoor/web/views.py
+Updated to revision 2670.
+/var/www/nextdoor $ svn commit -m "fix"
+Sending        trunk/nextdoor/business/business_helps.py
+Sending        trunk/nextdoor/business/models.py
+Sending        trunk/nextdoor/business/views/hometeach.py
+Sending        trunk/nextdoor/business/views/lifeyellow.py
+Sending        trunk/nextdoor/ditu/views.py
+Transmitting file data .....
+Committed revision 2671.
+/var/www/nextdoor $ cdtnd 
+/var/www/nextdoor/trunk/nextdoor $ ls
+admin  business  db  ditu  helps  manage.py  mmb.rst  nextdoor  offline  start.sh  tasks  test_uwsgi.ini  users  uwsgi.ini  village  web  xmpp
+/var/www/nextdoor/trunk/nextdoor $ cdnd 
+/var/www/nextdoor $ svn status
+M       trunk/nextdoor/business/views/lifeyellow.py
+/var/www/nextdoor $ svn up
+Updating '.':
+U    trunk/nextdoor/business/models.py
+Updated to revision 2672.
+/var/www/nextdoor $ svn commit -m "fix"
+Sending        trunk/nextdoor/business/views/lifeyellow.py
+Transmitting file data .
+Committed revision 2673.
+/var/www/nextdoor $ cdpro 
+~/Desktop/program $ cd pyevernote/pyevernote/
+~/Desktop/program/pyevernote/pyevernote $ ls
+__init__.py  createnote.py  deletenote.py  downnote.py  listnotebooks.py  listnotes.py  listtags.py  searchnotes.py  settings.py  tests  updatenote.py  utils.py
+~/Desktop/program/pyevernote/pyevernote $ python listnotebooks.py 
+notebook_guid                                      notebook_name                  notebook_create_time
+----------------------------------------------------------------------------------------------------
+'6ccaa7d7-cbdb-4190-8c28-121e603f0b8c'             "emacs_ever's notebook"        2013-05-22 03:00:24
+'38d25963-2af9-4c4e-843a-0edc4ebd75a2'             'emacs'                        2013-11-25 12:20:03
+'82d55c68-0363-4dae-98fa-dd525055df55'             'vim'                          2013-11-25 12:20:58
+~/Desktop/program/pyevernote/pyevernote $ cdtnd 
+/var/www/nextdoor/trunk/nextdoor $ ls
+admin  business  db  ditu  helps  manage.py  mmb.rst  nextdoor  offline  start.sh  tasks  test_uwsgi.ini  users  uwsgi.ini  village  web  xmpp
+/var/www/nextdoor/trunk/nextdoor $ cdnd
+/var/www/nextdoor $ svn status
+M       trunk/nextdoor/business/views/hometeach.py
+/var/www/nextdoor $ svn up
+Updating '.':
+U    trunk/nextdoor/users/xinnet.py
+Updated to revision 2674.
+/var/www/nextdoor $ svn commit -m "fix"
+Sending        trunk/nextdoor/business/views/hometeach.py
+Transmitting file data .
+Committed revision 2675.
+/var/www/nextdoor $ cdtnd 
+/var/www/nextdoor/trunk/nextdoor $ ls
+admin  business  db  ditu  helps  manage.py  mmb.rst  nextdoor  offline  start.sh  tasks  test_uwsgi.ini  users  uwsgi.ini  village  web  xmpp
+/var/www/nextdoor/trunk/nextdoor $ cdnd
+/var/www/nextdoor $ svn status
+M       trunk/nextdoor/business/business_helps.py
+/var/www/nextdoor $ svn up
+Updating '.':
+At revision 2675.
+/var/www/nextdoor $ svn commit -m "fix"
+Sending        trunk/nextdoor/business/business_helps.py
+Transmitting file data .
+Committed revision 2676.
+/var/www/nextdoor $ cdpro 
+~/Desktop/program $ cd pyevernote/pyevernote/
+~/Desktop/program/pyevernote/pyevernote $ ls
+__init__.py  createnote.py  deletenote.py  downnote.py  listnotebooks.py  listnotes.py  listtags.py  searchnotes.py  settings.py  tests  updatenote.py  utils.py
+~/Desktop/program/pyevernote/pyevernote $ python utils.py 
+Traceback (most recent call last):
+  File "utils.py", line 48, in <module>
+    json_data_print_totable(l, title="test for print")
+TypeError: json_data_print_totable() takes at least 2 arguments (2 given)
+~/Desktop/program/pyevernote/pyevernote $ python utils.py 
+Traceback (most recent call last):
+  File "utils.py", line 49, in <module>
+    json_data_print_totable(th, l, title="test for print")
+  File "utils.py", line 9, in json_data_print_totable
+    c, dl = get_table_length(thead, data)
+NameError: global name 'get_table_length' is not defined
+~/Desktop/program/pyevernote/pyevernote $ python utils.py 
+Traceback (most recent call last):
+  File "utils.py", line 49, in <module>
+    json_data_print_totable(th, l, title="test for print")
+  File "utils.py", line 9, in json_data_print_totable
+    c, dl = max_table_length(thead, data)
+  File "utils.py", line 26, in max_table_length
+    l[h] = max_length(tmp)
+TypeError: list indices must be integers, not str
+~/Desktop/program/pyevernote/pyevernote $ python utils.py
+============================ test for print ============================
+  title    guid            content             create_time    update_time  
+---------------------------------------------------------------------------
+hello world, I hate you.    2013/12/11     everything at onece2012/12/01     time     
+hello world, I hate you.    2013/12/11     everything at onece2012/12/01     time     
+hello world, I hate you.    2013/12/11     everything at onece2012/12/01     time     
+hello world, I hate you.    2013/12/11     everything at onece2012/12/01     time     
+hello world, I hate you.    2013/12/11     everything at onece2012/12/01     time     
+~/Desktop/program/pyevernote/pyevernote $ python utils.py
+============================ test for print ============================
+  title    guid            content             create_time    update_time  
+---------------------------------------------------------------------------
+hello world, I hate you.    2013/12/11     everything at onece2012/12/01     time     
+hello world, I hate you.    2013/12/11     everything at onece2012/12/01     time     
+hello world, I hate you.    2013/12/11     everything at onece2012/12/01     time     
+hello world, I hate you.    2013/12/11     everything at onece2012/12/01     time     
+hello world, I hate you.    2013/12/11     everything at onece2012/12/01     time     
+~/Desktop/program/pyevernote/pyevernote $ python listnotebooks.py
+=========== notebook list ===========
+  notebook_guid  notebook_name  create_time  
+---------------------------------------
+2013-05-22 03  6ccaa7d7-cbdb-4190-8c28-121e603f0b8cemacs_ever's notebook
+2013-11-25 12  38d25963-2af9-4c4e-843a-0edc4ebd75a2emacs  
+2013-11-25 12  82d55c68-0363-4dae-98fa-dd525055df55vim    
+notebook_guid                                      notebook_name                  notebook_create_time
+----------------------------------------------------------------------------------------------------
+'6ccaa7d7-cbdb-4190-8c28-121e603f0b8c'             "emacs_ever's notebook"        2013-05-22 03:00:24
+'38d25963-2af9-4c4e-843a-0edc4ebd75a2'             'emacs'                        2013-11-25 12:20:03
+'82d55c68-0363-4dae-98fa-dd525055df55'             'vim'                          2013-11-25 12:20:58
+~/Desktop/program/pyevernote/pyevernote $ cd ..
+~/Desktop/program/pyevernote $ git status
+# On branch hrole
+# Changes not staged for commit:
+#   (use "git add/rm <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   pyevernote/createnote.py
+#	modified:   pyevernote/deletenote.py
+#	modified:   pyevernote/listnotebooks.py
+#	modified:   pyevernote/listnotes.py
+#	modified:   pyevernote/listtags.py
+#	deleted:    pyevernote/time.html
+#	modified:   pyevernote/utils.py
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+~/Desktop/program/pyevernote $ git add -A
+~/Desktop/program/pyevernote $ git commit -m "fix"
+[hrole e587e04] fix
+ 7 files changed, 113 insertions(+), 206 deletions(-)
+ delete mode 100644 pyevernote/time.html
+ rewrite pyevernote/utils.py (62%)
+~/Desktop/program/pyevernote $ git push origin master
+Everything up-to-date
+~/Desktop/program/pyevernote $ git push origin hrole
+Counting objects: 17, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (9/9), 2.33 KiB, done.
+Total 9 (delta 6), reused 0 (delta 0)
+To git@github.com:hackrole/pyevernote.git
+   d7ec767..e587e04  hrole -> hrole
+~/Desktop/program/pyevernote $ ls
+README.md  dev-doc  develop_readme.md  doc  elisp  pyevernote
+~/Desktop/program/pyevernote $ cd pu
+No such directory found via CDPATH environment variable
+~/Desktop/program/pyevernote $ cd pyevernote/
+~/Desktop/program/pyevernote/pyevernote $ ls
+__init__.py  createnote.py  deletenote.py  downnote.py  listnotebooks.py  listnotes.py  listtags.py  searchnotes.py  settings.py  tests  updatenote.py  utils.py
+~/Desktop/program/pyevernote/pyevernote $ cat createnote.py 
+#!/usr/bin/env python
+#coding=utf-8
+
+import settings
+import re
+from optparse import OptionParser, OptionValueError
+from evernote.api.client import EvernoteClient
+from evernote.edam.notestore import ttypes
+
+
+def parser_file_attr(f):
+    f = open(f)
+    text = '\n'.join([f.readline() for i in range(10)])
+    f.close()
+    title = re.findall("^#+NOTE_TITLE: (\w+)\n$", text)
+    notebook_name = re.findall("^#+NOTEBOOK_TITLE: (\w+)\n$", text)
+    tags = re.findall("^#+NOTEBOOK_TAGS: ([:\w]+)$", text)
+    return (title, notebook_name, tags)
+
+
+def create_note():
+    # get the opt parser
+    usage = "usage: %prog <-t title> <-T tag1>.. <-n notebookguid>  file"
+    parser = OptionParser(usage=usage)
+    parser.add_option("-n", "--title", dest="note_title",
+                          help="set the note title", metavar="TITLE")
+    # TODO: options list
+    parser.add_option("-t", "--tag", dest="note_tags", action="append",
+                      help="set the note tag name", metavar="tags_name")
+    parser.add_option("-b", "--notebook", dest="notebook_name",
+                      help="set the notebook", metavar="notebook_name")
+    options, args = parser.parse_args()
+
+    if len(args) != 1:
+        raise OptionValueError("must give the filename to create the note")
+    title, notebook_name, tags = parser_file_attr(args[0])
+    if options.note_title:
+        title = options.note_title
+    if options.note_tags:
+        tags = options.note_tags
+
+    if options.notebook:
+        notebook_guid = options.notebook_guid
+
+    if not notebook_guid:
+        warning("not give the notebook, use the default notebook!")
+
+    note = ttypes.Note()
+    note.title = title
+    note.content = open(filename).read()
+    note.notebookGuid = notebook_guid
+    note.tagNames = [tagname]
+    try:
+        create_note = noteStore.createNote(note)
+    except EDAMNotFoundException,e:
+        print "notebook %s not found" % (notbook)
+    print "======= create note from file %s success =========" % (filename,)
+    print create_note.guid
+
+
+if __name__ == "__main__":
+    create_note()
+~/Desktop/program/pyevernote/pyevernote $ ls
+__init__.py  createnote.py  deletenote.py  downnote.py  listnotebooks.py  listnotes.py  listtags.py  searchnotes.py  settings.py  tests  updatenote.py  utils.py
+~/Desktop/program/pyevernote/pyevernote $ cdtnd 
+/var/www/nextdoor/trunk/nextdoor $ ls
+admin  business  db  ditu  helps  manage.py  mmb.rst  nextdoor  offline  start.sh  tasks  test_uwsgi.ini  users  uwsgi.ini  village  web  xmpp
+/var/www/nextdoor/trunk/nextdoor $ cd
+~ $ cd .emacs.d/
+~/.emacs.d $ git status
+# On branch master
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   my-lisps/hr-keys-conf.el
+#	modified:   temp/backups/!home!daipeng!.ido.last~
+#	modified:   temp/backups/!home!daipeng!.org!read.org~
+#	modified:   temp/backups/!home!daipeng!.w3m!bookmark.html~
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	temp/backups/!home!daipeng!Desktop!program!daily-python!mongodb!pymongo_page.py~
+#	temp/backups/!home!daipeng!Desktop!program!note!python!argparse.org~
+#	temp/backups/!var!www!nextdoor!trunk!nextdoor!business!management!commands!initbv.py~
+#	temp/backups/!var!www!nextdoor!trunk!nextdoor!business!templates!teach_index.json~
+#	temp/backups/!var!www!nextdoor!trunk!nextdoor!business!views!hometeach.py~
+#	temp/backups/!var!www!nextdoor!trunk!nextdoor!business!views!view2.py~
+no changes added to commit (use "git add" and/or "git commit -a")
+~/.emacs.d $ git add -A
+~/.emacs.d $ git commit -m "fix"
+[master cb87ae1] fix
+ 10 files changed, 136 insertions(+), 54 deletions(-)
+ create mode 100644 temp/backups/!home!daipeng!Desktop!program!daily-python!mongodb!pymongo_page.py~
+ create mode 100644 temp/backups/!home!daipeng!Desktop!program!note!python!argparse.org~
+ create mode 100644 temp/backups/!var!www!nextdoor!trunk!nextdoor!business!management!commands!initbv.py~
+ create mode 100644 temp/backups/!var!www!nextdoor!trunk!nextdoor!business!templates!teach_index.json~
+ create mode 100644 temp/backups/!var!www!nextdoor!trunk!nextdoor!business!views!hometeach.py~
+ create mode 100644 temp/backups/!var!www!nextdoor!trunk!nextdoor!business!views!view2.py~
+~/.emacs.d $ git push origin master
+Counting objects: 23, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (15/15), done.
+Writing objects: 100% (15/15), 7.45 KiB, done.
+Total 15 (delta 6), reused 0 (delta 0)
+To git@github.com:hackrole/hr-emacs-conf.git
+   d8a52bb..cb87ae1  master -> master
+~/.emacs.d $ cdtnd 
+/var/www/nextdoor/trunk/nextdoor $ ls
+admin  business  db  ditu  helps  manage.py  mmb.rst  nextdoor  offline  start.sh  tasks  test_uwsgi.ini  users  uwsgi.ini  village  web  xmpp
+/var/www/nextdoor/trunk/nextdoor $ cd xmpp/
+/var/www/nextdoor/trunk/nextdoor/xmpp $ ls
+README  __init__.py  apppush.py  push.py  push_message.py  settings.py  test.py
+/var/www/nextdoor/trunk/nextdoor/xmpp $ cat push.py
+# -*- coding: utf-8 -*-
+import sleekxmpp
+import push_message
+from django.conf import settings
+
+class SendMsgBot(sleekxmpp.ClientXMPP):
+    
+    def __init__(self, jid, password, recipient, message):
+        sleekxmpp.ClientXMPP.__init__(self, jid, password)
+        self.recipient = recipient
+        self.msg = message
+        self.add_event_handler("session_start", self.start)
+
+    def start(self, event):
+        self.send_message(mto=self.recipient,
+                          mbody=self.msg,
+                          mtype='chat')
+        self.disconnect(wait=True)
+
+class XmppPush():
+    def push(self, to, message, block=False):
+        if not isinstance(message, push_message.XmppPushMessage):
+            raise TypeError, 'parameter [message] type error! need base on xmpp_push_message.XmppPushMessage.'
+        
+        to_jid="%s@%s" % (to, settings.IM_DOMAIN)
+        from_jid="%s@%s" % (settings.PUSH_UID, settings.IM_DOMAIN)
+            
+        xmpp = SendMsgBot(from_jid, settings.PUSH_PASSWORD, to_jid, message.getJson())
+        if xmpp.connect((settings.IM_HOST, settings.IM_PORT)):
+            xmpp.process(block=block)
+            return True
+        else:
+            return False
+/var/www/nextdoor/trunk/nextdoor/xmpp $ cdnd cdnd 
+/var/www/nextdoor $ cd trunk/nextdoor/
+/var/www/nextdoor/trunk/nextdoor $ cd
+~ $ cd .emacs.d/
+~/.emacs.d $ ls
+README.md       custom.el  init.el     plugins                                                 session.10694ba87bf773cc76138415354512562100000020030068  temp
+auto-save-list  elpa       install.sh  semanticdb                                              snippets                                                  tramp
+conf_data       eshell     my-lisps    session.10279d64aec3f50a138560211453852500000021340039  tags                                                      url
+~/.emacs.d $ cd elpa/auto-complete-1.4/
+~/.emacs.d/elpa/auto-complete-1.4 $ ls
+COPYING.FDL    Makefile   TODO.md                     auto-complete-autoloads.el~  auto-complete-pkg.el  dict
+COPYING.GPLv3  README.md  auto-complete-autoloads.el  auto-complete-config.el      auto-complete.el      doc
+~/.emacs.d/elpa/auto-complete-1.4 $ 
+~/.emacs.d/elpa/auto-complete-1.4 $ 
+~/.emacs.d/elpa/auto-complete-1.4 $ 
+~/.emacs.d/elpa/auto-complete-1.4 $ time tog o
+tog: command not found
+0.007 secs
+~/.emacs.d/elpa/auto-complete-1.4 $  

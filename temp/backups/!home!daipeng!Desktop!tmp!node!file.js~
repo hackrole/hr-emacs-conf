@@ -1,0 +1,10 @@
+var fs = require('fs');
+var sys = request('sys');
+
+fs.readFile('t.txt', function(t){
+    sys.puts("oh, look at all my money: " + t);
+});
+
+fs.writeFile('t.txt', '...', function(){
+    sys.puts("can't wait to hear bacj from her!");
+});

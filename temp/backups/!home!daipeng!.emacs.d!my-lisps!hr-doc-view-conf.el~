@@ -1,0 +1,15 @@
+(defun hr-doc-view-hook ()
+  "disable some feature to speed up doc-view mode for pdf"
+  (linum-mode nil))
+
+;; TODO not hook to use
+;; (add-hook )
+(require 'linum)
+
+(define-global-minor-mode my-global-linum-mode global-linum-mode
+  (lambda ()
+    (when (not (memq major-mode (list 'doc-view-mode)))
+      (linum-mode t))))
+
+(my-global-linum-mode 1)
+

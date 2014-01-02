@@ -22,5 +22,15 @@
 <li><a href="http://tools.ietf.org/html/rfc3548.html">RFC 3548 - The Base16, Base32, and Base64 Data Encodings</a>
 <!--End of section (do not delete this comment)-->
 </ul>
+<h2>python_lib_mock</h2>
+<ul>
+<li><a href="http://www.voidspace.org.uk/python/mock/">Mock - Mocking and Testing Library ¡ª Mock 1.0.1 documentation</a>
+<!--End of section (do not delete this comment)-->
+</ul>
+<h2>python unittest</h2>
+<ul>
+<li><a href="http://nose.readthedocs.org/en/latest/">Installation and quick start ¡ª nose 1.3.0 documentation</a>
+<!--End of section (do not delete this comment)-->
+</ul>
 </body>
 </html>

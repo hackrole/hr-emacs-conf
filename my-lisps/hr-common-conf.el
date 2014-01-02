@@ -15,8 +15,9 @@
 ;; 显示时间
 (display-time-mode t)
 
+;; move to hr-doc-view-conf.el(to disable linum mode when in doc-view mode)
 ;; linum mode
-(global-linum-mode t)
+;;(global-linum-mode t)
 
 ;; 高亮当前行
 (require 'hl-line)

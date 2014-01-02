@@ -56,6 +56,7 @@
 (global-set-key (kbd "M-4") 'split-window-vertically)
 (global-set-key (kbd "C-4") 'split-window-horizontally)
 (global-set-key (kbd "C-3") 'delete-window)
+(global-set-key (kbd "M-o") 'other-window)
 
 ;; reload file
 ;; 文件重加载
@@ -64,9 +65,9 @@
 (global-set-key (kbd "\\ Y") 'bury-buffer)
 
 ;; scroll
-;; 一次滚动2行
-(global-set-key (kbd "C-v") (lambda () (interactive) (scroll-up 5)))
-(global-set-key (kbd "M-v") (lambda () (interactive) (scroll-down 5)))
+;; 一次滚动8行
+(global-set-key (kbd "C-v") (lambda () (interactive) (scroll-up 8)))
+(global-set-key (kbd "M-v") (lambda () (interactive) (scroll-down 8)))
 
 ;; windmove
 (global-set-key (kbd "\\ k") 'windmove-up)

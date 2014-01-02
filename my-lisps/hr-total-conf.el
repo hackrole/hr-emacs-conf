@@ -10,8 +10,14 @@
 ;; ecb
 (require 'hr-ecb-conf)
 
+;; cc-mode
+(require 'hr-cc-conf)
+
 ;; rst-mode
 (require 'hr-rst-conf)
+
+;; doc-view-mode
+(require 'hr-doc-view-conf)
 
 ;; google-translate 
 (require 'hr-google-translate-conf)

@@ -1,0 +1,13 @@
+#+Author: hackrole
+#+Email: daipeng123456@gmail.com
+#+Date: 2013-12-31
+#+TITLE: emacs doc-view-mode相关小计
+
+
+
+* 简介
+doc-view-mode用于在emacs下打开pdf,DVI,ps(photoshop), OpenDocument, doc等格式文件
+
+doc-view-mode的基本原理是使用gs等后台命令讲文件转化为图片在emacs上显示,转化分页进行，可以设置超时，并且结果会被缓存到设置好的目录中。
+
+可以在图片模式和文本模式之间转换(C-c C-c)

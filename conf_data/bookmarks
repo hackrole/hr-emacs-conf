@@ -2,7 +2,14 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("lisp_info_read_progress"
+(("ruby_rails_first_page"
+ (filename . "~/Desktop/book/[Agile.Web.Development.with.Rails(4th.2011.04)].S.Ruby.文字版.pdf")
+ (front-context-string . "%PDF-1.6%\342\343\317\323\n")
+ (rear-context-string)
+ (position . 1)
+ (page . 12)
+ (handler . doc-view-bookmark-jump))
+("lisp_info_read_progress"
  (front-context-string . "   Upon reading,")
  (rear-context-string . "ree elements).\n\n")
  (position . 117412)
@@ -51,9 +58,9 @@
  (position . 693))
 ("elpa"
  (filename . "~/.emacs.d/elpa/")
- (front-context-string)
- (rear-context-string . "yasnippet-0.8.0\n")
- (position . 1101))
+ (front-context-string . "anything-1.287\n ")
+ (rear-context-string . "96 11月  5 13:42 ")
+ (position . 236))
 ("snippets"
  (filename . "~/.emacs.d/elpa/yasnippet-0.8.0/snippets/")
  (front-context-string . "python-mode\n  dr")
