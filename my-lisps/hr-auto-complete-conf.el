@@ -9,8 +9,8 @@
 (setq ac-comphist-file "~/.emacs.d/temp/ac-comphist.dat")
 
 ;; redefine the key
-(define-key ac-completing-map (kbd "\M-n") 'ac-next)
-(define-key ac-completing-map (kbd "\M-p") 'ac-previous)
+(define-key ac-menu-map (kbd "\C-n") 'ac-next)
+(define-key ac-menu-map (kbd "\C-p") 'ac-previous)
 (global-set-key (kbd "\M-1") 'auto-complete)
 (ac-set-trigger-key nil)
 

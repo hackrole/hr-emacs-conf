@@ -9,6 +9,8 @@
 
 (hr-global-linum-mode 1)
 
+;; set the cache dir
+(setq doc-view-cache-directory "~/.doc-view-cache")
 
 ;; provide
 (provide 'hr-doc-view-conf)
