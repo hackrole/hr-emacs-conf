@@ -47,12 +47,12 @@
 *** DONE 用户关闭日志在哪里? <2013-12-27 五>
 *** DONE 用户邮箱是否在用 <2013-12-27 五>
    	
-* TODO python源码剖析 <2013-12-24 二>-<2014-01-30 五>
+* DONE python源码剖析 <2013-12-24 二>-<2014-01-30 五>
 ** DONE 第一章 <2013-12-24 二>-<2013-12-28 六>
 ** DONE 第二章 integer剖析 <2013-12-24 二>-<2013-12-28 六>
 ** DONE 第三章 string剖析 <2013-12-24 二>-<2013-12-28 六>
 
-** TODO list/dict
+** DONE list/dict
 * DONE 周五计划
 ** DONE python源码剖析 string <2013-12-27 五>
 ** DONE ipython 配置 <2013-12-27 五>
@@ -60,17 +60,33 @@
 ** DONE lisp <2013-12-27 五>
 ** DONE mock patch理解 <2013-12-27 五>
 
-* TODO 购物计划
+* DONE 购物计划
 ** DONE 手套 <2013-12-28 六>
 ** DONE 果蔬汁/牛奶 <2013-12-28 六>
 ** DONE 火车票 <2013-12-28 六>
 ** DONE 洗衣粉 <2013-12-28 六>
-** TODO 保湿霜 <2013-12-28 六>
-* TODO 本周计划 <2013-12-30 一>-<2014-01-05 日>
+** DONE 保湿霜 <2013-12-28 六>
+   
+* 本周计划 <2013-12-30 一>-<2014-01-05 日>
 ** TODO 图书馆看书 <2014-01-04 六>
 ** TODO python类库学习 <2013-12-30 一>-<2014-01-03 五>
 *** TODO nose
 *** TODO twisted
 *** TODO functool/iteral
-
-
+* DONE 本日计划 <2014-01-03 五>
+** TODO nphp time_str-> time <2014-01-03 五>
+** DONE python functiontools <2014-01-03 五>
+** DONE elisp info: keymap/buffer(note) <2014-01-03 五>
+** DONE pyevernote <2014-01-03 五>
+* DONE 本日计划 <2014-01-06 一>
+** DONE 买programming ruby <2014-01-06 一>
+** DONE 记下自己的淘宝号/支付宝号 <2014-01-06 一>
+** DONE nodejs过过
+* 编辑后台问题记录
+** TODO 二手交易/拼车/宠物评论问题
+info接口稍微做调整, 考虑一个好点的修改方式
+** TODO transactionsComments来重新写一个CommentsController
+* TODO 今日计划 <2014-01-08 三>
+** TODO 商家分类code保存问题
+** TODO transactionComment转comments
+** TODO express微薄

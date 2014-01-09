@@ -28,12 +28,19 @@
 ;; ----- ido-work-directory-list -----
 (
  "/home/daipeng/Desktop/book/"
+ "/home/daipeng/Desktop/program/note/linux/"
+ "/home/daipeng/Desktop/program/note/nodejs/"
+ "/home/daipeng/Desktop/program/note/emacs/"
+ "/home/daipeng/Desktop/work/after/"
+ "/home/daipeng/Desktop/program/note/work/"
+ "/home/daipeng/Desktop/program/note/elisp/"
+ "/home/daipeng/Desktop/program/pyevernote/pyevernote/"
+ "/home/daipeng/Desktop/program/note/"
  "/home/daipeng/Desktop/program/python/Objects/"
  "/home/daipeng/Desktop/program/python/Include/"
  "/home/daipeng/Desktop/program/daily-python/small_python/"
  "/home/daipeng/Desktop/tmp/"
  "/home/daipeng/Desktop/program/python/Demo/newmetaclasses/"
- "/home/daipeng/Desktop/program/note/emacs/"
  "/home/daipeng/Desktop/program/note/gae/"
  "/home/daipeng/Desktop/program/note/c/"
  "/home/daipeng/Desktop/program/note/sphinx_and_markdown/"
@@ -45,13 +52,9 @@
  "/home/daipeng/Desktop/program/python/Python/"
  "/home/daipeng/Desktop/program/daily-python/c_primary/intro1/"
  "/home/daipeng/Desktop/program/daily-python/c_primary/intro_1/"
- "/home/daipeng/Desktop/program/note/work/"
  "/home/daipeng/Desktop/tmp/mock/"
  "/home/daipeng/Desktop/program/pyevernote/pyevernote/tests/"
- "/home/daipeng/Desktop/program/pyevernote/pyevernote/"
  "/home/daipeng/Desktop/tmp/org/"
- "/home/daipeng/Desktop/program/note/"
- "/home/daipeng/Desktop/work/after/"
  "/var/www/nextdoor/trunk/nextdoor/village/"
  "/home/daipeng/Desktop/tmp/tutorial/sphinxext/"
  "/home/daipeng/Desktop/tmp/tutorial/_templates/"
@@ -63,7 +66,6 @@
  "/home/daipeng/.emacs.d/elpa/yasnippet-0.8.0/snippets/rst-mode/"
  "/var/www/nextdoor/trunk/nextdoor/"
  "/home/daipeng/.emacs.d/plugins/rst/"
- "/home/daipeng/Desktop/program/note/elisp/"
  "/var/www/nextdoor/trunk/nextdoor/business/views/"
  "/var/www/nphp/www/protected/controllers/"
  "/var/www/nextdoor/trunk/nextdoor/business/"
@@ -75,63 +77,89 @@
  "/var/www/nextdoor/trunk/nextdoor/helps/"
  "/var/www/nextdoor/trunk/nextdoor/nextdoor/"
  "/home/daipeng/Desktop/work/nd/"
- "/home/daipeng/Desktop/"
- "/var/www/nextdoor/trunk/nextdoor/ditu/"
 )
 
 ;; ----- ido-work-file-list -----
 (
  "LUA编程(programming+in+lua).pdf"
+ "centos使用问题.org"
+ "nodejs包管理npm使用.org"
+ "nodejs入门.org"
+ "Node.js入门经典.2013.pdf"
+ "Node.js in Action.pdf"
+ "%5Bwww.java1234.com%5DNode.js入门经典.2013.pdf"
+ "Node.js开发指南_中文正版.pdf"
+ "key-chord.org"
  "Programming%252BRuby中文版%252B%252B（第二版）.pdf"
- "intobject.c"
- "listobject.c"
- "pyctype.h"
- "dictobject.h"
- "listobject.h"
- "stringobject.h"
- "intobject.h"
- "object.h"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/daipeng/Desktop/book/" (21189 18055) "Node.js in Action.pdf" "%5Bwww.java1234.com%5DNode.js入门经典.2013.pdf" "ubuntu入门到精通中文.pdf" "01GettingStarted.pdf" "Python高级编程.pdf" "./" "Python源码剖析.pdf" "02Types.pdf" "Node.js开发指南_中文正版.pdf" "Python源码剖析_ 文字1.pdf" "../" "00Introduction.pdf" "[Agile.Web.Development.with.Rails(4th.2011.04)].S.Ruby.文字版.pdf" "LUA编程(programming+in+lua).pdf" "Programming%252BRuby中文版%252B%252B（第二版）.pdf")
+ ("/var/www/nphp/www/protected/controllers/" (21195 37435) "UserController.php" "AnnouncementController.php" "CategoryController.php" "StatController.php" "TaskController.php" "HomeTeachController.php" "TopicController.php" "CarpoolTransactionsController.php" "BusinessCategoryController.php" "PetTransactionsController.php" "VillageController.php" "RUserController.php" "PostsController.php" "TransactionsController.php" "ApiController.php" "SecondaryTransactionsController.php" "SecondaryTransactionsCategoryController.php" "TransactionsCommentController.php" "../" "BusinessController.php" "./" "SiteController.php" "HouseController.php" "AuthController.php")
 
- ("/home/daipeng/Desktop/program/python/Include/" (21189 9558) "longobject.h" "cobject.h" "dictobject.h" "pyctype.h" "ceval.h" "intrcheck.h" "pystrtod.h" "osdefs.h" "bytesobject.h" "classobject.h" "memoryobject.h" "bitset.h" "code.h" "abstract.h" "graminit.h" "bufferobject.h" "asdl.h" "pystrcmp.h" "pythread.h" "genobject.h" "tupleobject.h" "listobject.h" "pyexpat.h" "sysmodule.h" "codecs.h" "pythonrun.h" "pyarena.h" "boolobject.h" "setobject.h" "frameobject.h" "patchlevel.h" "node.h" "errcode.h" "warnings.h" "pymath.h" "pymem.h" "compile.h" "token.h" "modsupport.h" "opcode.h" "pgenheaders.h" "./" "symtable.h" "sliceobject.h" "structseq.h" "pycapsule.h" "datetime.h" "funcobject.h" "eval.h" "grammar.h" "object.h" "ucnhash.h" "import.h" "py_curses.h" "../" "ast.h" "dtoa.h" "rangeobject.h" "methodobject.h" "stringobject.h" "fileobject.h" "pymactoolbox.h" "iterobject.h" "descrobject.h" "moduleobject.h" "metagrammar.h" "bytes_methods.h" "pymacconfig.h" "longintrepr.h" "pyport.h" "complexobject.h" "parsetok.h" "Python.h" "floatobject.h" "pydebug.h" "weakrefobject.h" "traceback.h" "bytearrayobject.h" "pystate.h" "intobject.h" "pyerrors.h" "enumobject.h" "objimpl.h" "cellobject.h" ".#stringobject.h" "pygetopt.h" "timefuncs.h" "marshal.h" "Python-ast.h" "pgen.h" "structmember.h" "pyfpe.h" "unicodeobject.h" "cStringIO.h")
+ ("/home/daipeng/Desktop/tmp/node/" (21194 25041) "buffer.js" "assert.js" "weibo/" "npm-debug.log" "node_modules/" "t.txt" "./" "../" "dns.js" "img_upload/" "file.js" "hello_world.js")
 
- ("/home/daipeng/Desktop/program/daily-python/small_python/" (21189 8856) "./" "object.h" "../" ".#object.h")
+ ("/home/daipeng/Desktop/program/note/emacs/" (21194 37104) "rst.org" "keys.org" "org-mode/" "eshell.org" "key-chord.org" "sql-mode.org" "./" "w3m.org" "../" "ediff.org" "doc-view-mode.org" "yasnippet.org" "cc-mode/")
 
- ("/var/www/nphp/www/protected/controllers/" (21189 8332) "UserController.php" "AnnouncementController.php" "CategoryController.php" "StatController.php" "TaskController.php" "TopicController.php" "CarpoolTransactionsController.php" "BusinessCategoryController.php" "PetTransactionsController.php" "VillageController.php" "RUserController.php" "PostsController.php" "TransactionsController.php" "ApiController.php" "SecondaryTransactionsController.php" "SecondaryTransactionsCategoryController.php" "TransactionsCommentController.php" "../" "BusinessController.php" "./" "SiteController.php" "AuthController.php")
+ ("/home/daipeng/Desktop/program/note/nodejs/" (21195 39616) "nodejs入门.org" "./" "../")
 
- ("/home/daipeng/Desktop/program/note/elisp/" (21189 6431) "./" "../" "intro.org" "buffer.org" "variable.org")
+ ("/home/daipeng/Desktop/book/" (21195 37211) "Node.js in Action.pdf" "ubuntu入门到精通中文.pdf" "01GettingStarted.pdf" "Python高级编程.pdf" "./" "Python源码剖析.pdf" "02Types.pdf" "Node.js开发指南_中文正版.pdf" "Python源码剖析_ 文字1.pdf" "../" "00Introduction.pdf" "[Agile.Web.Development.with.Rails(4th.2011.04)].S.Ruby.文字版.pdf" "LUA编程(programming+in+lua).pdf" "Programming%252BRuby中文版%252B%252B（第二版）.pdf" "Node.js入门经典.2013.pdf")
 
- ("/home/daipeng/.emacs.d/my-lisps/" (21189 6228) "hr-keys-conf.el" "hr-yasnippet-conf.el" "hr-python-conf.el" "hr-rst-conf.el" "hr-total-conf.el" "hr-google-translate-conf.el" "hr-dired-conf.el" "hr-auto-complete-conf.el" "hr-emms-conf.el" "hr-anything-conf.el" "hr-ecb-conf.el" "./" "hr-ruby-conf.el" "hr-common-conf.el" "../" "hr-org-conf.el" "hr-sql-conf.el" "hr-undo-tree-conf.el" "hr-w3m-conf.el" "hr-speedbar-conf.el" "hr-mew-conf.el" "hr-eshell-conf.el" "hr-doc-view-conf.el" "hr-cedet-conf.el" "hr-color-theme-conf.el" "hr-cc-conf.el")
+ ("/home/daipeng/Desktop/program/note/" (21194 5704) "README.md" "elisp/" "c/" "sqlalchemy/" "nodejs/" "work/" "gae/" "./" "make/" "plan.org" "vim/" "scrapy/" "../" "linux/" "emacs/" "python/" "sphinx_and_markdown/" ".git/" "redis/" "learn_todo.org" "svn_or_git.org" "gblo_plan.org")
+
+ ("/home/daipeng/Desktop/work/after/" (21191 45870) "user.html" "user.rst" "./" "category.html" "../" "home_house.html" "home_house.rst" "category.rst")
+
+ ("/home/daipeng/.emacs.d/my-lisps/" (21191 54790) "hr-keys-conf.el" "hr-yasnippet-conf.el" "hr-python-conf.el" "hr-rst-conf.el" "hr-total-conf.el" "hr-google-translate-conf.el" "hr-dired-conf.el" "hr-auto-complete-conf.el" "hr-emms-conf.el" "hr-anything-conf.el" "hr-ecb-conf.el" "./" "hr-ruby-conf.el" "hr-common-conf.el" "../" "hr-org-conf.el" "hr-sql-conf.el" "hr-undo-tree-conf.el" "hr-w3m-conf.el" "hr-speedbar-conf.el" "hr-mew-conf.el" "hr-eshell-conf.el" "hr-doc-view-conf.el" "hr-cedet-conf.el" "hr-color-theme-conf.el" "hr-cc-conf.el")
+
+ ("/home/daipeng/Desktop/program/note/work/" (21190 34610) "python.org" "face_question.org" "./" "plan.org" "../" "mode感想.org" "移动开发流程感想.org" "why_you_not_ok.org")
+
+ ("/home/daipeng/Desktop/program/note/linux/" (21190 27747) "./" "../" "centos使用问题.org")
+
+ ("/home/daipeng/Desktop/program/note/elisp/" (21190 30841) "./" "../" "intro.org" "buffer.org" "keymap.org" "variable.org")
+
+ ("/var/www/nextdoor/trunk/nextdoor/ditu/" (21190 9204) "templates/" "__init__.pyc" "admin.py" "__init__.py" "models.py" "../" "./" "models.pyc" "views.py" "tests.py" "static/")
+
+ ("/home/daipeng/Desktop/" (21190 24500) "tmp/" "xmind.desktop" "gnome-system-monitor.desktop" "MongoDB-data-models-guide.pdf" "ubuntu-software-center.desktop" "python-2.7.6-docs-html.zip" "python-2.7.6-docs-html/" "ipython.pdf" "sublime.desktop" "ipython07_pe-gr_cise.pdf" "work/" "orgguide.pdf" "./" "yii-api-1.1.10.chm" "TChat.zip" "../" "api/" "emacs24.desktop" "book/" "bootstrap.zip" "empathy.desktop" "gnome-system-monitor-kde.desktop" "program/" "hr-conf/")
+
+ ("/var/www/nextdoor/trunk/nextdoor/nextdoor/" (21190 9204) "wsgi.pyc" "urls_users.pyc" "__init__.pyc" "wsgi.py" "urls_ditu.py" "settings.pyc" "__init__.py" "urls_admin.pyc" "test_wsgi.py" "urls_business.py" "urls_admin.py" "urls_village.pyc" "../" "production_settings.py" "urls_business.pyc" "./" "urls_village.py" "urls.pyc" "urls_users.py" "test_settings.py" "production_wsgi.py" "urls.py" "settings.py" "update/")
+
+ ("/var/www/nextdoor/trunk/nextdoor/helps/" (21190 9204) "decorators.pyc" "basemodel.pyc" "get_first_letter.pyc" "__init__.pyc" "decorators.py" "sendsms.py" "location.pyc" "__init__.py" "timestr.pyc" "sendsms.pyc" "encrypt.pyc" "utils.pyc" "utils.py" "dbrouter.pyc" "enums.pyc" "encrypt.py" "timestr.py" "get_first_letter.py" "../" "location.py" "image.py" "./")
+
+ ("/var/www/nextdoor/trunk/nextdoor/business/management/commands/" (21190 9204) "update_bv_cache.py" "update_bv_table.py" "clean_bv_data.py" "movecategory.py" "temp_initbc.py" "__init__.py" "moveuser.py" "fix_baidu_cache.py" "fix_bv_data.py" "temp_get_business_category.py" "get_pdv_json.py" "init_bv_table.py" "createditu.py" "../" "fix_business_location.py" "./" "update_location.py" "init_bv_cache.py" "initbusiness.py" "update_comments.py")
+
+ ("/var/www/nextdoor/trunk/nextdoor/business/" (21190 9204) "tests/" "__init__.pyc" "views/" "__init__.py" "formhelps.pyc" "enums.pyc" "management/" "../" "business_helps.py" "./" "formhelps.py" "forms.py" "models.pyc" "stores.py" "enums.py" "comment_new.py")
+
+ ("/var/www/nextdoor/trunk/nextdoor/business/views/" (21190 9204) "stores_views.py" "__init__.py" "business_api2.txt" "lifeyellow.py" "../" "yellow_api2.txt" "hometeach.py" "./" "views.py")
+
+ ("/var/www/nextdoor/trunk/nextdoor/" (21190 9203) "test_uwsgi.ini" "business/" "temp_get_business_category.log" "web/" "helps/" "village/" "ditu/" "manage.py" "around/" "tasks/" "users/" "offline/" "admin/" "../" "mmb.rst" "./" "uwsgi.ini" "nextdoor/" "start.sh" "xmpp/" "db/")
+
+ ("/var/www/nextdoor/trunk/nextdoor/village/" (21190 9204) "__init__.pyc" "bbs.py" "__init__.py" "models.py" "enums.pyc" "../" "bbs.pyc" "./" "announcement.pyc" "models.pyc" "enums.py")
+
+ ("/home/daipeng/Desktop/tmp/lua/" (21189 18853) "defs.lua" "./" "../" "fact.lua" "hello.lua" "lib1.lua")
+
+ ("/home/daipeng/Desktop/tmp/" (21189 22723) "twisted-intro/" "a.html" "t.rst" "optparse_test.py" "qiniu_test.py" "pyevernote_shownote.py" "c.py" "rst/" "c/" "listnotebooks.py" "b.py" "a.py" "node/" "echosever.py" "chatdemo/" "gae/" "./" "Centos-base.rp" "tutorial/" "objectid.py" "../" "mgeng_test.py" "mock/" "ttt.py" "gbclient.py" "mongo_index/" "daipeng@daipeng.3540:1387849024" "lua/" "php/" ".ropeproject/" "t.php" "rrr.py" ".#t.rst" "test.conf" "eshell" "t.js" "CentOS-Base-163.repo" "config_test.py" "org/" "qiniu_test.conf" "argparse/" "logging/" "t/" "t.org" "makefile")
+
+ ("/home/daipeng/Desktop/program/daily-python/small_python/" (21189 9707) "./" "object.h" "../")
+
+ ("/home/daipeng/Desktop/program/python/Include/" (21189 22725) "longobject.h" "cobject.h" "dictobject.h" "pyctype.h" "ceval.h" "intrcheck.h" "pystrtod.h" "osdefs.h" "bytesobject.h" "classobject.h" "memoryobject.h" "bitset.h" "code.h" "abstract.h" "graminit.h" "bufferobject.h" "asdl.h" "pystrcmp.h" "pythread.h" "genobject.h" "tupleobject.h" "listobject.h" "pyexpat.h" "sysmodule.h" "codecs.h" "pythonrun.h" "pyarena.h" "boolobject.h" "setobject.h" "frameobject.h" "patchlevel.h" "node.h" "errcode.h" "warnings.h" "pymath.h" "pymem.h" "compile.h" "token.h" "modsupport.h" "opcode.h" "pgenheaders.h" "./" "symtable.h" "sliceobject.h" "structseq.h" "pycapsule.h" "datetime.h" "funcobject.h" "eval.h" "grammar.h" "object.h" "ucnhash.h" "import.h" "py_curses.h" "../" "ast.h" "dtoa.h" "rangeobject.h" "methodobject.h" "stringobject.h" "fileobject.h" "pymactoolbox.h" "iterobject.h" "descrobject.h" "moduleobject.h" "metagrammar.h" "bytes_methods.h" "pymacconfig.h" "longintrepr.h" "pyport.h" "complexobject.h" "parsetok.h" "Python.h" "floatobject.h" "pydebug.h" "weakrefobject.h" "traceback.h" "bytearrayobject.h" "pystate.h" "intobject.h" "pyerrors.h" "enumobject.h" "objimpl.h" "cellobject.h" "pygetopt.h" "timefuncs.h" "marshal.h" "Python-ast.h" "pgen.h" "structmember.h" "pyfpe.h" "unicodeobject.h" "cStringIO.h")
+
+ ("/home/daipeng/Desktop/program/pyevernote/pyevernote/" (21190 24006) "downnote.py" "listnotebooks.py" "searchnotes.py" "createnote.py" "deletenote.py" "listnotes.py" "utils_test.py" "./" "updatenote.py" "../" "settings.py" "listtags.py" "tests/" "__init__.py" "utils.py")
+
+ ("/home/daipeng/.org/" (21190 7032) "read.org" "./" "../" "learn.org" "life.org")
 
  ("/home/daipeng/Desktop/program/daily-python/c_primary/" (21188 62295) "intro1/" "./" "../" "func4/" "hello_world.c" "a.out")
-
- ("/home/daipeng/Desktop/program/pyevernote/pyevernote/" (21188 57829) "downnote.py" "listnotebooks.py" "searchnotes.py" "createnote.py" "deletenote.py" "listnotes.py" "utils_test.py" "./" "updatenote.py" "../" "settings.py" "listtags.py" "tests/" "__init__.py" "utils.py")
 
  ("/home/daipeng/Desktop/program/pyevernote/pyevernote/tests/" (21188 58396) "test_shownote.py" "utils_test.py" "test_shownotebook.py" "./" "test_mock_listnotebooks.py" "../" "test_listnotebooks.py" "test_showtags.py" "__init__.py")
 
  ("/home/daipeng/Desktop/program/note/c/" (21186 16116) "source_read.org" "./" "../")
 
- ("/home/daipeng/Desktop/program/note/emacs/" (21186 24321) "rst.org" "keys.org" "org-mode/" "eshell.org" "sql-mode.org" "./" "w3m.org" "../" "ediff.org" "doc-view-mode.org" "yasnippet.org" "cc-mode/")
-
- ("/home/daipeng/Desktop/tmp/" (21189 6451) "twisted-intro/" "a.html" "t.rst" "optparse_test.py" "qiniu_test.py" "pyevernote_shownote.py" "c.py" "rst/" "c/" "listnotebooks.py" "b.py" "a.py" "node/" "echosever.py" "chatdemo/" "gae/" "./" "Centos-base.rp" "tutorial/" "objectid.py" "../" "mgeng_test.py" "mock/" "ttt.py" "gbclient.py" "mongo_index/" "daipeng@daipeng.3540:1387849024" "lua/" "php/" ".ropeproject/" "t.php" "rrr.py" ".#t.rst" "test.conf" "eshell" "t.js" "CentOS-Base-163.repo" "config_test.py" ".#t.org" "org/" "qiniu_test.conf" "argparse/" "logging/" "t/" "t.org" "makefile")
-
  ("/home/daipeng/Desktop/program/python/Demo/newmetaclasses/" (21119 14215) "./" "../" "Enum.py" "Eiffel.py")
 
  ("/home/daipeng/Desktop/program/note/gae/" (21112 32660) "app_yaml_conf.org" "./" "../" "wiki.org" "datastore.org")
 
- ("/home/daipeng/Desktop/tmp/lua/" (21186 12162) "defs.lua" "./" "../")
-
- ("/home/daipeng/Desktop/" (21185 23204) "tmp/" "xmind.desktop" "gnome-system-monitor.desktop" "MongoDB-data-models-guide.pdf" "ubuntu-software-center.desktop" "python-2.7.6-docs-html.zip" "python-2.7.6-docs-html/" "ipython.pdf" "sublime.desktop" "ipython07_pe-gr_cise.pdf" "work/" "orgguide.pdf" "./" "yii-api-1.1.10.chm" "TChat.zip" "../" "xq_重要.txt" "api/" "mongo-1.4.5.tgz" "emacs24.desktop" "php-5.3.28.tar.gz" "book/" "bootstrap.zip" "empathy.desktop" "gnome-system-monitor-kde.desktop" "program/" "hr-conf/")
-
  ("/home/daipeng/Desktop/program/python/Objects/" (21185 24495) "bufferobject.c" "unicodectype.c" "dictobject.c" "bytearrayobject.c" "bytes_methods.c" "stringobject.c" "lnotab_notes.txt" "classobject.c" "methodobject.c" "memoryobject.c" "capsule.c" "tupleobject.c" "cellobject.c" "moduleobject.c" "iterobject.c" "./" "exceptions.c" "typeobject.c" "genobject.c" "sliceobject.c" "cobject.c" "weakrefobject.c" "../" "obmalloc.c" "complexobject.c" "codeobject.c" "fileobject.c" "listsort.txt" "setobject.c" "listobject.c" "dictnotes.txt" "boolobject.c" "funcobject.c" "abstract.c" "stringlib/" "frameobject.c" "longobject.c" "unicodeobject.c" "intobject.c" "object.c" "structseq.c" "rangeobject.c" "enumobject.c" "unicodetype_db.h" "floatobject.c" "descrobject.c")
 
  ("/home/daipeng/Desktop/tmp/node/img_upload/" (21185 15442) "index.js" "server.js" "./" "router.js" "main.js" "../")
-
- ("/home/daipeng/Desktop/tmp/node/" (21185 24493) "buffer.js" "assert.js" "npm-debug.log" "t.txt" "./" "../" "dns.js" "img_upload/" "file.js" "hello_world.js")
 
  ("/home/daipeng/" (21186 5595) ".profile" ".gnome2_private/" "village.dat/" ".viminfo" "Downloads/" ".xsession-errors.old" ".vim/" "Music/" ".dbshell" ".cache/" ".thunderbird/" ".screenrc" ".mongorc.js" ".bashrc.bak" ".profile.bak" ".dbus/" "workspace/" ".viminfz.tmp" ".gconf/" ".bash_history" "Templates/" ".emacs.d/" ".gitconfig" ".viminfo.tmp" ".local/" ".mozilla/" ".evervim/" ".zcompdump" ".pki/" ".ssh/" ".vimrc" ".aptitude/" ".bash_logout" ".adobe/" ".w3m/" ".bashrc" ".npm/" ".pip/" "./" ".xmind/" ".dmrc" ".Xauthority" "examples.desktop" "VirtualBox VMs/" ".ido.last" ".macromedia/" ".config/" ".xsession-errors" ".org/" "../" ".pylint.d/" ".VirtualBox/" "Videos/" ".apport-ignore.xml" "Public/" ".gnomerc" ".NERDTreeBookmarks" ".gnome2/" ".alias" ".mplayer/" "Documents/" ".gvfs/" ".compiz/" ".lesshst" ".curlrc" "Pictures/" "Desktop/" ".appcfg_nag" ".mysql_history" ".ecb-tip-of-day.el" ".appcfg_cookies" ".subversion/" ".ICEauthority")
 
@@ -145,31 +173,15 @@
 
  ("/home/daipeng/Desktop/program/daily-python/" (21178 38399) "README.md" "mongodb/" "./" "../" "c_primary/" ".git/")
 
- ("/home/daipeng/.org/" (21184 55826) "read.org" "./" "../" "learn.org" "life.org")
-
- ("/var/www/nextdoor/trunk/nextdoor/nextdoor/" (21180 56892) "wsgi.pyc" "urls_users.pyc" "__init__.pyc" "wsgi.py" "urls_ditu.py" "settings.pyc" "__init__.py" "urls_admin.pyc" "test_wsgi.py" "urls_business.py" "urls_admin.py" "urls_village.pyc" "../" "production_settings.py" "urls_business.pyc" "./" "urls_village.py" "urls.pyc" "urls_users.py" "test_settings.py" "production_wsgi.py" "urls.py" "settings.py" "update/")
-
- ("/var/www/nextdoor/trunk/nextdoor/helps/" (21180 56908) "decorators.pyc" "basemodel.pyc" "get_first_letter.pyc" "__init__.pyc" "decorators.py" "sendsms.py" "location.pyc" "__init__.py" "timestr.pyc" "sendsms.pyc" "encrypt.pyc" "utils.pyc" "utils.py" "dbrouter.pyc" "enums.pyc" "encrypt.py" "timestr.py" "get_first_letter.py" "../" "location.py" "image.py" "./")
-
  ("/home/daipeng/Desktop/work/" (21184 57207) "tornado/" "gevent/" "yaya_qiniu.py" "share/" "./" "mmb.rst" "table.org" "django-mongoadmin/" "../" "qiniu.conf" "CentOS-6.5-i386-minimal.iso" "nd/" "after/" "data.org")
-
- ("/var/www/nextdoor/trunk/nextdoor/business/" (21180 56908) "tests/" "__init__.pyc" "views/" "__init__.py" "formhelps.pyc" "models.py" "enums.pyc" "management/" "../" "business_helps.py" "./" "formhelps.py" "forms.py" "models.pyc" "stores.py" "enums.py")
 
  ("/home/daipeng/Desktop/tmp/rst/" (21181 18653) "t.rst" "./" "../" "foo.jpg" "t.html")
 
  ("/home/daipeng/Desktop/tmp/tutorial/" (21181 19010) "index.rst" "ipython_directive.rst" "cheatsheet.rst" "getting_started.rst" "_static/" "_build/" "./" "emacs_help.rst" "conf.py" "pyplots/" "../" "_templates/" "custom_look.rst" "sphinxext/" ".git/" "extensions.rst" "Makefile")
 
- ("/var/www/nextdoor/trunk/nextdoor/village/" (21180 56908) "__init__.pyc" "bbs.py" "__init__.py" "models.py" "enums.pyc" "../" "bbs.pyc" "./" "announcement.pyc" "models.pyc" "enums.py")
-
- ("/home/daipeng/Desktop/program/note/" (21181 10156) "README.md" "elisp/" "c/" "sqlalchemy/" "work/" "gae/" "./" "make/" "plan.org" "vim/" "scrapy/" "../" "emacs/" "python/" "sphinx_and_markdown/" ".git/" "redis/" "learn_todo.org" "svn_or_git.org" "gblo_plan.org")
-
  ("/home/daipeng/Desktop/tmp/mock/" (21180 62922) "patch.py" "./" "../" "patch2.py" "t1.py" "ever.py")
 
- ("/home/daipeng/Desktop/program/note/work/" (21180 4764) "python.org" "face_question.org" "./" "plan.org" "../" "移动开发流程感想.org" "why_you_not_ok.org")
-
  ("/home/daipeng/Desktop/tmp/org/" (21179 59259) "./" "../" "t.org")
-
- ("/home/daipeng/Desktop/work/after/" (21179 56682) "user.html" "user.rst" "./" "category.html" "../" "category.rst")
 
  ("/home/daipeng/.emacs.d/temp/w3m/" (21179 48734) "./" "../")
 
@@ -180,10 +192,6 @@
  ("/home/daipeng/Desktop/tmp/tutorial/_templates/" (21179 40660) "./" "../" "layout.html")
 
  ("/var/www/nextdoor/trunk/nextdoor/users/" (21178 27607) "home.py" "register.pyc" "__init__.pyc" "register.py" "__init__.py" "models.py" "xinnet.py" "home.pyc" "../" "upgrade.py" "verify.py" "./" "friends.py" "models.pyc" "sms.pyc" "sms.py" "mapi.py")
-
- ("/var/www/nextdoor/trunk/nextdoor/business/management/commands/" (21178 27607) "update_bv_cache.py" "update_bv_table.py" "movecategory.py" "temp_initbc.py" "__init__.py" "moveuser.py" "fix_bv_data.py" "temp_get_business_category.py" "get_pdv_json.py" "init_bv_table.py" "createditu.py" "../" "fix_business_location.py" "./" "update_location.py" "init_bv_cache.py" "initbusiness.py")
-
- ("/var/www/nextdoor/trunk/nextdoor/" (21178 27607) "test_uwsgi.ini" "business/" "temp_get_business_category.log" "web/" "helps/" "village/" "ditu/" "manage.py" "around/" "tasks/" "users/" "offline/" "admin/" "../" "mmb.rst" "./" "uwsgi.ini" "nextdoor/" "start.sh" "xmpp/" "db/")
 
  ("/home/daipeng/.emacs.d/elpa/google-translate-0.3.2/" (21112 34089) "google-translate-autoloads.el" "google-translate-pkg.el" "google-translate-autoloads.el~" "./" "google-translate.el" "../")
 
@@ -201,15 +209,11 @@
 
  ("/home/daipeng/.emacs.d/" (21164 14559) "session.10694ba87bf773cc76138415354512562100000020030068" "temp/" "README.md" ".gitignore" "tags/" "url/" "elpa/" "conf_data/" "auto-save-list/" "./" "my-lisps/" "tramp" "init.el" "../" "session.10e9f1b1e0d5a84a88138698912491467900000020550037" "custom.el" "snippets/" "semanticdb/" "session.10279d64aec3f50a138560211453852500000021340039" ".git/" "plugins/" "eshell/" "install.sh")
 
- ("/var/www/nextdoor/trunk/nextdoor/business/views/" (21176 5479) "stores_views.py" "view2.py" "__init__.py" "business_api2.txt" "lifeyellow.py" "../" "hometeach.py" "housekeep.py" "./" "views.py")
-
  ("/var/www/nphp/" (21170 42876) "requirements/" ".project" "framework/" "www/" "../" ".svn/" "./")
 
  ("/home/daipeng/Desktop/program/note/make_log/" (21171 57124) "./" "something_about_make.org" "../")
 
  ("/var/www/nextdoor/trunk/nextdoor/admin/" (21171 47107) "templates/" "tests/" "login.pyc" "__init__.pyc" "views/" "buscate.py" "__init__.py" "login.py" "models.py" "index.py" "bus_manage.py" "static_html/" "../" "index.pyc" "./" "forms.py" "models.pyc" "forms.pyc" "static/")
-
- ("/var/www/nextdoor/trunk/nextdoor/ditu/" (21171 47107) "templates/" "__init__.pyc" "admin.py" "__init__.py" "models.py" "../" "./" "models.pyc" "views.py" "tests.py" "static/")
 
  ("/var/www/nextdoor/trunk/nextdoor/business/tests/" (21170 38062) "__init__.py" "dbinit.py" "../" "house.py" "hometeach.py" "carpool.py" "./" "business_benchmark.py" "views.py" "seconds.py")
 
