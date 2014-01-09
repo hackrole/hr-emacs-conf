@@ -59,7 +59,7 @@
 
 ;; tab/indent set, 缩进设置
 (setq-default indent-tabs-mode nil)
-(setq default-tab-width 4)
+(setq-default default-tab-width 4)
 (setq-default tab-width 4)
 
 ;; dired 

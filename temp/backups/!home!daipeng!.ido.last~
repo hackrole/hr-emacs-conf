@@ -2,11 +2,13 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/daipeng/Desktop/program/daily-python/nodechat/public/" . "javascripts/")
+ ("/home/daipeng/Desktop/program/daily-python/nodechat/" . "public/")
  ("/home/daipeng/Desktop/program/daily-python/" . "c_primary/")
  ("/home/daipeng/Desktop/program/daily-python/c_primary/" . "intro1/")
  ("/home/daipeng/Desktop/tmp/" . "rst/")
  ("/home/daipeng/.emacs.d/plugins/" . "rst/")
- ("/home/daipeng/Desktop/" . "tmp/")
+ ("/home/daipeng/Desktop/" . "book/")
  ("/var/www/nextdoor/trunk/nextdoor/ditu/" . "templates/")
  ("/var/www/nextdoor/trunk/nextdoor/admin/" . "static_html/")
  ("/home/daipeng/Desktop/program/python/" . "Objects/")
@@ -27,15 +29,24 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/daipeng/Desktop/book/"
- "/home/daipeng/Desktop/program/note/linux/"
+ "/home/daipeng/Desktop/program/daily-python/nodechat/lib/"
+ "/home/daipeng/Desktop/program/daily-python/nodechat/public/stylesheets/"
+ "/home/daipeng/Desktop/program/daily-python/nodechat/public/javascripts/"
+ "/home/daipeng/Desktop/program/daily-python/nodechat/"
  "/home/daipeng/Desktop/program/note/nodejs/"
+ "/home/daipeng/Desktop/program/daily-python/nodechat/public/"
+ "/home/daipeng/Desktop/book/"
+ "/home/daipeng/Desktop/program/nodejs-weibo/views/"
+ "/home/daipeng/Desktop/program/nodejs-weibo/"
+ "/home/daipeng/Desktop/program/nodejs-weibo/routes/"
+ "/home/daipeng/Desktop/program/note/make/"
+ "/home/daipeng/Desktop/program/note/"
+ "/home/daipeng/Desktop/program/note/linux/"
  "/home/daipeng/Desktop/program/note/emacs/"
  "/home/daipeng/Desktop/work/after/"
  "/home/daipeng/Desktop/program/note/work/"
  "/home/daipeng/Desktop/program/note/elisp/"
  "/home/daipeng/Desktop/program/pyevernote/pyevernote/"
- "/home/daipeng/Desktop/program/note/"
  "/home/daipeng/Desktop/program/python/Objects/"
  "/home/daipeng/Desktop/program/python/Include/"
  "/home/daipeng/Desktop/program/daily-python/small_python/"
@@ -68,44 +79,61 @@
  "/home/daipeng/.emacs.d/plugins/rst/"
  "/var/www/nextdoor/trunk/nextdoor/business/views/"
  "/var/www/nphp/www/protected/controllers/"
- "/var/www/nextdoor/trunk/nextdoor/business/"
- "/home/daipeng/Desktop/program/note/make_log/"
- "/home/daipeng/Desktop/program/note/python/"
- "/var/www/nextdoor/trunk/nextdoor/business/tests/"
- "/var/www/nextdoor/trunk/nextdoor/business/management/commands/"
- "/home/daipeng/Desktop/work/"
- "/var/www/nextdoor/trunk/nextdoor/helps/"
- "/var/www/nextdoor/trunk/nextdoor/nextdoor/"
- "/home/daipeng/Desktop/work/nd/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "LUA编程(programming+in+lua).pdf"
- "centos使用问题.org"
- "nodejs包管理npm使用.org"
+ "chat_server.js"
+ "style.css"
+ "chat_ui.js"
+ "chat.js"
+ "server.js"
+ "lib.char_server.js"
  "nodejs入门.org"
- "Node.js入门经典.2013.pdf"
- "Node.js in Action.pdf"
- "%5Bwww.java1234.com%5DNode.js入门经典.2013.pdf"
- "Node.js开发指南_中文正版.pdf"
- "key-chord.org"
- "Programming%252BRuby中文版%252B%252B（第二版）.pdf"
+ "nodejs包管理npm使用.org"
+ "index.html"
+ "package.json"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/var/www/nphp/www/protected/controllers/" (21195 37435) "UserController.php" "AnnouncementController.php" "CategoryController.php" "StatController.php" "TaskController.php" "HomeTeachController.php" "TopicController.php" "CarpoolTransactionsController.php" "BusinessCategoryController.php" "PetTransactionsController.php" "VillageController.php" "RUserController.php" "PostsController.php" "TransactionsController.php" "ApiController.php" "SecondaryTransactionsController.php" "SecondaryTransactionsCategoryController.php" "TransactionsCommentController.php" "../" "BusinessController.php" "./" "SiteController.php" "HouseController.php" "AuthController.php")
+ ("/home/daipeng/Desktop/program/daily-python/nodechat/" (21197 5281) "server.js" "node_modules/" "lib/" "package.json" "./" "../" "public/")
+
+ ("/home/daipeng/Desktop/program/daily-python/nodechat/public/javascripts/" (21197 1159) "chat_ui.js" "./" "../" "chat.js")
+
+ ("/var/www/nphp/www/protected/controllers/" (21196 60785) "UserController.php" "AnnouncementController.php" "CategoryController.php" "StatController.php" "TaskController.php" "HomeTeachController.php" "TopicController.php" "CarpoolTransactionsController.php" "BusinessCategoryController.php" "PetTransactionsController.php" "VillageController.php" "RUserController.php" "PostsController.php" "TransactionsController.php" "ApiController.php" "SecondaryTransactionsController.php" "SecondaryTransactionsCategoryController.php" "TransactionsCommentController.php" "../" "BusinessController.php" "./" "SiteController.php" "HouseController.php" "AuthController.php")
+
+ ("/home/daipeng/Desktop/program/note/nodejs/" (21196 59722) "nodejs入门.org" "nodejs包管理npm使用.org" "./" "../")
+
+ ("/home/daipeng/Desktop/program/daily-python/nodechat/lib/" (21196 64998) "./" "../" "chat_server.js")
+
+ ("/home/daipeng/Desktop/program/daily-python/nodechat/public/stylesheets/" (21196 57902) "style.css" "./" "../")
+
+ ("/home/daipeng/Desktop/program/daily-python/nodechat/public/" (21196 57717) "index.html" "./" "../" "javascripts/" "stylesheets/")
+
+ ("/home/daipeng/Desktop/program/note/" (21196 50758) "README.md" "elisp/" "c/" "sqlalchemy/" "nodejs/" "work/" "gae/" "./" "make/" "plan.org" "vim/" "scrapy/" "../" "linux/" "emacs/" "python/" "sphinx_and_markdown/" ".git/" "redis/" "learn_todo.org" "svn_or_git.org" "gblo_plan.org")
+
+ ("/home/daipeng/Desktop/program/nodejs-weibo/routes/" (21196 50735) "index.js" "./" "../" "user.js")
+
+ ("/home/daipeng/Desktop/program/nodejs-weibo/views/" (21196 50761) "hello.ejs" "./" "../" "index.ejs" ".#index.ejs" "layout.ejs")
+
+ ("/home/daipeng/Desktop/program/nodejs-weibo/" (21196 50526) "README.md" "node_modules/" "routes/" "package.json" "./" "../" "app.js" "views/" "public/" ".git/")
+
+ ("/home/daipeng/Desktop/tmp/" (21196 49931) "twisted-intro/" "a.html" "t.rst" "optparse_test.py" "qiniu_test.py" "pyevernote_shownote.py" "c.py" "rst/" "c/" "listnotebooks.py" "b.py" "a.py" "node/" "echosever.py" "chatdemo/" "gae/" "./" "Centos-base.rp" "tutorial/" "objectid.py" "../" "mgeng_test.py" "mock/" "ttt.py" "gbclient.py" "mongo_index/" "daipeng@daipeng.3540:1387849024" "lua/" "php/" ".ropeproject/" "t.php" "rrr.py" ".#t.rst" "test.conf" "eshell" "t.js" "CentOS-Base-163.repo" "config_test.py" "org/" "qiniu_test.conf" "argparse/" "logging/" "t/" "t.org" "makefile")
+
+ ("/home/daipeng/Desktop/program/note/linux/" (21195 56967) "./" "../" "centos使用问题.org")
+
+ ("/home/daipeng/Desktop/program/note/make/" (21196 45710) "./" "something_about_make.org" "../")
+
+ ("/home/daipeng/Desktop/" (21194 17069) "tmp/" "xmind.desktop" "gnome-system-monitor.desktop" "MongoDB-data-models-guide.pdf" "ubuntu-software-center.desktop" "python-2.7.6-docs-html.zip" "python-2.7.6-docs-html/" "ipython.pdf" "sublime.desktop" "ipython07_pe-gr_cise.pdf" "work/" "orgguide.pdf" "npm-quickfix/" "./" "yii-api-1.1.10.chm" "TChat.zip" "../" "api/" "emacs24.desktop" "book/" "bootstrap.zip" "empathy.desktop" "gnome-system-monitor-kde.desktop" "program/" "hr-conf/")
+
+ ("/home/daipeng/Desktop/program/" (21196 46675) "google_appengine/" "rst/" "pyevernote/" "sph/" "mongodb/" "./" "tutorial/" "../" "jekyll_demo/" "python/" "test/" "nodejs-weibo/" "note/" "daily-python/")
 
  ("/home/daipeng/Desktop/tmp/node/" (21194 25041) "buffer.js" "assert.js" "weibo/" "npm-debug.log" "node_modules/" "t.txt" "./" "../" "dns.js" "img_upload/" "file.js" "hello_world.js")
 
  ("/home/daipeng/Desktop/program/note/emacs/" (21194 37104) "rst.org" "keys.org" "org-mode/" "eshell.org" "key-chord.org" "sql-mode.org" "./" "w3m.org" "../" "ediff.org" "doc-view-mode.org" "yasnippet.org" "cc-mode/")
 
- ("/home/daipeng/Desktop/program/note/nodejs/" (21195 39616) "nodejs入门.org" "./" "../")
-
  ("/home/daipeng/Desktop/book/" (21195 37211) "Node.js in Action.pdf" "ubuntu入门到精通中文.pdf" "01GettingStarted.pdf" "Python高级编程.pdf" "./" "Python源码剖析.pdf" "02Types.pdf" "Node.js开发指南_中文正版.pdf" "Python源码剖析_ 文字1.pdf" "../" "00Introduction.pdf" "[Agile.Web.Development.with.Rails(4th.2011.04)].S.Ruby.文字版.pdf" "LUA编程(programming+in+lua).pdf" "Programming%252BRuby中文版%252B%252B（第二版）.pdf" "Node.js入门经典.2013.pdf")
-
- ("/home/daipeng/Desktop/program/note/" (21194 5704) "README.md" "elisp/" "c/" "sqlalchemy/" "nodejs/" "work/" "gae/" "./" "make/" "plan.org" "vim/" "scrapy/" "../" "linux/" "emacs/" "python/" "sphinx_and_markdown/" ".git/" "redis/" "learn_todo.org" "svn_or_git.org" "gblo_plan.org")
 
  ("/home/daipeng/Desktop/work/after/" (21191 45870) "user.html" "user.rst" "./" "category.html" "../" "home_house.html" "home_house.rst" "category.rst")
 
@@ -113,13 +141,9 @@
 
  ("/home/daipeng/Desktop/program/note/work/" (21190 34610) "python.org" "face_question.org" "./" "plan.org" "../" "mode感想.org" "移动开发流程感想.org" "why_you_not_ok.org")
 
- ("/home/daipeng/Desktop/program/note/linux/" (21190 27747) "./" "../" "centos使用问题.org")
-
  ("/home/daipeng/Desktop/program/note/elisp/" (21190 30841) "./" "../" "intro.org" "buffer.org" "keymap.org" "variable.org")
 
  ("/var/www/nextdoor/trunk/nextdoor/ditu/" (21190 9204) "templates/" "__init__.pyc" "admin.py" "__init__.py" "models.py" "../" "./" "models.pyc" "views.py" "tests.py" "static/")
-
- ("/home/daipeng/Desktop/" (21190 24500) "tmp/" "xmind.desktop" "gnome-system-monitor.desktop" "MongoDB-data-models-guide.pdf" "ubuntu-software-center.desktop" "python-2.7.6-docs-html.zip" "python-2.7.6-docs-html/" "ipython.pdf" "sublime.desktop" "ipython07_pe-gr_cise.pdf" "work/" "orgguide.pdf" "./" "yii-api-1.1.10.chm" "TChat.zip" "../" "api/" "emacs24.desktop" "book/" "bootstrap.zip" "empathy.desktop" "gnome-system-monitor-kde.desktop" "program/" "hr-conf/")
 
  ("/var/www/nextdoor/trunk/nextdoor/nextdoor/" (21190 9204) "wsgi.pyc" "urls_users.pyc" "__init__.pyc" "wsgi.py" "urls_ditu.py" "settings.pyc" "__init__.py" "urls_admin.pyc" "test_wsgi.py" "urls_business.py" "urls_admin.py" "urls_village.pyc" "../" "production_settings.py" "urls_business.pyc" "./" "urls_village.py" "urls.pyc" "urls_users.py" "test_settings.py" "production_wsgi.py" "urls.py" "settings.py" "update/")
 
@@ -136,8 +160,6 @@
  ("/var/www/nextdoor/trunk/nextdoor/village/" (21190 9204) "__init__.pyc" "bbs.py" "__init__.py" "models.py" "enums.pyc" "../" "bbs.pyc" "./" "announcement.pyc" "models.pyc" "enums.py")
 
  ("/home/daipeng/Desktop/tmp/lua/" (21189 18853) "defs.lua" "./" "../" "fact.lua" "hello.lua" "lib1.lua")
-
- ("/home/daipeng/Desktop/tmp/" (21189 22723) "twisted-intro/" "a.html" "t.rst" "optparse_test.py" "qiniu_test.py" "pyevernote_shownote.py" "c.py" "rst/" "c/" "listnotebooks.py" "b.py" "a.py" "node/" "echosever.py" "chatdemo/" "gae/" "./" "Centos-base.rp" "tutorial/" "objectid.py" "../" "mgeng_test.py" "mock/" "ttt.py" "gbclient.py" "mongo_index/" "daipeng@daipeng.3540:1387849024" "lua/" "php/" ".ropeproject/" "t.php" "rrr.py" ".#t.rst" "test.conf" "eshell" "t.js" "CentOS-Base-163.repo" "config_test.py" "org/" "qiniu_test.conf" "argparse/" "logging/" "t/" "t.org" "makefile")
 
  ("/home/daipeng/Desktop/program/daily-python/small_python/" (21189 9707) "./" "object.h" "../")
 
@@ -247,8 +269,6 @@
 
  ("/home/daipeng/Desktop/program/python/Demo/" (21119 14215) "classes/" "tkinter/" "pdist/" "cgi/" "parser/" "xml/" "curses/" "pysvr/" "./" "turtle/" "comparisons/" "newmetaclasses/" "../" "md5test/" "sockets/" "metaclasses/" "rpc/" "embed/" "zlib/" "scripts/" "tix/" "README" "threads/")
 
- ("/home/daipeng/Desktop/program/" (21151 62789) "google_appengine/" "rst/" "pyevernote/" "sph/" "./" "tutorial/" "../" "jekyll_demo/" "python/" "test/" "note/")
-
  ("/home/daipeng/Desktop/program/jekyll_demo/" (21153 25628) "index.html" "_config.yml" "_posts/" "./" "../" "_layouts/" ".git/")
 
  ("/home/daipeng/.emacs.d/elpa/python-pylint-1.1/" (21151 61096) "python-pylint.el" "./" "python-pylint-pkg.el" "../" "python-pylint-autoloads.el")
@@ -276,14 +296,6 @@
  ("/home/daipeng/Desktop/program/google_appengine/gblog/templates/" (21144 15491) "index.html" "sidebar.html" "title.html" "bl.html" "bbase.html" "./" "hello.html" "../" "base.html" "pub.html")
 
  ("/home/daipeng/.emacs.d/elpa/evernote-mode-0.41/" (21112 34089) "emacs-evernote-mode-developer-token/" "evernote-mode-autoloads.el" "evernote-mode.el.rej" "APACHE-LICENSE-2.0.txt" "evernote-mode.el.orig" "./" "doc/" "../" "credits.txt" "evernote-mode.el" "ruby/" "evernote-mode-pkg.el")
-
- ("/home/daipeng/Desktop/program/google_appengine/gblog/static/" (21120 14791) "js/" "bootstrap/" "./" "../" "image/" "static_html/" "css/")
-
- ("/home/daipeng/.emacs.d/elpa/sr-speedbar-0.1.8/" (21112 34089) "sr-speedbar-pkg.el" "sr-speedbar-autoloads.el~" "./" "sr-speedbar-autoloads.el" "../" "sr-speedbar.el")
-
- ("/home/" (21112 34728) "lost+found/" "recovery/" "daipeng/" "./" "../")
-
- ("/var/www/nextdoor/trunk/nextdoor/business/management/" (21140 32803) "__init__.py" "commands/" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----
