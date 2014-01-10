@@ -8,6 +8,7 @@
 
 ;; set keys
 (add-hook 'org-mode-hook (lambda ()
+                           (setq tab-always-indent nil)
 						   (local-set-key (kbd "C-.") 'org-time-stamp)
 						   (local-set-key (kbd "C-,") 'org-time-stamp-inactive)))
 						   
