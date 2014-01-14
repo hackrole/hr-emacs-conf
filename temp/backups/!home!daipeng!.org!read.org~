@@ -87,6 +87,6 @@
 info接口稍微做调整, 考虑一个好点的修改方式
 ** TODO transactionsComments来重新写一个CommentsController
 * TODO 今日计划 <2014-01-08 三>
-** TODO 商家分类code保存问题
-** TODO transactionComment转comments
+** DONE 商家分类code保存问题
+** DONE transactionComment转comments
 ** TODO express微薄

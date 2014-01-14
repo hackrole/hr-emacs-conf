@@ -1,15 +1,18 @@
-# name: test for rest
+# name: rst url name list
 # key: url
 # expand-env: ((yas-indent-line 'fixed))
 # --
-    ::
-		
-		@url  $1
 
-		@method ${2:GET}
+url
+    /index.php?r=$1
 
-		@param
+method
+    ${2:GET}
 
-			$3
+paramter
+    $3
 
-		@result  $0
+result
+    $4
+
+$0

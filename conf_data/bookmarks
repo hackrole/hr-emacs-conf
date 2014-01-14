@@ -2,7 +2,21 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("lua_read"
+(("rail_readnow"
+ (filename . "~/Desktop/book/ruby_on_rails_4.pdf")
+ (front-context-string . "%PDF-1.6%\342\343\317\323\n")
+ (rear-context-string)
+ (position . 1)
+ (page . 105)
+ (handler . doc-view-bookmark-jump))
+("rail_read"
+ (filename . "~/Desktop/book/ruby_on_rails_4.pdf")
+ (front-context-string . "%PDF-1.6%\342\343\317\323\n")
+ (rear-context-string)
+ (position . 1)
+ (page . 70)
+ (handler . doc-view-bookmark-jump))
+("lua_read"
  (filename . "~/Desktop/book/LUA编程(programming+in+lua).pdf")
  (front-context-string . "0000000016 00000")
  (rear-context-string . "xref\n13468 16\n")

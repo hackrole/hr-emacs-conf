@@ -2,6 +2,9 @@
 (require 'yasnippet)
 (yas-global-mode 1)
 
+;; fix final new line error
+(setq mode-require-final-newline nil)
+
 ;; set keys
 ;; unset the <tab> from yas-expand and prev-field/next-field
 (setq yas-trigger-key nil)
@@ -16,12 +19,22 @@
 (define-key yas-keymap (kbd "M-2") 'yas-next-field-or-maybe-expand)
 (define-key yas-keymap (kbd "C-2") 'yas-prev-field)
 (global-set-key (kbd "C-1") 'yas-expand)
+
 ;; global keys for yas use(desc table/new snippet)
 (define-prefix-command 'yas-global-map)
 (global-set-key (kbd "\\ y") 'yas-global-map)
 (global-set-key (kbd "\\ y d") 'yas-describe-tables)
 (global-set-key (kbd "\\ y i") 'yas-insert-snippet)
 (global-set-key (kbd "\\ y n") 'yas-new-snippet)
+(global-set-key (kbd "\\ y c") 'yas-recompile-all)
+(global-set-key (kbd "\\ y l") 'yas-reload-all)
+
+(defun hr-yasnippet-recompile-and-reload ()
+  "make recompile and reload together"
+  (interactive)
+  (yas-recompile-all)
+  (yas-reload-all))
+(global-set-key (kbd "\\ y r") 'hr-yasnippet-recompile-and-reload)
 
 ;; provide
 (provide 'hr-yasnippet-conf)
