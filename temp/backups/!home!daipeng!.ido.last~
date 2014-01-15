@@ -30,11 +30,14 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/daipeng/Desktop/tmp/c/"
+ "/home/daipeng/Desktop/"
  "/home/daipeng/Desktop/book/"
+ "/home/daipeng/Desktop/program/python/Python/"
+ "/home/daipeng/Desktop/program/python/Include/"
  "/usr/local/lib/python2.7/dist-packages/scrapy/"
  "/usr/local/lib/python2.7/dist-packages/scrapy/commands/"
  "/home/daipeng/Desktop/program/python/Objects/"
- "/home/daipeng/Desktop/program/python/Include/"
  "/home/daipeng/Desktop/work/after/"
  "/home/daipeng/Desktop/tmp/pyevernote/"
  "/home/daipeng/Desktop/program/note/lua/"
@@ -67,7 +70,6 @@
  "/home/daipeng/Desktop/tmp/node/img_upload/"
  "/home/daipeng/Desktop/program/python/Tools/gdb/"
  "/home/daipeng/Desktop/program/python/Lib/"
- "/home/daipeng/Desktop/program/python/Python/"
  "/home/daipeng/Desktop/program/daily-python/c_primary/intro1/"
  "/home/daipeng/Desktop/program/daily-python/c_primary/intro_1/"
  "/home/daipeng/Desktop/tmp/mock/"
@@ -78,27 +80,29 @@
  "/home/daipeng/Desktop/tmp/tutorial/_templates/"
  "/home/daipeng/Desktop/tmp/tutorial/"
  "/home/daipeng/Desktop/program/daily-python/c_primary/"
- "/home/daipeng/.emacs.d/elpa/google-translate-0.3.2/"
- "/home/daipeng/Desktop/tmp/rst/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "first.c"
+ "MongoDB-data-models-guide.pdf"
  "ruby_on_rails_4.pdf"
+ "ceval.c"
+ "compile.h"
+ "pythread.h"
+ "ceval.h"
  "cmdline.py"
  "command.py"
  "__init__.py"
- "fetch.py"
- "frameobject.c"
- "frameobject.h"
- "codeobject.c"
- "code.h"
- "comment.rst"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/daipeng/Desktop/book/" (21203 36677) "Node.js in Action.pdf" "ubuntu入门到精通中文.pdf" "01GettingStarted.pdf" "ruby_on_rails_4.pdf" "Python高级编程.pdf" "./" "Python源码剖析.pdf" "02Types.pdf" "Node.js开发指南_中文正版.pdf" "Python源码剖析_ 文字1.pdf" "../" "00Introduction.pdf" "LUA编程(programming+in+lua).pdf" "Programming%252BRuby中文版%252B%252B（第二版）.pdf" "Node.js入门经典.2013.pdf")
+ ("/home/daipeng/Desktop/tmp/c/" (21191 56724) "sort.c" "./" "../" "tests.py" "getlist.py")
+
+ ("/home/daipeng/Desktop/" (21204 39359) "tmp/" "xmind.desktop" "gnome-system-monitor.desktop" "MongoDB-data-models-guide.pdf" "ubuntu-software-center.desktop" "python-2.7.6-docs-html.zip" "python-2.7.6-docs-html/" "ipython.pdf" "sublime.desktop" "ipython07_pe-gr_cise.pdf" "work/" "orgguide.pdf" "./" "yii-api-1.1.10.chm" "TChat.zip" "../" "api/" "emacs24.desktop" "book/" "bootstrap.zip" "empathy.desktop" "gnome-system-monitor-kde.desktop" "program/" "hr-conf/")
+
+ ("/home/daipeng/Desktop/book/" (21203 43645) "Node.js in Action.pdf" "ubuntu入门到精通中文.pdf" "01GettingStarted.pdf" "mobi/" "ruby_on_rails_4.pdf" "Python高级编程.pdf" "./" "Python源码剖析.pdf" "02Types.pdf" "Node.js开发指南_中文正版.pdf" "Python源码剖析_ 文字1.pdf" "../" "00Introduction.pdf" "LUA编程(programming+in+lua).pdf" "Programming%252BRuby中文版%252B%252B（第二版）.pdf" "Node.js入门经典.2013.pdf")
 
  ("/home/daipeng/Desktop/tmp/pyevernote/" (21199 48722) "unit_test.py" "unit_test.pyc" "listnotebook.py" "./" "fts_test.py" "../" "settings.py" "fts_test.pyc" "listnotebook.pyc" "settings.pyc" "utils.pyc" "nose.cfg" "utils.py")
 
@@ -149,8 +153,6 @@
  ("/home/daipeng/Desktop/program/note/linux/" (21195 56967) "./" "../" "centos使用问题.org")
 
  ("/home/daipeng/Desktop/program/note/make/" (21196 45710) "./" "something_about_make.org" "../")
-
- ("/home/daipeng/Desktop/" (21194 17069) "tmp/" "xmind.desktop" "gnome-system-monitor.desktop" "MongoDB-data-models-guide.pdf" "ubuntu-software-center.desktop" "python-2.7.6-docs-html.zip" "python-2.7.6-docs-html/" "ipython.pdf" "sublime.desktop" "ipython07_pe-gr_cise.pdf" "work/" "orgguide.pdf" "npm-quickfix/" "./" "yii-api-1.1.10.chm" "TChat.zip" "../" "api/" "emacs24.desktop" "book/" "bootstrap.zip" "empathy.desktop" "gnome-system-monitor-kde.desktop" "program/" "hr-conf/")
 
  ("/home/daipeng/Desktop/program/" (21196 46675) "google_appengine/" "rst/" "pyevernote/" "sph/" "mongodb/" "./" "tutorial/" "../" "jekyll_demo/" "python/" "test/" "nodejs-weibo/" "note/" "daily-python/")
 
@@ -295,8 +297,6 @@
  ("/home/daipeng/.emacs.d/elpa/" (21143 60438) "anything-ipython-0.1.2009/" "ecb-2.40/" "anything-show-completion-20091119/" "pylint-1.0/" "mongo-0.5/" "undo-tree-0.6.3/" "sr-speedbar-0.1.8/" "python-pep8-1.1/" "google-translate-0.3.2/" "dired+-21.2/" "markdown-mode-1.9/" "eredis-0.5.0/" "./" "tabbar-2.0.1/" "../" "yasnippet-0.8.0/" "archives/" "popup-0.5/" "python-pylint-1.1/" "color-theme-6.5.5/" "ipython-2927/" "zencoding-mode-0.5.1/" "python-mode-6.0.10/" "anything-1.287/" "evernote-mode-0.41/" "pep8-1.2/" "magit-1.2.0/" "auto-complete-1.4/")
 
  ("/home/daipeng/Desktop/program/google_appengine/gblog/static/static_html/" (21145 37186) "index.html" "index_new.html" "./" "../" "blog.html" "t2.html" "side1.html" "t.css" "t1.html")
-
- ("/usr/" (20856 4111) "games/" "sbin/" "local/" "include/" "./" "src/" "share/" "../" "bin/" "lib/")
 )
 
 ;; ----- ido-unc-hosts-cache -----

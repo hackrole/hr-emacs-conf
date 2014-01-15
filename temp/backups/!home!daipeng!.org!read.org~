@@ -90,3 +90,12 @@ info接口稍微做调整, 考虑一个好点的修改方式
 ** DONE 商家分类code保存问题
 ** DONE transactionComment转comments
 ** TODO express微薄
+* TODO 计划 <2014-01-14 二>
+** DONE rails/rake编译安装 <2014-01-14 二>
+** TODO centos ruby1.9.1/rails3.0编译安装 <2014-01-14 二>
+** DONE python source ceval/ <2014-01-14 二>
+** TODO redis source read <2014-01-14 二>
+** TODO pyevernote cmdline <2014-01-14 二>
+** TODO rails depot first steps <2014-01-14 二>
+** TODO some c <2014-01-14 二>
+** TODO mongo book/分布式 <2014-01-14 二>
