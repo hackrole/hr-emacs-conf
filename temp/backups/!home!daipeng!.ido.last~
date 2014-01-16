@@ -30,12 +30,17 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/daipeng/Desktop/program/pyevernote/pyevernote/commands/"
+ "/home/daipeng/Desktop/program/python/Lib/"
+ "/usr/local/lib/python2.7/dist-packages/scrapy/"
+ "/home/daipeng/Desktop/program/pyevernote/pyevernote/"
+ "/home/daipeng/Desktop/program/daily-python/redis_read/sds/"
+ "/home/daipeng/Desktop/program/note/make/"
  "/home/daipeng/Desktop/tmp/c/"
  "/home/daipeng/Desktop/"
  "/home/daipeng/Desktop/book/"
  "/home/daipeng/Desktop/program/python/Python/"
  "/home/daipeng/Desktop/program/python/Include/"
- "/usr/local/lib/python2.7/dist-packages/scrapy/"
  "/usr/local/lib/python2.7/dist-packages/scrapy/commands/"
  "/home/daipeng/Desktop/program/python/Objects/"
  "/home/daipeng/Desktop/work/after/"
@@ -54,12 +59,10 @@
  "/home/daipeng/Desktop/program/daily-python/nodechat/"
  "/home/daipeng/Desktop/program/note/nodejs/"
  "/home/daipeng/Desktop/program/daily-python/nodechat/public/"
- "/home/daipeng/Desktop/program/note/make/"
  "/home/daipeng/Desktop/program/note/linux/"
  "/home/daipeng/Desktop/program/note/emacs/"
  "/home/daipeng/Desktop/program/note/work/"
  "/home/daipeng/Desktop/program/note/elisp/"
- "/home/daipeng/Desktop/program/pyevernote/pyevernote/"
  "/home/daipeng/Desktop/program/daily-python/small_python/"
  "/home/daipeng/Desktop/program/python/Demo/newmetaclasses/"
  "/home/daipeng/Desktop/program/note/gae/"
@@ -69,7 +72,6 @@
  "/home/daipeng/Desktop/tmp/node/"
  "/home/daipeng/Desktop/tmp/node/img_upload/"
  "/home/daipeng/Desktop/program/python/Tools/gdb/"
- "/home/daipeng/Desktop/program/python/Lib/"
  "/home/daipeng/Desktop/program/daily-python/c_primary/intro1/"
  "/home/daipeng/Desktop/program/daily-python/c_primary/intro_1/"
  "/home/daipeng/Desktop/tmp/mock/"
@@ -78,27 +80,35 @@
  "/var/www/nextdoor/trunk/nextdoor/village/"
  "/home/daipeng/Desktop/tmp/tutorial/sphinxext/"
  "/home/daipeng/Desktop/tmp/tutorial/_templates/"
- "/home/daipeng/Desktop/tmp/tutorial/"
- "/home/daipeng/Desktop/program/daily-python/c_primary/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "base.py"
+ "markupbase.py"
+ "list_notebooks.py"
+ "cmdline.py"
+ "sds.h"
+ "ruby1.9.2编译失败问题.org"
  "first.c"
  "MongoDB-data-models-guide.pdf"
  "ruby_on_rails_4.pdf"
  "ceval.c"
- "compile.h"
- "pythread.h"
- "ceval.h"
- "cmdline.py"
- "command.py"
- "__init__.py"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/daipeng/Desktop/tmp/c/" (21191 56724) "sort.c" "./" "../" "tests.py" "getlist.py")
+ ("/home/daipeng/Desktop/program/pyevernote/pyevernote/commands/" (21205 2342) "./" "../" "base.py" "list_notebooks.py" ".#list_notebooks.py")
+
+ ("/home/daipeng/Desktop/program/pyevernote/pyevernote/" (21205 1906) "downnote.py" "cmdline.py" "listnotebooks.py" "searchnotes.py" "createnote.py" "deletenote.py" "listnotes.py" "utils_test.py" "./" "updatenote.py" "commands/" "../" "settings.py" "listtags.py" "tests/" "__init__.py" "utils.py")
+
+ ("/home/daipeng/Desktop/program/note/make/" (21204 60710) "./" "something_about_make.org" "../" "ruby1.9.2编译失败问题.org")
+
+ ("/home/daipeng/Desktop/program/daily-python/redis_read/sds/" (21204 62148) "sds.h" "./" "../")
+
+ ("/home/daipeng/Desktop/program/python/Python/" (21204 43451) "dynload_aix.c" "modsupport.c" "marshal.c" "errors.c" "ast.c" "pystrcmp.c" "dynload_hpux.c" "thread_solaris.h" "pymath.c" "codecs.c" "formatter_string.c" "dynload_atheos.c" "getcwd.c" "mactoolboxglue.c" "atof.c" "thread_lwp.h" "_warnings.c" "thread_atheos.h" "Python-ast.c" "dynload_next.c" "sysmodule.c" "importdl.h" "dynload_shlib.c" "dynload_beos.c" "getcompiler.c" "thread.c" "compile.c" "dynload_win.c" "future.c" "symtable.c" "asdl.c" "pyfpe.c" "pyctype.c" "./" "dtoa.c" "getargs.c" "mysnprintf.c" "frozen.c" "getversion.c" "mystrtoul.c" "pystate.c" "import.c" "../" "getcopyright.c" "dynload_dl.c" "dup2.c" "graminit.c" "thread_cthread.h" "importdl.c" "thread_wince.h" "structmember.c" "thread_pthread.h" "thread_nt.h" "random.c" "formatter_unicode.c" "peephole.c" "thread_os2.h" "bltinmodule.c" "dynload_os2.c" "thread_sgi.h" "thread_pth.h" "strdup.c" "dynload_stub.c" "strtod.c" "pyarena.c" "pystrtod.c" "frozenmain.c" "getopt.c" "thread_beos.h" "pythonrun.c" "ceval.c" "sigcheck.c" "traceback.c" "thread_foobar.h" "getplatform.c")
+
+ ("/home/daipeng/Desktop/tmp/c/" (21204 57150) "sort.c" "first.out" "./" "../" "first.c" "tests.py" "getlist.py")
 
  ("/home/daipeng/Desktop/" (21204 39359) "tmp/" "xmind.desktop" "gnome-system-monitor.desktop" "MongoDB-data-models-guide.pdf" "ubuntu-software-center.desktop" "python-2.7.6-docs-html.zip" "python-2.7.6-docs-html/" "ipython.pdf" "sublime.desktop" "ipython07_pe-gr_cise.pdf" "work/" "orgguide.pdf" "./" "yii-api-1.1.10.chm" "TChat.zip" "../" "api/" "emacs24.desktop" "book/" "bootstrap.zip" "empathy.desktop" "gnome-system-monitor-kde.desktop" "program/" "hr-conf/")
 
@@ -117,8 +127,6 @@
  ("/home/daipeng/Desktop/tmp/" (21199 43455) "twisted-intro/" "a.html" "t.rst" "optparse_test.py" "qiniu_test.py" "pyevernote_shownote.py" "c.py" "rst/" "c/" "pyevernote/" "listnotebooks.py" "b.py" "a.py" "node/" "echosever.py" "chatdemo/" "gae/" "./" "Centos-base.rp" "tutorial/" "objectid.py" "../" "mgeng_test.py" "mock/" "ttt.py" "gbclient.py" "mongo_index/" "daipeng@daipeng.3540:1387849024" "lua/" "php/" ".ropeproject/" "t.php" "rrr.py" ".#t.rst" "test.conf" "eshell" "t.js" "CentOS-Base-163.repo" "config_test.py" "org/" "qiniu_test.conf" "argparse/" "logging/" "t/" "t.org" "makefile")
 
  ("/home/daipeng/Desktop/program/note/lua/" (21199 38370) "get_started.org" "./" "../" "tables_and_object.org")
-
- ("/home/daipeng/Desktop/program/pyevernote/pyevernote/" (21198 27558) "downnote.py" "listnotebooks.py" "searchnotes.py" "createnote.py" "deletenote.py" "listnotes.py" "utils_test.py" "./" "updatenote.py" "../" "settings.py" "listtags.py" "tests/" "__init__.py" "utils.py")
 
  ("/home/daipeng/Desktop/program/note/" (21199 23518) "README.md" "elisp/" "c/" "sqlalchemy/" "nodejs/" "work/" "gae/" "./" "make/" "plan.org" "vim/" "scrapy/" "../" "linux/" "emacs/" "python/" "lua/" "sphinx_and_markdown/" ".git/" "redis/" "learn_todo.org" "svn_or_git.org" "gblo_plan.org")
 
@@ -151,8 +159,6 @@
  ("/home/daipeng/Desktop/program/daily-python/nodechat/public/" (21196 57717) "index.html" "./" "../" "javascripts/" "stylesheets/")
 
  ("/home/daipeng/Desktop/program/note/linux/" (21195 56967) "./" "../" "centos使用问题.org")
-
- ("/home/daipeng/Desktop/program/note/make/" (21196 45710) "./" "something_about_make.org" "../")
 
  ("/home/daipeng/Desktop/program/" (21196 46675) "google_appengine/" "rst/" "pyevernote/" "sph/" "mongodb/" "./" "tutorial/" "../" "jekyll_demo/" "python/" "test/" "nodejs-weibo/" "note/" "daily-python/")
 
@@ -209,8 +215,6 @@
  ("/home/daipeng/Desktop/program/python/Tools/gdb/" (21119 14217) "./" "../" "libpython.py")
 
  ("/home/daipeng/Desktop/program/python/Lib/" (21119 14216) "wave.py" "plat-mac/" "pickle.py" "pkgutil.py" "sched.py" "cgi.py" "atexit.py" "codecs.py" "audiodev.py" "sndhdr.py" "pipes.py" "decimal.py" "tokenize.py" "types.py" "sgmllib.py" "plat-sunos5/" "_strptime.py" "poplib.py" "hashlib.py" "sre_compile.py" "linecache.py" "multifile.py" "codeop.py" "ihooks.py" "collections.py" "chunk.py" "pickletools.py" "pdb.doc" "UserList.py" "getopt.py" "fractions.py" "token.py" "keyword.py" "textwrap.py" "htmllib.py" "aifc.py" "posixpath.py" "threading.py" "dis.py" "profile.py" "heapq.py" "StringIO.py" "base64.py" "repr.py" "macpath.py" "__future__.py" "traceback.py" "fpformat.py" "encodings/" "zipfile.py" "ConfigParser.py" "calendar.py" "site-packages/" "plat-generic/" "httplib.py" "user.py" "plat-darwin/" "symbol.py" "msilib/" "new.py" "compiler/" "ast.py" "plat-freebsd6/" "distutils/" "xmllib.py" "pdb.py" "importlib/" "markupbase.py" "plat-atheos/" "cgitb.py" "rlcompleter.py" "plat-riscos/" "_LWPCookieJar.py" "mimetools.py" "smtpd.py" "popen2.py" "timeit.py" "imaplib.py" "CGIHTTPServer.py" "idlelib/" "symtable.py" "functools.py" "pprint.py" "xml/" "curses/" "shlex.py" "hmac.py" "antigravity.py" "plat-irix6/" "sets.py" "formatter.py" "sre.py" "ssl.py" "_abcoll.py" "lib-tk/" "plat-beos5/" "Bastion.py" "netrc.py" "md5.py" "sre_parse.py" "rexec.py" "plat-freebsd4/" "sqlite3/" "csv.py" "UserDict.py" "compileall.py" "ftplib.py" "plat-netbsd1/" "cookielib.py" "stat.py" "glob.py" "BaseHTTPServer.py" "pydoc_data/" "whichdb.py" "macurl2path.py" "telnetlib.py" "weakref.py" "mailcap.py" "wsgiref.egg-info" "smtplib.py" "binhex.py" "_weakrefset.py" "random.py" "uuid.py" "stringold.py" "_osx_support.py" "Queue.py" "site.py" "uu.py" "subprocess.py" "SocketServer.py" "colorsys.py" "multiprocessing/" "json/" "rfc822.py" "abc.py" "mailbox.py" "quopri.py" "plat-freebsd8/" "plat-unixware7/" "nntplib.py" "copy_reg.py" "robotparser.py" "HTMLParser.py" "plat-next3/" "py_compile.py" "tempfile.py" "plat-os2emx/" "htmlentitydefs.py" "shelve.py" "UserString.py" "urllib2.py" "fileinput.py" "mimetypes.py" "sha.py" "opcode.py" "filecmp.py" "copy.py" "pstats.py" "string.py" "sysconfig.py" "io.py" "webbrowser.py" "urlparse.py" "os2emxpath.py" "bdb.py" "anydbm.py" "platform.py" "MimeWriter.py" "modulefinder.py" "sre_constants.py" "mutex.py" "plistlib.py" "mhlib.py" "struct.py" "posixfile.py" "Cookie.py" "SimpleXMLRPCServer.py" "runpy.py" "dummy_thread.py" "optparse.py" "tty.py" "lib2to3/" "dummy_threading.py" "gettext.py" "locale.py" "DocXMLRPCServer.py" "plat-aix3/" "test/" "pydoc.py" "os.py" "urllib.py" "plat-aix4/" "pyclbr.py" "getpass.py" "hotshot/" "numbers.py" "plat-freebsd7/" "re.py" "sunaudio.py" "doctest.py" "dumbdbm.py" "contextlib.py" "email/" "warnings.py" "argparse.py" "tarfile.py" "trace.py" "shutil.py" "pty.py" "mimify.py" "code.py" "bisect.py" "wsgiref/" "imghdr.py" "genericpath.py" "ctypes/" "bsddb/" "socket.py" "xdrlib.py" "asyncore.py" "cProfile.py" "imputil.py" "ntpath.py" "commands.py" "plat-irix5/" "unittest/" "plat-freebsd5/" "xmlrpclib.py" "dbhash.py" "cmd.py" "_threading_local.py" "inspect.py" "nturl2path.py" "statvfs.py" "gzip.py" "sunau.py" "SimpleHTTPServer.py" "stringprep.py" "fnmatch.py" "difflib.py" "tabnanny.py" "_pyio.py" "logging/" "dircache.py" "plat-linux2/" "__phello__.foo.py" "toaiff.py" "_MozillaCookieJar.py" "asynchat.py" "this.py" "../" "./")
-
- ("/home/daipeng/Desktop/program/python/Python/" (21119 14217) "dynload_aix.c" "modsupport.c" "marshal.c" "errors.c" "ast.c" "pystrcmp.c" "dynload_hpux.c" "thread_solaris.h" "pymath.c" "codecs.c" "formatter_string.c" "dynload_atheos.c" "getcwd.c" "mactoolboxglue.c" "atof.c" "thread_lwp.h" "_warnings.c" "thread_atheos.h" "Python-ast.c" "dynload_next.c" "sysmodule.c" "importdl.h" "dynload_shlib.c" "dynload_beos.c" "getcompiler.c" "thread.c" "compile.c" "dynload_win.c" "future.c" "symtable.c" "asdl.c" "pyfpe.c" "pyctype.c" "./" "dtoa.c" "getargs.c" "mysnprintf.c" "frozen.c" "getversion.c" "mystrtoul.c" "pystate.c" "import.c" "../" "getcopyright.c" "dynload_dl.c" "dup2.c" "graminit.c" "thread_cthread.h" "importdl.c" "thread_wince.h" "structmember.c" "thread_pthread.h" "thread_nt.h" "random.c" "formatter_unicode.c" "peephole.c" "thread_os2.h" "bltinmodule.c" "dynload_os2.c" "thread_sgi.h" "thread_pth.h" "strdup.c" "dynload_stub.c" "strtod.c" "pyarena.c" "pystrtod.c" "frozenmain.c" "getopt.c" "thread_beos.h" "pythonrun.c" "ceval.c" "sigcheck.c" "traceback.c" "thread_foobar.h" "getplatform.c")
 
  ("/home/daipeng/Desktop/program/daily-python/" (21178 38399) "README.md" "mongodb/" "./" "../" "c_primary/" ".git/")
 
@@ -293,10 +297,6 @@
  ("/home/daipeng/Desktop/program/pyevernote/" (21124 29623) "README.md" ".gitignore" "elisp/" "pyevernote/" "./" "doc/" "../" "develop_readme.md" ".git/" "dev-doc/")
 
  ("/home/daipeng/.emacs.d/elpa/yasnippet-0.8.0/" (21112 34089) "yasnippet-pkg.el" "dropdown-list.el" "ChangeLog" "./" "yasnippet-autoloads.el" "yasnippet-autoloads.el~" "../" "snippets/" "yasnippet.el" "README")
-
- ("/home/daipeng/.emacs.d/elpa/" (21143 60438) "anything-ipython-0.1.2009/" "ecb-2.40/" "anything-show-completion-20091119/" "pylint-1.0/" "mongo-0.5/" "undo-tree-0.6.3/" "sr-speedbar-0.1.8/" "python-pep8-1.1/" "google-translate-0.3.2/" "dired+-21.2/" "markdown-mode-1.9/" "eredis-0.5.0/" "./" "tabbar-2.0.1/" "../" "yasnippet-0.8.0/" "archives/" "popup-0.5/" "python-pylint-1.1/" "color-theme-6.5.5/" "ipython-2927/" "zencoding-mode-0.5.1/" "python-mode-6.0.10/" "anything-1.287/" "evernote-mode-0.41/" "pep8-1.2/" "magit-1.2.0/" "auto-complete-1.4/")
-
- ("/home/daipeng/Desktop/program/google_appengine/gblog/static/static_html/" (21145 37186) "index.html" "index_new.html" "./" "../" "blog.html" "t2.html" "side1.html" "t.css" "t1.html")
 )
 
 ;; ----- ido-unc-hosts-cache -----

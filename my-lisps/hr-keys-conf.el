@@ -36,6 +36,9 @@
 (global-set-key (kbd "\C-cB") 'eval-buffer)
 (defalias 'list-buffers 'ibuffer)
 
+;; help command
+(global-set-key (kbd "\C-h a") 'apropos)
+
 ;; search and replace keys
 
 ;; some often-use edit key

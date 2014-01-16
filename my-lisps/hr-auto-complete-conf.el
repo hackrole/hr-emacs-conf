@@ -5,21 +5,39 @@
 (add-to-list 'ac-dictionary-directories ac-dict)
 (ac-config-default)
 
-;; auto-complete history file
-(setq ac-comphist-file "~/.emacs.d/temp/ac-comphist.dat")
-
-;; redefine the key
+;; menu map for use
+(setq ac-use-menu-map t)
 (define-key ac-menu-map (kbd "\C-n") 'ac-next)
 (define-key ac-menu-map (kbd "\C-p") 'ac-previous)
+
+;; redine key map
 (global-set-key (kbd "\M-1") 'auto-complete)
+(define-prefix-command 'hr-ac-map)
+(global-set-key (kbd "\\ a") 'hr-ac-map)
+(define-key ac-mode-map (kbd "\\ a a") 'ac-expand)
+(define-key ac-mode-map (kbd "\\ a f") 'ac-fuzzy-complete)
+(define-key ac-mode-map (kbd "\\ a c") 'ac-clear-dictionary-cache)
 (ac-set-trigger-key nil)
 
 ;; others
 (setq ac-auto-start 2)
 (setq ac-dwim t)
 
+;; menu
+(setq ac-show-menu-immediately-on-auto-complete t)
+(setq ac-auto-show-menu t)
+(setq ac-menu-height 10)
+
+;; complete histroy
+(setq ac-use-comphist t)
+(setq ac-comphist-file "~/.emacs.d/tmp/ac-comphist.dat")
+
+;; dictionary
+;; user dict
+(setq ac-user-dictionary-file "~/.emacs.d/hr-ac-dict")
+
 ;; ac-sources
-(set-default 'ac-sources '(ac-source-words-in-same-mode-buffers
+(setq-default ac-sources '(ac-source-words-in-same-mode-buffers
 						  ac-source-dictionary
 						  ;;ac-source-yasnippet ;; not correct now
 						  ac-source-filename))
