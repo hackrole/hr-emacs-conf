@@ -34,7 +34,7 @@
 
 ;; dictionary
 ;; user dict
-(setq ac-user-dictionary-file "~/.emacs.d/hr-ac-dict")
+(setq ac-user-dictionary-file "~/.emacs.d/hr-auto-complete.dict")
 
 ;; ac-sources
 (setq-default ac-sources '(ac-source-words-in-same-mode-buffers

@@ -14,7 +14,7 @@
  ("/var/www/nextdoor/trunk/nextdoor/admin/" . "static_html/")
  ("/home/daipeng/Desktop/program/python/" . "Objects/")
  ("/home/daipeng/Desktop/program/" . "python/")
- ("/home/daipeng/" . ".org/")
+ ("/home/daipeng/" . ".emacs.d/")
  ("/home/daipeng/.emacs.d/elpa/" . "python-pylint-1.1/")
  ("/home/daipeng/.emacs.d/" . "plugins/")
  ("/home/" . "daipeng/")
@@ -30,25 +30,27 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/daipeng/Desktop/book/"
+ "/home/daipeng/Desktop/tmp/"
+ "/home/daipeng/Desktop/program/python/Include/"
+ "/home/daipeng/Desktop/program/note/"
+ "/home/daipeng/Desktop/work/redis-2.8.3/src/"
+ "/home/daipeng/Desktop/program/daily-python/redis_read/sds/"
+ "/home/daipeng/Desktop/program/note/ruby/"
  "/home/daipeng/Desktop/program/pyevernote/pyevernote/commands/"
  "/home/daipeng/Desktop/program/python/Lib/"
  "/usr/local/lib/python2.7/dist-packages/scrapy/"
  "/home/daipeng/Desktop/program/pyevernote/pyevernote/"
- "/home/daipeng/Desktop/program/daily-python/redis_read/sds/"
  "/home/daipeng/Desktop/program/note/make/"
  "/home/daipeng/Desktop/tmp/c/"
  "/home/daipeng/Desktop/"
- "/home/daipeng/Desktop/book/"
  "/home/daipeng/Desktop/program/python/Python/"
- "/home/daipeng/Desktop/program/python/Include/"
  "/usr/local/lib/python2.7/dist-packages/scrapy/commands/"
  "/home/daipeng/Desktop/program/python/Objects/"
  "/home/daipeng/Desktop/work/after/"
  "/home/daipeng/Desktop/tmp/pyevernote/"
  "/home/daipeng/Desktop/program/note/lua/"
  "/home/daipeng/Desktop/program/note/emacs/org-mode/"
- "/home/daipeng/Desktop/tmp/"
- "/home/daipeng/Desktop/program/note/"
  "/home/daipeng/Desktop/program/nodejs-weibo/views/"
  "/home/daipeng/Desktop/program/nodejs-weibo/models/"
  "/home/daipeng/Desktop/program/nodejs-weibo/routes/"
@@ -78,33 +80,43 @@
  "/home/daipeng/Desktop/program/pyevernote/pyevernote/tests/"
  "/home/daipeng/Desktop/tmp/org/"
  "/var/www/nextdoor/trunk/nextdoor/village/"
- "/home/daipeng/Desktop/tmp/tutorial/sphinxext/"
- "/home/daipeng/Desktop/tmp/tutorial/_templates/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "base.py"
- "markupbase.py"
- "list_notebooks.py"
- "cmdline.py"
- "sds.h"
- "ruby1.9.2编译失败问题.org"
- "first.c"
- "MongoDB-data-models-guide.pdf"
  "ruby_on_rails_4.pdf"
- "ceval.c"
+ "ttt.py"
+ "gbclient.py"
+ "config_test.py"
+ "floatobject.h"
+ "pystate.h"
+ "plan.org"
+ "sds.c"
+ "sds.h"
+ "rails_get_started.org"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/daipeng/Desktop/program/pyevernote/pyevernote/commands/" (21205 2342) "./" "../" "base.py" "list_notebooks.py" ".#list_notebooks.py")
+ ("/home/daipeng/.emacs.d/" (21189 3005) "session.10694ba87bf773cc76138415354512562100000020030068" "temp/" "README.md" ".gitignore" "tags/" "url/" "elpa/" "conf_data/" "auto-save-list/" "./" "my-lisps/" "tramp" "init.el" "../" "session.10e9f1b1e0d5a84a88138698912491467900000020550037" "custom.el" "snippets/" "semanticdb/" "session.10279d64aec3f50a138560211453852500000021340039" ".git/" "plugins/" "eshell/" "emms/" "install.sh")
+
+ ("/home/daipeng/" (21207 14605) ".profile" ".gnome2_private/" "tmp/" "village.dat/" ".viminfo" "Downloads/" ".xsession-errors.old" ".vim/" "Music/" ".dbshell" ".cache/" ".thunderbird/" ".screenrc" ".mongorc.js" ".bashrc.bak" ".profile.bak" ".dbus/" "workspace/" ".viminfz.tmp" ".gconf/" ".bash_history" "Templates/" ".emacs.d/" ".gitconfig" ".gem/" ".viminfo.tmp" ".local/" ".mozilla/" ".node-gyp/" ".evervim/" ".zcompdump" ".pki/" ".ssh/" ".vimrc" ".aptitude/" ".bash_logout" ".adobe/" ".w3m/" ".bashrc" ".npm/" ".pip/" "./" ".xmind/" ".dmrc" ".Xauthority" "examples.desktop" ".bundler/" "VirtualBox VMs/" ".ido.last" ".doc-view-cache/" ".macromedia/" ".config/" ".xsession-errors" ".org/" "../" ".pylint.d/" ".VirtualBox/" ".sqlite_history" "Videos/" ".apport-ignore.xml" "Public/" ".gnomerc" ".NERDTreeBookmarks" ".gnome2/" "Calibre Library/" ".alias" ".mplayer/" "Documents/" ".gvfs/" ".compiz/" ".lesshst" ".curlrc" "Pictures/" "Desktop/" ".appcfg_nag" ".mysql_history" ".ecb-tip-of-day.el" ".appcfg_cookies" ".npmrc" ".subversion/" ".ICEauthority" ".gemrc")
+
+ ("/home/daipeng/Desktop/program/note/ruby/" (21206 17781) "rails_get_started.org" "./" "../")
+
+ ("/home/daipeng/Desktop/program/daily-python/redis_read/sds/" (21206 19305) "sds.c" "sds.h" "./" "../")
+
+ ("/home/daipeng/Desktop/program/note/" (21206 17223) "README.md" "elisp/" "c/" "sqlalchemy/" "nodejs/" "work/" "gae/" "./" "make/" "plan.org" "vim/" "scrapy/" "../" "linux/" "emacs/" "python/" "lua/" "sphinx_and_markdown/" ".git/" "redis/" "learn_todo.org" "ruby/" "svn_or_git.org" "gblo_plan.org")
+
+ ("/home/daipeng/Desktop/program/python/Lib/" (21205 6299) "wave.py" "plat-mac/" "pickle.py" "pkgutil.py" "sched.py" "cgi.py" "atexit.py" "codecs.py" "audiodev.py" "sndhdr.py" "pipes.py" "decimal.py" "tokenize.py" "types.py" "sgmllib.py" "plat-sunos5/" "_strptime.py" "poplib.py" "hashlib.py" "sre_compile.py" "linecache.py" "multifile.py" "codeop.py" "ihooks.py" "collections.py" "chunk.py" "pickletools.py" "pdb.doc" "UserList.py" "getopt.py" "fractions.py" "token.py" "keyword.py" "textwrap.py" "htmllib.py" "aifc.py" "posixpath.py" "threading.py" "dis.py" "profile.py" "heapq.py" "StringIO.py" "base64.py" "repr.py" "macpath.py" "__future__.py" "traceback.py" "fpformat.py" "encodings/" "zipfile.py" "ConfigParser.py" "calendar.py" "site-packages/" "plat-generic/" "httplib.py" "user.py" "plat-darwin/" "symbol.py" "msilib/" "new.py" "compiler/" "ast.py" "plat-freebsd6/" "distutils/" "xmllib.py" "pdb.py" "importlib/" "markupbase.py" "plat-atheos/" "cgitb.py" "rlcompleter.py" "plat-riscos/" "_LWPCookieJar.py" "mimetools.py" "smtpd.py" "popen2.py" "timeit.py" "imaplib.py" "CGIHTTPServer.py" "idlelib/" "symtable.py" "functools.py" "pprint.py" "xml/" "curses/" "shlex.py" "hmac.py" "antigravity.py" "plat-irix6/" "sets.py" "formatter.py" "sre.py" "ssl.py" "_abcoll.py" "lib-tk/" "plat-beos5/" "Bastion.py" "netrc.py" "md5.py" "sre_parse.py" "rexec.py" "plat-freebsd4/" "sqlite3/" "csv.py" "UserDict.py" "compileall.py" "ftplib.py" "plat-netbsd1/" "cookielib.py" "stat.py" "glob.py" "BaseHTTPServer.py" "pydoc_data/" "whichdb.py" "macurl2path.py" "telnetlib.py" "weakref.py" "mailcap.py" "wsgiref.egg-info" "smtplib.py" "binhex.py" "_weakrefset.py" "random.py" "uuid.py" "stringold.py" "_osx_support.py" "Queue.py" "site.py" "uu.py" "subprocess.py" "SocketServer.py" "colorsys.py" "multiprocessing/" "json/" "rfc822.py" "abc.py" "mailbox.py" "quopri.py" "plat-freebsd8/" "plat-unixware7/" "nntplib.py" "copy_reg.py" "robotparser.py" "HTMLParser.py" "plat-next3/" "py_compile.py" "tempfile.py" "plat-os2emx/" "htmlentitydefs.py" "shelve.py" "UserString.py" "urllib2.py" "fileinput.py" "mimetypes.py" "sha.py" "opcode.py" "filecmp.py" "copy.py" "pstats.py" "string.py" "sysconfig.py" "io.py" "webbrowser.py" "urlparse.py" "os2emxpath.py" "bdb.py" "anydbm.py" "platform.py" "MimeWriter.py" "modulefinder.py" "sre_constants.py" "mutex.py" "plistlib.py" "mhlib.py" "struct.py" "posixfile.py" "Cookie.py" "SimpleXMLRPCServer.py" "runpy.py" "dummy_thread.py" "optparse.py" "tty.py" "lib2to3/" "dummy_threading.py" "gettext.py" "locale.py" "DocXMLRPCServer.py" "plat-aix3/" "test/" "pydoc.py" "os.py" "urllib.py" "plat-aix4/" "pyclbr.py" "getpass.py" "hotshot/" "numbers.py" "plat-freebsd7/" "re.py" "sunaudio.py" "doctest.py" "dumbdbm.py" "contextlib.py" "email/" "warnings.py" "argparse.py" "tarfile.py" "trace.py" "shutil.py" "pty.py" "mimify.py" "code.py" "bisect.py" "wsgiref/" "imghdr.py" "genericpath.py" "ctypes/" "bsddb/" "socket.py" "xdrlib.py" "asyncore.py" "cProfile.py" "imputil.py" "ntpath.py" "commands.py" "plat-irix5/" "unittest/" "plat-freebsd5/" "xmlrpclib.py" "dbhash.py" "cmd.py" "_threading_local.py" "inspect.py" "nturl2path.py" "statvfs.py" "gzip.py" "sunau.py" "SimpleHTTPServer.py" "stringprep.py" "fnmatch.py" "difflib.py" "tabnanny.py" "_pyio.py" "logging/" "dircache.py" "plat-linux2/" "__phello__.foo.py" "toaiff.py" "_MozillaCookieJar.py" "asynchat.py" "this.py" "../" "./")
+
+ ("/home/daipeng/Desktop/program/pyevernote/pyevernote/commands/" (21205 6301) "./" "../" "base.py" "list_notebooks.py")
+
+ ("/home/daipeng/Desktop/work/redis-2.8.3/src/" (21197 9384) "zipmap.o" "dict.o" "ziplist.o" "redis-check-aof" "rio.o" "sha1.o" "t_list.c" "lzf_c.o" "pubsub.c" ".gitignore" "redis-check-dump.o" "migrate.c" "object.o" "redis-cli.c" "redis-check-dump" "networking.c" "zipmap.c" "multi.o" "syncio.o" "t_zset.c" "zmalloc.c" "zmalloc.o" "redis-sentinel" "t_hash.o" "sentinel.c" "memtest.c" "redis-check-aof.c" "notify.o" "intset.o" "lzfP.h" "help.h" "adlist.h" "zmalloc.h" "util.c" "debug.c" "endianconv.o" "migrate.o" "aof.c" "syncio.c" "t_set.c" "pqsort.o" "release.c" "sds.c" "redis-benchmark" "replication.c" "redis-check-aof.o" "rand.c" "sentinel.o" ".make-settings" "bio.o" "rand.o" "ae_epoll.c" "redis-check-dump.c" "Makefile.dep" "sort.c" "setproctitle.c" "rdb.c" "sds.h" "db.c" "intset.c" "networking.o" "bio.h" "sha1.c" "fmacros.h" "pubsub.o" "valgrind.sup" "./" "pqsort.c" "db.o" "scripting.o" "crc64.c" "version.h" "redis-benchmark.o" "config.h" "ae.o" "config.o" "dict.c" "rdb.o" "notify.c" "redis-cli.o" "redis-server" "crc64.h" "ae.h" "intset.h" "lzf_d.c" "util.h" "replication.o" "t_string.c" "../" "ae.c" "ae_kqueue.c" "endianconv.h" "t_zset.o" "rio.c" "redis.h" "release.h" "zipmap.h" "anet.h" "slowlog.c" "release.o" "sha1.h" "lzf_c.c" "scripting.c" "pqsort.h" "redis.c" "t_hash.c" "bio.c" "multi.c" "mkreleasehdr.sh" "lzf_d.o" "t_string.o" "adlist.c" "adlist.o" "ae_select.c" "t_list.o" "dict.h" "crc64.o" "redisassert.h" "ziplist.c" "lzf.h" "config.c" "object.c" "endianconv.c" "debug.o" "rand.h" "slowlog.h" "anet.o" "redis-benchmark.c" "asciilogo.h" "testhelp.h" "bitops.o" "rdb.h" "sds.o" "anet.c" "t_set.o" "ziplist.h" "sort.o" "setproctitle.o" "rio.h" "solarisfixes.h" ".make-prerequisites" "util.o" "Makefile" "aof.o" "memtest.o" "redis-cli" "slowlog.o" "bitops.c" "redis.o" "ae_evport.c")
 
  ("/home/daipeng/Desktop/program/pyevernote/pyevernote/" (21205 1906) "downnote.py" "cmdline.py" "listnotebooks.py" "searchnotes.py" "createnote.py" "deletenote.py" "listnotes.py" "utils_test.py" "./" "updatenote.py" "commands/" "../" "settings.py" "listtags.py" "tests/" "__init__.py" "utils.py")
 
  ("/home/daipeng/Desktop/program/note/make/" (21204 60710) "./" "something_about_make.org" "../" "ruby1.9.2编译失败问题.org")
-
- ("/home/daipeng/Desktop/program/daily-python/redis_read/sds/" (21204 62148) "sds.h" "./" "../")
 
  ("/home/daipeng/Desktop/program/python/Python/" (21204 43451) "dynload_aix.c" "modsupport.c" "marshal.c" "errors.c" "ast.c" "pystrcmp.c" "dynload_hpux.c" "thread_solaris.h" "pymath.c" "codecs.c" "formatter_string.c" "dynload_atheos.c" "getcwd.c" "mactoolboxglue.c" "atof.c" "thread_lwp.h" "_warnings.c" "thread_atheos.h" "Python-ast.c" "dynload_next.c" "sysmodule.c" "importdl.h" "dynload_shlib.c" "dynload_beos.c" "getcompiler.c" "thread.c" "compile.c" "dynload_win.c" "future.c" "symtable.c" "asdl.c" "pyfpe.c" "pyctype.c" "./" "dtoa.c" "getargs.c" "mysnprintf.c" "frozen.c" "getversion.c" "mystrtoul.c" "pystate.c" "import.c" "../" "getcopyright.c" "dynload_dl.c" "dup2.c" "graminit.c" "thread_cthread.h" "importdl.c" "thread_wince.h" "structmember.c" "thread_pthread.h" "thread_nt.h" "random.c" "formatter_unicode.c" "peephole.c" "thread_os2.h" "bltinmodule.c" "dynload_os2.c" "thread_sgi.h" "thread_pth.h" "strdup.c" "dynload_stub.c" "strtod.c" "pyarena.c" "pystrtod.c" "frozenmain.c" "getopt.c" "thread_beos.h" "pythonrun.c" "ceval.c" "sigcheck.c" "traceback.c" "thread_foobar.h" "getplatform.c")
 
@@ -127,8 +139,6 @@
  ("/home/daipeng/Desktop/tmp/" (21199 43455) "twisted-intro/" "a.html" "t.rst" "optparse_test.py" "qiniu_test.py" "pyevernote_shownote.py" "c.py" "rst/" "c/" "pyevernote/" "listnotebooks.py" "b.py" "a.py" "node/" "echosever.py" "chatdemo/" "gae/" "./" "Centos-base.rp" "tutorial/" "objectid.py" "../" "mgeng_test.py" "mock/" "ttt.py" "gbclient.py" "mongo_index/" "daipeng@daipeng.3540:1387849024" "lua/" "php/" ".ropeproject/" "t.php" "rrr.py" ".#t.rst" "test.conf" "eshell" "t.js" "CentOS-Base-163.repo" "config_test.py" "org/" "qiniu_test.conf" "argparse/" "logging/" "t/" "t.org" "makefile")
 
  ("/home/daipeng/Desktop/program/note/lua/" (21199 38370) "get_started.org" "./" "../" "tables_and_object.org")
-
- ("/home/daipeng/Desktop/program/note/" (21199 23518) "README.md" "elisp/" "c/" "sqlalchemy/" "nodejs/" "work/" "gae/" "./" "make/" "plan.org" "vim/" "scrapy/" "../" "linux/" "emacs/" "python/" "lua/" "sphinx_and_markdown/" ".git/" "redis/" "learn_todo.org" "svn_or_git.org" "gblo_plan.org")
 
  ("/home/daipeng/Desktop/program/note/emacs/org-mode/" (21198 25376) "org-info-read.org" "./" "../" "org-todo.org" "org-1-note.org" "org-link.org")
 
@@ -208,13 +218,9 @@
 
  ("/home/daipeng/Desktop/tmp/node/img_upload/" (21185 15442) "index.js" "server.js" "./" "router.js" "main.js" "../")
 
- ("/home/daipeng/" (21186 5595) ".profile" ".gnome2_private/" "village.dat/" ".viminfo" "Downloads/" ".xsession-errors.old" ".vim/" "Music/" ".dbshell" ".cache/" ".thunderbird/" ".screenrc" ".mongorc.js" ".bashrc.bak" ".profile.bak" ".dbus/" "workspace/" ".viminfz.tmp" ".gconf/" ".bash_history" "Templates/" ".emacs.d/" ".gitconfig" ".viminfo.tmp" ".local/" ".mozilla/" ".evervim/" ".zcompdump" ".pki/" ".ssh/" ".vimrc" ".aptitude/" ".bash_logout" ".adobe/" ".w3m/" ".bashrc" ".npm/" ".pip/" "./" ".xmind/" ".dmrc" ".Xauthority" "examples.desktop" "VirtualBox VMs/" ".ido.last" ".macromedia/" ".config/" ".xsession-errors" ".org/" "../" ".pylint.d/" ".VirtualBox/" "Videos/" ".apport-ignore.xml" "Public/" ".gnomerc" ".NERDTreeBookmarks" ".gnome2/" ".alias" ".mplayer/" "Documents/" ".gvfs/" ".compiz/" ".lesshst" ".curlrc" "Pictures/" "Desktop/" ".appcfg_nag" ".mysql_history" ".ecb-tip-of-day.el" ".appcfg_cookies" ".subversion/" ".ICEauthority")
-
  ("/home/daipeng/Desktop/program/daily-python/c_primary/intro1/" (21184 58064) "./" "helloworld.c" "../" "helloworld" "fc.c")
 
  ("/home/daipeng/Desktop/program/python/Tools/gdb/" (21119 14217) "./" "../" "libpython.py")
-
- ("/home/daipeng/Desktop/program/python/Lib/" (21119 14216) "wave.py" "plat-mac/" "pickle.py" "pkgutil.py" "sched.py" "cgi.py" "atexit.py" "codecs.py" "audiodev.py" "sndhdr.py" "pipes.py" "decimal.py" "tokenize.py" "types.py" "sgmllib.py" "plat-sunos5/" "_strptime.py" "poplib.py" "hashlib.py" "sre_compile.py" "linecache.py" "multifile.py" "codeop.py" "ihooks.py" "collections.py" "chunk.py" "pickletools.py" "pdb.doc" "UserList.py" "getopt.py" "fractions.py" "token.py" "keyword.py" "textwrap.py" "htmllib.py" "aifc.py" "posixpath.py" "threading.py" "dis.py" "profile.py" "heapq.py" "StringIO.py" "base64.py" "repr.py" "macpath.py" "__future__.py" "traceback.py" "fpformat.py" "encodings/" "zipfile.py" "ConfigParser.py" "calendar.py" "site-packages/" "plat-generic/" "httplib.py" "user.py" "plat-darwin/" "symbol.py" "msilib/" "new.py" "compiler/" "ast.py" "plat-freebsd6/" "distutils/" "xmllib.py" "pdb.py" "importlib/" "markupbase.py" "plat-atheos/" "cgitb.py" "rlcompleter.py" "plat-riscos/" "_LWPCookieJar.py" "mimetools.py" "smtpd.py" "popen2.py" "timeit.py" "imaplib.py" "CGIHTTPServer.py" "idlelib/" "symtable.py" "functools.py" "pprint.py" "xml/" "curses/" "shlex.py" "hmac.py" "antigravity.py" "plat-irix6/" "sets.py" "formatter.py" "sre.py" "ssl.py" "_abcoll.py" "lib-tk/" "plat-beos5/" "Bastion.py" "netrc.py" "md5.py" "sre_parse.py" "rexec.py" "plat-freebsd4/" "sqlite3/" "csv.py" "UserDict.py" "compileall.py" "ftplib.py" "plat-netbsd1/" "cookielib.py" "stat.py" "glob.py" "BaseHTTPServer.py" "pydoc_data/" "whichdb.py" "macurl2path.py" "telnetlib.py" "weakref.py" "mailcap.py" "wsgiref.egg-info" "smtplib.py" "binhex.py" "_weakrefset.py" "random.py" "uuid.py" "stringold.py" "_osx_support.py" "Queue.py" "site.py" "uu.py" "subprocess.py" "SocketServer.py" "colorsys.py" "multiprocessing/" "json/" "rfc822.py" "abc.py" "mailbox.py" "quopri.py" "plat-freebsd8/" "plat-unixware7/" "nntplib.py" "copy_reg.py" "robotparser.py" "HTMLParser.py" "plat-next3/" "py_compile.py" "tempfile.py" "plat-os2emx/" "htmlentitydefs.py" "shelve.py" "UserString.py" "urllib2.py" "fileinput.py" "mimetypes.py" "sha.py" "opcode.py" "filecmp.py" "copy.py" "pstats.py" "string.py" "sysconfig.py" "io.py" "webbrowser.py" "urlparse.py" "os2emxpath.py" "bdb.py" "anydbm.py" "platform.py" "MimeWriter.py" "modulefinder.py" "sre_constants.py" "mutex.py" "plistlib.py" "mhlib.py" "struct.py" "posixfile.py" "Cookie.py" "SimpleXMLRPCServer.py" "runpy.py" "dummy_thread.py" "optparse.py" "tty.py" "lib2to3/" "dummy_threading.py" "gettext.py" "locale.py" "DocXMLRPCServer.py" "plat-aix3/" "test/" "pydoc.py" "os.py" "urllib.py" "plat-aix4/" "pyclbr.py" "getpass.py" "hotshot/" "numbers.py" "plat-freebsd7/" "re.py" "sunaudio.py" "doctest.py" "dumbdbm.py" "contextlib.py" "email/" "warnings.py" "argparse.py" "tarfile.py" "trace.py" "shutil.py" "pty.py" "mimify.py" "code.py" "bisect.py" "wsgiref/" "imghdr.py" "genericpath.py" "ctypes/" "bsddb/" "socket.py" "xdrlib.py" "asyncore.py" "cProfile.py" "imputil.py" "ntpath.py" "commands.py" "plat-irix5/" "unittest/" "plat-freebsd5/" "xmlrpclib.py" "dbhash.py" "cmd.py" "_threading_local.py" "inspect.py" "nturl2path.py" "statvfs.py" "gzip.py" "sunau.py" "SimpleHTTPServer.py" "stringprep.py" "fnmatch.py" "difflib.py" "tabnanny.py" "_pyio.py" "logging/" "dircache.py" "plat-linux2/" "__phello__.foo.py" "toaiff.py" "_MozillaCookieJar.py" "asynchat.py" "this.py" "../" "./")
 
  ("/home/daipeng/Desktop/program/daily-python/" (21178 38399) "README.md" "mongodb/" "./" "../" "c_primary/" ".git/")
 
@@ -247,8 +253,6 @@
  ("/home/daipeng/.emacs.d/plugins/rst/" (21177 9014) "./" "../" "rst.el")
 
  ("/home/daipeng/.emacs.d/plugins/" (21148 63977) "README.MD" "rst/" "w3m/" "./" "../" "ipython/" "xcscope/" "speedbar-ext/" "pycomplete/" "python-mode/" "pylookup/" "emms/")
-
- ("/home/daipeng/.emacs.d/" (21164 14559) "session.10694ba87bf773cc76138415354512562100000020030068" "temp/" "README.md" ".gitignore" "tags/" "url/" "elpa/" "conf_data/" "auto-save-list/" "./" "my-lisps/" "tramp" "init.el" "../" "session.10e9f1b1e0d5a84a88138698912491467900000020550037" "custom.el" "snippets/" "semanticdb/" "session.10279d64aec3f50a138560211453852500000021340039" ".git/" "plugins/" "eshell/" "install.sh")
 
  ("/var/www/nphp/" (21170 42876) "requirements/" ".project" "framework/" "www/" "../" ".svn/" "./")
 
@@ -293,10 +297,6 @@
  ("/home/daipeng/.emacs.d/elpa/python-pylint-1.1/" (21151 61096) "python-pylint.el" "./" "python-pylint-pkg.el" "../" "python-pylint-autoloads.el")
 
  ("/home/daipeng/.emacs.d/elpa/pep8-1.2/" (21112 34089) "pep8-pkg.el" "./" "pep8-autoloads.el" "../" "pep8.el")
-
- ("/home/daipeng/Desktop/program/pyevernote/" (21124 29623) "README.md" ".gitignore" "elisp/" "pyevernote/" "./" "doc/" "../" "develop_readme.md" ".git/" "dev-doc/")
-
- ("/home/daipeng/.emacs.d/elpa/yasnippet-0.8.0/" (21112 34089) "yasnippet-pkg.el" "dropdown-list.el" "ChangeLog" "./" "yasnippet-autoloads.el" "yasnippet-autoloads.el~" "../" "snippets/" "yasnippet.el" "README")
 )
 
 ;; ----- ido-unc-hosts-cache -----

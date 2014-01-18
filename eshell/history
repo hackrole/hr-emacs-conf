@@ -14,3 +14,8 @@ git status
 git add -A
 git commit -m "fix"
 git push origin master
+ls
+ls
+cd 
+cd Desktop/tmp/
+ls

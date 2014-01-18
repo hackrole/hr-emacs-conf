@@ -2,11 +2,11 @@
 ;; Automatically generated file!!! DO NOT EDIT!!!
 
 (setq url-cookie-storage
- '((".google.com"
-  [url-cookie "PREF" "ID=567d54acf683907f:NW=1:TM=1377673218:LM=1377673218:S=AsRxB9jAWn5kmlQp" "28-Aug-2015 07:00:18.00 GMT" "/" ".google.com" nil])
- ("marmalade-repo.org"
-  [url-cookie "httpOnly" nil "Fri, 27 Dec 2013 13:19:24 GMT" "/" "marmalade-repo.org" nil]
-  [url-cookie "connect.sid" "9pJlV2iISqkBz5gGPWGMwJEC.cgLF8zFn0oP%2FePVBpfjBS2DA4s6yM%2FSG%2FY5V3ybOIdE" "Fri, 27 Dec 2013 13:19:24 GMT" "/" "marmalade-repo.org" nil]))
+ '(("marmalade-repo.org"
+  [url-cookie "connect.sid" "oaFaMKq0DQBFMBOzaTfoEfFp.AG%2Fa%2BYT33js7us08HXS25l3ayDZYTg30zrXZXZWWG3g" "Fri, 17 Jan 2014 07:03:31 GMT" "/" "marmalade-repo.org" nil]
+  [url-cookie "httpOnly" nil "Fri, 17 Jan 2014 07:03:31 GMT" "/" "marmalade-repo.org" nil])
+ (".google.com"
+  [url-cookie "PREF" "ID=567d54acf683907f:NW=1:TM=1377673218:LM=1377673218:S=AsRxB9jAWn5kmlQp" "28-Aug-2015 07:00:18.00 GMT" "/" ".google.com" nil]))
 )
 (setq url-cookie-secure-storage
  'nil)
