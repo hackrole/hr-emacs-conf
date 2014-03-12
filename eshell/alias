@@ -1,3 +1,4 @@
+alias cdtmp cd ~/Desktop/tmp
 alias cdgame cd /var/www/blcx/trunk/Server/cardgame
 alias cdserver cd /var/www/blcx/trunk/Server
 alias cdtrunk cd /var/www/blcx/trunk
