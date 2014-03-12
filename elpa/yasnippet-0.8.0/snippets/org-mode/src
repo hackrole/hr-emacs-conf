@@ -1,0 +1,7 @@
+# name: begin_src .. end
+# key: src
+# expand-env: ((yas/indent-line "not"))
+# --
+#+BEGIN_SRC $1
+$0
+#+END

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: tornado request handler
+# key: TRhand
+# --
+class ${1:`(concat (capitalize text) "Handler")`}(${2:tornado.web.RequestHandler}):
+	  $0

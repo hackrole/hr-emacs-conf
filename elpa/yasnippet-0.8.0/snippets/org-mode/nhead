@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: notehead
+# key: nhead
+# --
+#+Author: hackrole
+#+Email: daipeng123456@gmail.com
+#+Date: `(format-time-string "%Y-%m-%d")`
+
+$0

@@ -1,0 +1,7 @@
+# name: gae_app.yaml handler
+# key: gae_h
+# --
+- urls: $1
+  script: $2
+
+$0

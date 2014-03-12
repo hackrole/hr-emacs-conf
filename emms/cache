@@ -1,0 +1,12 @@
+;;; .emms-cache -*- mode: emacs-lisp; coding: utf-8; -*-
+(puthash "/home/daipeng/Music/07.Vogel im Käfig (Vocal Cyua).mp3" '(*track* (type . file) (name . "/home/daipeng/Music/07.Vogel im Käfig (Vocal Cyua).mp3") (info-mtime 20958 28799)) emms-cache-db)
+(puthash "/home/daipeng/Music/Borderland.mp3" '(*track* (type . file) (name . "/home/daipeng/Music/Borderland.mp3") (info-mtime 20958 28135)) emms-cache-db)
+(puthash "/home/daipeng/Music/Call your name.mp3" '(*track* (type . file) (name . "/home/daipeng/Music/Call your name.mp3") (info-mtime 20958 28644)) emms-cache-db)
+(puthash "/home/daipeng/Music/Everything At Once.mp3" '(*track* (type . file) (name . "/home/daipeng/Music/Everything At Once.mp3") (info-mtime 20767 5382)) emms-cache-db)
+(puthash "/home/daipeng/Music/Linked Horizon - 紅蓮の弓矢.mp3" '(*track* (type . file) (name . "/home/daipeng/Music/Linked Horizon - 紅蓮の弓矢.mp3") (info-mtime 20958 28561)) emms-cache-db)
+(puthash "/home/daipeng/Music/Memories.mp3" '(*track* (type . file) (name . "/home/daipeng/Music/Memories.mp3") (info-mtime 20875 30103)) emms-cache-db)
+(puthash "/home/daipeng/Music/Over My Head (Better Off Dead).mp3" '(*track* (type . file) (name . "/home/daipeng/Music/Over My Head (Better Off Dead).mp3") (info-mtime 21046 48301)) emms-cache-db)
+(puthash "/home/daipeng/Music/beautiful lies.mp3" '(*track* (type . file) (name . "/home/daipeng/Music/beautiful lies.mp3") (info-mtime 21066 6928)) emms-cache-db)
+(puthash "/home/daipeng/Music/drum_and_bass.mp3" '(*track* (type . file) (name . "/home/daipeng/Music/drum_and_bass.mp3") (info-mtime 20993 43367)) emms-cache-db)
+(puthash "/home/daipeng/Music/spiral.mp3" '(*track* (type . file) (name . "/home/daipeng/Music/spiral.mp3") (info-mtime 20993 42339)) emms-cache-db)
+(puthash "/home/daipeng/Music/wcg主题曲 - beyond the game.mp3" '(*track* (type . file) (name . "/home/daipeng/Music/wcg主题曲 - beyond the game.mp3") (info-mtime 21029 23038)) emms-cache-db)

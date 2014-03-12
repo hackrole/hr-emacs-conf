@@ -1,0 +1,10 @@
+# name: gae_app.yaml
+# key: gae_app
+# --
+application: $1
+version: ${2:default 1}
+runtime: ${3:default python}
+api_version: ${4:default 1}
+
+handlers:
+$0

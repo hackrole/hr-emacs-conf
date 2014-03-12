@@ -1,0 +1,11 @@
+*.log
+*.pyc
+*.elc
+*.out
+*.dat
+*.cache
+*.temp
+auto-save-list
+temp/*
+session.*
+
