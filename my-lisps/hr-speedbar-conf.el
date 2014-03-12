@@ -1,16 +1,5 @@
-;; path settings
-(add-to-list 'load-path "~/.emacs.d/plugins/speedbar-ext")
-
 ;; the speedbar conf
 (require 'speedbar)
-;; TODO: 当前有错，不可用
-(require 'speedbar-extension)
-(require 'sr-speedbar)
-
-;; the keybind, see hr-keys
-
-;; set the direction
-(setq sr-speedbar-right-side t)
 
 (defun hr-speedbar-key-hook ()
   "define some useful key for speedbar"
