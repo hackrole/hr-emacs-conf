@@ -24,3 +24,87 @@ alias
 cd 
 cd Desktop/tmp/
 ls
+cdwo
+alias cdwork "cd ~/Desktop/work"
+cdwork 
+ls
+cd
+cd .emacs.d/
+ls
+alias cdgame "cd /var/www/blcx/trunk/Server/game"
+cdgame 
+cdww
+ls
+alias cdwww "cd /var/www"
+cdwww 
+ls
+alias cdblcx "cd /var/www/blcx"
+alias cdtrunk "cd /var/www/blcx/trunk"
+cdtrunk 
+ls
+alias cdserver "cd /var/www/blcx/trunk/Server"
+alias cdgame "cdserver && cd cardgame"
+cdgame 
+ls
+cdserver 
+alias cdgame "cd /var/www/blcx/trunk/Server/cardgame"
+cdgame 
+cd
+cd .emacs.d/
+ls
+touch install.py
+ff install.sh
+find-file install.py
+cdtrunk 
+alias cdtmp "cd ~/Desktop/tmp"
+cdtmp 
+ls
+cd
+cd .emacs.d/elpa/
+ls
+cd emmet-mode-20140218.836/
+ls
+cddes
+alias
+alias cddesk "cd ~/Desktop"
+cddesk 
+ls
+unzip -x phpMyAdmin-4.1.9-all-languages.zip 
+ls
+cd program/
+ls
+cd -
+cd phpMyAdmin-4.1.9-all-languages/
+ls
+cd ..
+ls
+mv phpMyAdmin-4.1.9-all-languages.zip /var/www/phpmyadmin
+rm -rf phpMyAdmin-4.1.9-all-languages/
+cdwww 
+ls
+unzip -x phpmyadmin 
+cd ..
+ls
+cd -
+ls
+rm -rf phpmyadmin
+mv phpMyAdmin-4.1.9-all-languages/ phpmyadmin
+cdwww 
+cdgame 
+ls
+cddesk 
+cd tmp/
+ls
+ls
+python twist_test.py 
+python twist_test.py 
+python twist_test.py 
+python twist_test.py 
+python twist_test.py 
+python twist_test.py 
+python twist_test.py 
+ls
+python tw_irc_client.py 
+python tw_irc_client.py emacs ./irc.log
+cd 
+cd .emacs.d/elpa/w3m-20140213.1557/
