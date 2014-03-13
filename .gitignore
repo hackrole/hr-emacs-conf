@@ -8,4 +8,6 @@
 auto-save-list
 temp/*
 session.*
+eshell/lastdir
+eshell/history
 
