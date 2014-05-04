@@ -5,6 +5,8 @@
 (require 'cl)
 (require 'package)
 (add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
+;; (add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
+;; (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/") t)
 (package-initialize)
 (setq package-user-dir (concat dotfiles-dir "/elpa"))
 
@@ -15,7 +17,6 @@
   '(ecb
 	yasnippet
 	auto-complete
-	sr-speedbar
 	color-theme
 	google-translate))
 (dolist (p my-default-packages)
@@ -33,7 +34,7 @@
 
 ;; tramp back settings
 ;; TODO: temps set here, time to move the my-lisps/
-(setq tramp-auto-save-directory "~/.emacs.d/temp/tramp/")
+(setq tramp-auto-save-directory "~/.emacs.d/temp/tramp")
 
 ;; for error debug
 (setq stack-trace-on-error t)

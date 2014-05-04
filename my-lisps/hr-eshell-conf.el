@@ -1,10 +1,9 @@
 ;; eshell settings
 
-;; eshell directory
-(setq eshell-directory-name "~/.emacs.d/temp/eshell")
+(require 'eshell nil t)
 
-;; alias file
-(setq eshell-alias-file "~/.emacs.d/temp/eshell/alias")
+;; eshell directory
+(setq eshell-directory-name "~/.emacs.d/eshell")
 
 ;; provide
 (provide 'hr-eshell-conf)

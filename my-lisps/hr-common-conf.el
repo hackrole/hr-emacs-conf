@@ -42,8 +42,13 @@
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
 
+<<<<<<< HEAD
 ;;bookmark
 (setq bookmark-save-flag 1);;always save the bookmark
+=======
+;; bookmark
+(setq bookmark-save-flag 1) ;;always save the bookmark
+>>>>>>> 0e94487d0b5ebede51aae319756e1ff6fb9266eb
 (setq bookmark-default-file "~/.emacs.d/bookmarks")
 
 ;; ibuffer
@@ -90,9 +95,12 @@
 (setq default-tab-width 4)
 ;;(setq tab-width 4) set on the marjor-mode hook
 
+<<<<<<< HEAD
 ;; bookmark settings
 (setq bookmark-default-file "~/.emacs.d/conf_data/bookmarks")
 
+=======
+>>>>>>> 0e94487d0b5ebede51aae319756e1ff6fb9266eb
 ;; back up settings
 (setq make-backup-files t)
 (setq auto-save-default nil)

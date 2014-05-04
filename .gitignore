@@ -6,9 +6,17 @@
 *.cache
 *.temp
 auto-save-list
+<<<<<<< HEAD
 session.*
 temp/
 eshell/history
 eshell/lastdir
 elpa/archives/*
 conf_data/bookmarks
+=======
+temp/*
+session.*
+eshell/lastdir
+eshell/history
+
+>>>>>>> 0e94487d0b5ebede51aae319756e1ff6fb9266eb

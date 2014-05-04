@@ -16,8 +16,8 @@
 								'(length initial-pattern)))
 
 ;; pycomplete
-(add-to-list 'load-path "~/.emacs.d/plugins/pycomplete")
-(require 'pycomplete)
+;;(add-to-list 'load-path "~/.emacs.d/plugins/pycomplete")
+;;(require 'pycomplete)
 
 ;; pylookup
 (setq pylookup-dir "~/.emacs.d/plugins/pylookup/")
@@ -33,17 +33,9 @@
 ;; TODO: move to hr-common.el 
 (autoload 'autopair-global-mode "autopair" nil t)
 (autopair-global-mode)
-;;(add-hook 'lisp-mode-hook #'(lambda () (setq autopair-dont-activate t)))
-;;(add-hook 'python-mode-hook #'(lambda () (push '(?' . ?')
-;;											   (getf autopair-extra-pairs :code))
-;;								(setq autopair-handle-action-fns
-;;									  (list #'autopair-default-handle-action
-;;											#'autopair-python-triple-quote-action))))
-
 
 ;; python pep8 and pyling
-; fix pep8 and pylint errors
-(require 'tramp)
+(require 'tramp)  ;; TODO: fix pep8 and pylint errors
 (require 'python-pep8)
 (require 'python-pylint)
 
