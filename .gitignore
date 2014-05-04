@@ -6,5 +6,9 @@
 *.cache
 *.temp
 auto-save-list
+session.*
 temp/
-
+eshell/history
+eshell/lastdir
+elpa/archives/*
+conf_data/bookmarks
