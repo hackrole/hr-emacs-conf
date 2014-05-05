@@ -41,11 +41,7 @@
 								   
 ;; semantic db save path
 (setq semanticdb-default-save-directory
-<<<<<<< HEAD
-	  (expand-file-name "~/.emacs.d/semanticdb"))
-=======
 	  (expand-file-name "~/.emacs.d/temp/semanticdb"))
->>>>>>> 0e94487d0b5ebede51aae319756e1ff6fb9266eb
 
 ;; ede 
 (global-ede-mode t)
