@@ -2,7 +2,12 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("work_plan.org"
+(("rstblog"
+ (filename . "/usr/local/lib/python2.7/dist-packages/rstblog-1.0-py2.7.egg/rstblog/")
+ (front-context-string . "builder.py\n  -rw")
+ (rear-context-string . "93 May  4 09:25 ")
+ (position . 263))
+("work_plan.org"
  (filename . "~/Desktop/work/work_plan.org")
  (front-context-string . "\n* DONE mongoeng")
  (rear-context-string)
