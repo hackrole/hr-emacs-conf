@@ -1,3 +1,0 @@
-class SongList
-  def initialize
-    @songs = []

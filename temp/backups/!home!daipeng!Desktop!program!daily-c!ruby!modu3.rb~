@@ -1,6 +1,0 @@
-a = 3 
-b = 4
-
-def time
-  puts Time.now
-end

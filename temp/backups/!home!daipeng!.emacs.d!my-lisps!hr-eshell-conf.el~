@@ -1,4 +1,0 @@
-;; eshell settings
-
-;; alias file
-(setq eshell-alias-file "~/.emacs.d/temp/eshell/alias")

@@ -1,7 +1,0 @@
-#!/usr/bin/env python
-#coding=utf-8
-
-import settings
-from optparse import OptionParser, OptionValueError
-from evernote.api.client import EvernoteClient
-from evernote.edam.noteStore import ttypes

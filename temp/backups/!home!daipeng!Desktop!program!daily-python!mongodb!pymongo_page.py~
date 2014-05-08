@@ -1,9 +1,0 @@
-#!/usr/bin/env python
-#coding=utf8
-
-"""
-使用pymongo实现的分页程序, 不使用skip,limit实现。
-通过比较id来实现
-"""
-
-import pymongo
