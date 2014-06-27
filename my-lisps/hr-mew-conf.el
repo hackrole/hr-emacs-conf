@@ -27,7 +27,7 @@
 
 (setq mew-config-alist 
  '( 
-   ("gmail" 
+   ("default" 
 	 ("mailbox-type"	 imap) 
 	 ("proto"	 "%") 
 	 ("prog-ssl" "/usr/bin/mewstunnel") 
@@ -47,7 +47,7 @@
 	 ("smtp-server"	 "smtp.gmail.com") 
 	 ("smtp-ssl-port" "465") 
 	 )
-   ("default"
+   ("163"
 	("name" . "daipeng45645")
 	("user" . "daipeng45645")
 	("mail-domain" . "163.com")

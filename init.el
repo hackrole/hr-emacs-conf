@@ -13,12 +13,15 @@
 (when (not package-archive-contents)
   (package-refresh-contents))
 
-(defvar my-default-packages
-  '(ecb
-	yasnippet
-	auto-complete
-	color-theme
-	google-translate))
+(defvar my-default-packages '())
+(add-to-list 'my-default-packages 'ecb)
+(add-to-list 'my-default-packages 'yasnippet)
+(add-to-list 'my-default-packages 'auto-complete)
+(add-to-list 'my-default-packages 'color-theme)
+(add-to-list 'my-default-packages 'go-mode)
+(add-to-list 'my-default-packages 'flymake-go)
+(add-to-list 'my-default-packages 'python-pep8)
+
 (dolist (p my-default-packages)
   (when (not (package-installed-p p))
 	(package-install p)))

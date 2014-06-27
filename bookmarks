@@ -2,7 +2,54 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("rstblog"
+(("objc-tut"
+ (filename . "~/Desktop/book/objective_c_tutorial.pdf")
+ (front-context-string . "%PDF-1.5\n%\265\265\265\265")
+ (rear-context-string)
+ (position . 1)
+ (page . 50)
+ (handler . doc-view-bookmark-jump))
+("objective_c_tutorial.pdf"
+ (filename . "~/Desktop/book/objective_c_tutorial.pdf")
+ (front-context-string . "%PDF-1.5\n%\265\265\265\265")
+ (rear-context-string)
+ (position . 1)
+ (page . 50)
+ (handler . doc-view-bookmark-jump))
+("interview_ios.org"
+ (filename . "~/Desktop/work/interview_ios.org")
+ (front-context-string . "#+Author: hackro")
+ (rear-context-string)
+ (position . 1))
+("ali_url"
+ (filename . "~/Desktop/work/移动快捷支付应用集成接入包支付接口.pdf")
+ (front-context-string . "%PDF-1.4%\342\343\317\323\n")
+ (rear-context-string)
+ (position . 1)
+ (page . 5)
+ (handler . doc-view-bookmark-jump))
+("ali_mobile"
+ (filename . "~/Desktop/work/移动快捷支付应用集成接入包支付接口接入与使用规则.pdf")
+ (front-context-string . "%PDF-1.4%\342\343\317\323\n")
+ (rear-context-string)
+ (position . 1)
+ (page . 3)
+ (handler . doc-view-bookmark-jump))
+("zfb2"
+ (filename . "~/Desktop/即时到账交易接口(create_direct_pay_by_user).pdf")
+ (front-context-string . "%PDF-1.4%\342\343\317\323\n")
+ (rear-context-string)
+ (position . 1)
+ (page . 3)
+ (handler . doc-view-bookmark-jump))
+("zfb1"
+ (filename . "~/Desktop/即时到账交易接口(create_direct_pay_by_user)接入与使用规则.pdf")
+ (front-context-string . "%PDF-1.5%\342\343\317\323\n")
+ (rear-context-string)
+ (position . 1)
+ (page . 1)
+ (handler . doc-view-bookmark-jump))
+("rstblog"
  (filename . "/usr/local/lib/python2.7/dist-packages/rstblog-1.0-py2.7.egg/rstblog/")
  (front-context-string . "builder.py\n  -rw")
  (rear-context-string . "93 May  4 09:25 ")
