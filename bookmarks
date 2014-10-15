@@ -2,7 +2,19 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("objc-tut"
+(("tornado"
+ (filename . "/usr/local/lib/python2.7/dist-packages/tornado/")
+ (front-context-string . "auth.py\n  -rw-r-")
+ (rear-context-string . "69 Oct 11 16:03 ")
+ (position . 251))
+("xmpp_2_not_finish"
+ (filename . "~/Desktop/book/Oreilly.XMPP.The.Definitive.Guide.May.2009.pdf")
+ (front-context-string . "%PDF-1.4\n%\342\343\317\323\n")
+ (rear-context-string)
+ (position . 1)
+ (page . 42)
+ (handler . doc-view-bookmark-jump))
+("objc-tut"
  (filename . "~/Desktop/book/objective_c_tutorial.pdf")
  (front-context-string . "%PDF-1.5\n%\265\265\265\265")
  (rear-context-string)
@@ -55,7 +67,7 @@
  (rear-context-string . "93 May  4 09:25 ")
  (position . 263))
 ("work_plan.org"
- (filename . "~/Desktop/work/work_plan.org")
+ (filename . "~/Desktop/work/stime/work_plan.org")
  (front-context-string . "\n* DONE mongoeng")
  (rear-context-string)
  (position . 1))
