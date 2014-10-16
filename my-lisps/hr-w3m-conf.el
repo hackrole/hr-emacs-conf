@@ -3,6 +3,9 @@
 
 (add-to-list 'load-path "~/.emacs.d/plugins/w3m")
 ;;(setq w3m-icon-directory "~/.w3m/w3m/cons")
+;; set w3m exec path for mac
+(setq w3m-command "/usr/local/bin/w3m")
+
 (require 'w3m)
 
 ;; set w3m as default url browser

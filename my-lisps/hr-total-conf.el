@@ -32,7 +32,7 @@
 (require 'hr-auto-complete-conf)
 
 ;; python develop conf
-(require 'hr-python-conf)
+;; (require 'hr-python-conf)
 
 ;; ruby develop conf
 (require 'hr-ruby-conf)
