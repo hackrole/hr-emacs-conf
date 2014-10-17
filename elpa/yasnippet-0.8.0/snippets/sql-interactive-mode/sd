@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: show database
+# key: show
+# --
+show databases;
