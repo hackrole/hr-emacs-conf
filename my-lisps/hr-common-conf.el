@@ -37,10 +37,11 @@
 ;; 行首时同时删除该行
 (setq-default kill-whole-line t)
 
-;; not menu-bar, tool-bar, scroll-bar
-(menu-bar-mode -1)
-(tool-bar-mode -1)
-(scroll-bar-mode -1)
+;; not menu-bar, tool-bar, scroll-bar(menu-bar-mode -1)
+(when (not (eq system-type 'darwin))
+  (menu-bar-mode -1)
+  (tool-bar-mode -1)
+  (scroll-bar-mode -1))
 
 ;; bookmark
 (setq bookmark-save-flag 1) ;;always save the bookmark
