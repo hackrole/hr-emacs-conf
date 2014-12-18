@@ -6,6 +6,7 @@
                        ("begin" "begin\n    $0\nend" "begin ... end" nil nil nil nil nil nil)
                        ("beh" "-behaviour(${1:gen_server}).\n$0" "-behaviour(...)." nil nil nil nil nil nil)
                        ("case" "case $1 of\n    $0\nend" "case ... of ... end" nil nil nil nil nil nil)
+                       ("comhd" "%%% ----------------------------------------------------------\n%%% @auth hackrole<daipeng123456@gmail.com>\n%%% @copyright `(current-time-string)` hackrole\n%%% @doc $1\n%%% @end\n%%% ----------------------------------------------------------\n$0" "%%%-------- coment of the file" nil nil nil nil nil nil)
                        ("compile" "-compile([${1:export_all}]).\n$0" "-compile(...)." nil nil nil nil nil nil)
                        ("def" "-define($1,$2).\n$0" "-define(...,...)." nil nil nil nil nil nil)
                        ("exp" "-export([${1:start/0}]).\n$0" "-export([])." nil nil nil nil nil nil)
@@ -25,4 +26,4 @@
                        ("undef" "-undef($1).\n$0" "-undef(...)." nil nil nil nil nil nil)))
 
 
-;;; Do not edit! File generated at Mon Jan 13 11:23:11 2014
+;;; Do not edit! File generated at Tue Dec 16 09:38:55 2014

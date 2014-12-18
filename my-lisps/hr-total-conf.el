@@ -37,6 +37,9 @@
 ;; ruby develop conf
 (require 'hr-ruby-conf)
 
+;; erlang develop conf
+(require 'hr-erlang-conf)
+
 ;; speedbar and sr-speedbar
 (require  'hr-speedbar-conf)
 

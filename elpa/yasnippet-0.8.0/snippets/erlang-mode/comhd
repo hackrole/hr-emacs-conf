@@ -1,0 +1,10 @@
+# name: %%%-------- coment of the file
+# key: comhd
+# --
+%%% ----------------------------------------------------------
+%%% @auth hackrole<daipeng123456@gmail.com>
+%%% @copyright `(current-time-string)` hackrole
+%%% @doc $1
+%%% @end
+%%% ----------------------------------------------------------
+$0
