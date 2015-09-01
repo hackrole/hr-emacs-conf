@@ -38,7 +38,6 @@
 
 
 ;; add load-path
-(add-to-list 'load-path dotfiles-dir)
 (add-to-list 'load-path (concat dotfiles-dir "/my-lisps"))
 (add-to-list 'load-path (concat dotfiles-dir "/plugins"))
 
