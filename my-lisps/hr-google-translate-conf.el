@@ -6,13 +6,13 @@
 
 ;; key set
 (define-prefix-command 'google-translate-map)
-(global-set-key (kbd "\\ g") 'google-translate-map)
+(global-set-key (kbd "C-\\ g") 'google-translate-map)
 (global-unset-key (kbd "C-c t"))
 (global-unset-key (kbd "C-c T"))
-(global-set-key (kbd "\\ g t") 'google-translate-at-point)
-(global-set-key (kbd "\\ g q") 'google-translate-query-translate)
-(global-set-key (kbd "\\ g T") 'google-translate-at-point-reverse)
-(global-set-key (kbd "\\ g Q") 'google-translate-query-translate-reverse)
+(global-set-key (kbd "C-\\ g t") 'google-translate-at-point)
+(global-set-key (kbd "C-\\ g q") 'google-translate-query-translate)
+(global-set-key (kbd "C-\\ g T") 'google-translate-at-point-reverse)
+(global-set-key (kbd "C-\\ g Q") 'google-translate-query-translate-reverse)
 
 ;; provide
 (provide 'hr-google-translate-conf)

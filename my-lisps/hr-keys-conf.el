@@ -1,17 +1,17 @@
 ;; hr keys conf, this will be often to improve and change
 
-;; \ key-map
+;; C-\ key-map
 (define-prefix-command 'ctrl-L-map)
-(global-set-key (kbd "\\") 'ctrl-L-map)
-(defun insert_backlash ()
-  "use to insert a backlash"
-  (interactive)
-  (insert-char ?\\ 1))
-(global-set-key (kbd "C-\\") 'insert_backlash)
+(global-set-key (kbd "\C-\\") 'ctrl-L-map)
+;(defun insert_backlash ()
+  ;"use to insert a backlash"
+  ;(interactive)
+  ;(insert-char ?\\ 1))
+;(global-set-key (kbd "C-\\") 'insert_backlash)
 
 ;; \ r key-map (register key map)
 (define-prefix-command 'L-R-map)
-(global-set-key (kbd "\\ r") 'L-R-map)
+(global-set-key (kbd "\C-\\ r") 'L-R-map)
 
 ;; register key define
 (define-key 'L-R-map (kbd "r") 'point-to-register)
@@ -48,7 +48,7 @@
 (global-set-key (kbd "C-<RET>") 'newline)
 (global-unset-key (kbd "C-j"))
 (global-unset-key (kbd "C-<SPC>"))
-(global-set-key (kbd "\\ j") 'join-line)
+(global-set-key (kbd "C-\\ j") 'join-line)
 
 ;; font size, emacs 字体大小快捷键
 (global-set-key (kbd "C-c C-=") 'text-scale-increase) 
@@ -63,9 +63,9 @@
 
 ;; reload file
 ;; 文件重加载
-(global-set-key (kbd "\\ r") 'revert-buffer)
+(global-set-key (kbd "C-\\ r") 'revert-buffer)
 ;; 覆盖buffer
-(global-set-key (kbd "\\ Y") 'bury-buffer)
+(global-set-key (kbd "C-\\ Y") 'bury-buffer)
 
 ;; scroll
 ;; 一次滚动8行
@@ -73,10 +73,10 @@
 (global-set-key (kbd "M-v") (lambda () (interactive) (scroll-down 8)))
 
 ;; windmove
-(global-set-key (kbd "\\ k") 'windmove-up)
-(global-set-key (kbd "\\ j") 'windmove-down)
-(global-set-key (kbd "\\ h") 'windmove-left)
-(global-set-key (kbd "\\ l") 'windmove-right)
+;;(global-set-key (kbd "\\ k") 'windmove-up)
+;;(global-set-key (kbd "\\ j") 'windmove-down)
+;;(global-set-key (kbd "\\ h") 'windmove-left)
+;;(global-set-key (kbd "\\ l") 'windmove-right)
 
 ;; org conf keys
 (global-set-key "\C-cl" 'org-store-link)

@@ -2,7 +2,12 @@
 ;; Automatically generated file!!! DO NOT EDIT!!!
 
 (setq url-cookie-storage
- '((".google.com"
+ '((".baidu.com"
+  [url-cookie "BAIDUID" "E47DB43891F9B675123F5D81FB47AF0D:FG=1" "31 Dec 37 23:55:55 [GMT]" "/" ".baidu.com" nil]
+  [url-cookie "max-age" "2147483647" "31 Dec 37 23:55:55 [GMT]" "/" ".baidu.com" nil]
+  [url-cookie "BIDUPSID" "E47DB43891F9B675123F5D81FB47AF0D" "31 Dec 37 23:55:55 [GMT]" "/" ".baidu.com" nil]
+  [url-cookie "PSTM" "1441933846" "31 Dec 37 23:55:55 [GMT]" "/" ".baidu.com" nil])
+ (".google.com"
   [url-cookie "PREF" "ID=89f374f62d420a8f:NW=1:TM=1399870882:LM=1399870882:S=rCA6grSYc2-8r8xS" "11-May-2016 05:01:22.00 GMT" "/" ".google.com" nil]))
 )
 (setq url-cookie-secure-storage

@@ -13,10 +13,10 @@
 ;; redine key map
 (global-set-key (kbd "\M-1") 'auto-complete)
 (define-prefix-command 'hr-ac-map)
-(global-set-key (kbd "\\ a") 'hr-ac-map)
-(define-key ac-mode-map (kbd "\\ a a") 'ac-expand)
-(define-key ac-mode-map (kbd "\\ a f") 'ac-fuzzy-complete)
-(define-key ac-mode-map (kbd "\\ a c") 'ac-clear-dictionary-cache)
+(global-set-key (kbd "C-\\ a") 'hr-ac-map)
+(define-key ac-mode-map (kbd "C-\\ a a") 'ac-expand)
+(define-key ac-mode-map (kbd "C-\\ a f") 'ac-fuzzy-complete)
+(define-key ac-mode-map (kbd "C-\\ a c") 'ac-clear-dictionary-cache)
 (ac-set-trigger-key nil)
 
 ;; others
@@ -38,18 +38,18 @@
 
 ;; ac-sources
 (setq-default ac-sources '(ac-source-words-in-same-mode-buffers
-						  ac-source-dictionary
-						  ;;ac-source-yasnippet ;; not correct now
-						  ac-source-filename))
+                          ac-source-dictionary
+                          ;;ac-source-yasnippet ;; not correct now
+                          ac-source-filename))
 
 ;; sql-interactive-mode complete
 (defun hr-sql-interactive-complete ()
   "set the auto-complete for sql-interactive-mode"
   (auto-complete-mode t)
   (setq ac-sources '(ac-source-dictionary
-					 ;;ac-source-yasnippet ;; not correct now
-					 ac-source-words-in-buffer
-					 ac-source-filename)))
+                     ;;ac-source-yasnippet ;; not correct now
+                     ac-source-words-in-buffer
+                     ac-source-filename)))
 (add-hook 'sql-interactive-mode-hook 'hr-sql-interactive-complete)
 
 ;; eshell complete
@@ -58,18 +58,18 @@
 (defun hr-python-mode-complete ()
   "set the auto-complete sources for python-mode"
   (setq ac-sources '(ac-source-dictionary
-					 ac-source-semantic
-					 ac-source-ropemacs
-					 ac-source-words-in-same-mode-buffers
-					 ac-source-filename)))
+                     ac-source-semantic
+                     ac-source-ropemacs
+                     ac-source-words-in-same-mode-buffers
+                     ac-source-filename)))
 (add-hook 'python-mode-hook 'hr-python-mode-complete)
 
 ;; c complete
 (defun hr-cc-mode-complete ()
   "set the auto-complete sources for cc-mode"
   (setq ac-sources '(ac-source-dictionary
-					 ac-source-words-in-same-mode-buffers
-					 ac-source-filename)))
+                     ac-source-words-in-same-mode-buffers
+                     ac-source-filename)))
 (add-hook 'c-mode-hook 'hr-cc-mode-complete)
 
 ;; provide
