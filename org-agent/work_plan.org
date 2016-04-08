@@ -1,0 +1,53 @@
+
+* DONE pylint 配置
+1) pylintrc
+2) pylint file template
+* TODO pep 配置
+
+* TODO jenkins方案
+1) 熟悉jenkins
+2) ansible
+* TODO docker熟悉
+
+* DONE logagent项目 <2016-03-22 二>
+
+* DONE logagent config __file__ and base_dir
+
+* DONE pypi_server配置/devpi
+
+* DONE ipython hashell-mode
+1) stack
+2) cabal
+
+* DONE haskell 官网
+1) haskell in action pdf online
+
+* TODO sniffer代码
+
+* TODO i3-gaps
+
+* DONE python click
+
+* DONE ansible
+1) buy book（奔跑)
+
+* TODO bro script/sniffer
+
+* DONE groovy安装/官网
+
+* TODO python pcap相关库
+图灵/源码
+1) pylibpcap
+2) construct
+3) scapy
+
+* TODO node 相关
+1) 官网
+2) 基础库 http/global
+3) module/package
+4) 源码
+5) express
+
+* TODO python default version 2.7
+
+* DONE pcap格式
