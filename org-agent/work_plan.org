@@ -22,32 +22,123 @@
 * DONE haskell 官网
 1) haskell in action pdf online
 
-* TODO sniffer代码
+* DONE sniffer代码
+** DONE get_sessionid
+** DONE id-generator
 
-* TODO i3-gaps
+
+* DONE i3-gaps
 
 * DONE python click
 
 * DONE ansible
 1) buy book（奔跑)
 
-* TODO bro script/sniffer
+* DONE bro script/sniffer
 
 * DONE groovy安装/官网
 
-* TODO python pcap相关库
+* DONE python pcap相关库
 图灵/源码
 1) pylibpcap
 2) construct
 3) scapy
 
-* TODO node 相关
+* DONE node 相关
 1) 官网
 2) 基础库 http/global
 3) module/package
 4) 源码
 5) express
 
-* TODO python default version 2.7
 
 * DONE pcap格式
+
+* DONE tcpcopy工具
+1) 熟悉工具
+2) 架构tcp测试环境
+
+* DONE tcpcopy测试
+1) 阿里云分流
+2) 部署warden
+
+* TODO rabbitmq教程和note整理
+1) 测试后建立的queue是否能接受之前的msg
+
+* TODO ansible
+** TODO office doc
+
+* DONE note how to auto-fit i3 ubuntu
+
+* DONE python lib check
+1) hy
+2) abc
+3) wsme
+4) circuits
+5) alembic
+6) smiley
+
+
+* DONE ihaskell安装
+1) cabal
+2) stack
+
+* DONE mac lua wm
+
+* DONE pynib测试
+
+* DONE pcap-http python修改
+* DONE graphic 
+
+* DONE pcap-server
+1) 完成sniffer并输出到redis
+* DONE Spyder
+
+* DONE haskell in ihaskell
+
+
+* DONE i3
+1) auto-start
+
+* TODO learn c hard way
+* TODO ELK套件
+
+* DONE test redisco
+
+* DONE mutt 配置
+1) 先测试
+* DONE i3blocks
+* DONE 跑通pcap_server
+* DONE construct hexstring源码
+1) hexstring可以通过 ''.join转为str
+
+* DONE virtualenv-wrapper projectdir
+* DONE python uvloop lib 
+
+* DONE python etl
+1) petl
+* DONE parse_engine
+1) cmd run/load settings/start gevent.spwan/join/signal exit
+
+* TODO 微服务
+** DONE 官网
+bit.ly/building-microservices
+** TODO 六边形架构理论
+** TODO Netfix github
+** TODO Robert C. Martin 单一职责原则
+** TODO OSGI
+** TODO Heroku 12 factors
+www.12factor.net
+** DONE 开源容器
+Dropwizard
+Karyon (github)
+** DONE 断路器
+Hystrix
+** DONE 指标数据
+Dropwizard's metrics (github)
+** TODO packer
+* TODO setup.py
+1) 整理note
+
+* TODO angular2
+* TODO graphite

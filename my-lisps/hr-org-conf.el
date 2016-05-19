@@ -4,6 +4,9 @@
 ;; set org-agenda
 (setq org-agenda-files '("~/.emacs.d/org-agent/work_plan.org"))
 
+;; key-bind
+(global-set-key (kbd "<f6>") (lambda() (interactive)(find-file "~/.emacs.d/org-agent/work_plan.org")))
+
 ;; set keys
 (add-hook 'org-mode-hook (lambda ()
                            (setq tab-always-indent nil)
