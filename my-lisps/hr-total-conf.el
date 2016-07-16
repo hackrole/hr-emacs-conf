@@ -41,7 +41,9 @@
 (require 'hr-erlang-conf)
 
 ;; speedbar and sr-speedbar
-(require  'hr-speedbar-conf)
+;;(require  'hr-speedbar-conf)
+;; use neotree instead
+(require 'hr-neotree-conf)
 
 ;; anything
 ;;(require 'hr-anything-conf)
