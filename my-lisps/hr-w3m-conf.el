@@ -37,6 +37,20 @@
 (global-set-key (kbd "C-c <f9>") 'hr-max-w3m)
 (global-set-key (kbd "<f9>") 'w3m)
 
+(defun toggle-env-http-proxy ()
+  "set/unset the env variable http_proxy which w3m uses"
+  (interactive)
+  (let ((proxy "http://127.0.0.1:8118"))
+    (if (string= (getenv "http_proxy") proxy)
+        ;; clear the proxy
+        (progn
+          (setenv "http_proxy" "")
+          (message "env http_proxy is empty now"))
+      ;; set the proxy
+      (setenv "http_proxy" proxy)
+      (message "env http_proxy is %s now" proxy))))
+        
+
 ;; provide
 (provide 'hr-w3m-conf)
 
