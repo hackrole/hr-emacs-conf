@@ -68,7 +68,7 @@
 (require 'hr-org-conf)
 
 ;; mu4e mail-client
-(require 'hr-mu4e-conf)
+;;(require 'hr-mu4e-conf)
 
 ;; eshell settings
 (require 'hr-eshell-conf)
