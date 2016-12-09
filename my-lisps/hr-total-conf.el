@@ -58,7 +58,7 @@
 ;;(require 'hr-mew-conf)
 
 ;; w3m and emms
-(require 'hr-w3m-conf)
+;;(require 'hr-w3m-conf)
 (require 'hr-emms-conf)
 
 ;; auto-complete
