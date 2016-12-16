@@ -1,18 +1,15 @@
 ;;; flymake-go-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-
+(add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil nil ("flymake-go-pkg.el" "flymake-go.el") (21419
-;;;;;;  43195 926254 302000))
+;;;### (autoloads nil nil ("flymake-go.el") (22611 36757 0 0))
 
 ;;;***
 
-(provide 'flymake-go-autoloads)
 ;; Local Variables:
 ;; version-control: never
 ;; no-byte-compile: t
 ;; no-update-autoloads: t
-;; coding: utf-8
 ;; End:
 ;;; flymake-go-autoloads.el ends here

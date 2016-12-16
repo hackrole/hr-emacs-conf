@@ -1,4 +1,0 @@
-# key: ct
-# name: select count(*) ...
-# --
-select count(*) from $1

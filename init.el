@@ -1,44 +1,45 @@
 ;; init dir
 (defvar dotfiles-dir "~/.emacs.d")
 
-(defun plist-to-alist (the-plist)
-  (defun get-tuple-form-plist (the-plist)
-    (when the-plist
-      (cons (car the-plist) (cadr the-plist))))
-  (let ((alist '()))
-    (while the-plist
-      (add-to-list 'alist (get-tuple-from-plist the-plist))
-      (setq the-plist (cddr the-plist)))
-    alist))
-
 ;; ELPA 
-(require 'cl)
 (require 'package)
-;;(add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
-(add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
-(package-initialize)
 (setq package-user-dir (concat dotfiles-dir "/elpa"))
+(add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
+;;(add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
+(package-initialize)
 
 (when (not package-archive-contents)
   (package-refresh-contents))
 
 (defvar my-default-packages '())
-(add-to-list 'my-default-packages 'ecb)
+;;(add-to-list 'my-default-packages 'ecb)
 (add-to-list 'my-default-packages 'yasnippet)
 (add-to-list 'my-default-packages 'auto-complete)
 (add-to-list 'my-default-packages 'color-theme)
+(add-to-list 'my-default-packages 'erlang)
+(add-to-list 'my-default-packages 'eredis)
+(add-to-list 'my-default-packages 'xcscope)
+(add-to-list 'my-default-packages 'rst)
+(add-to-list 'my-default-packages 'magit)
+(add-to-list 'my-default-packages 'popup)
+(add-to-list 'my-default-packages 'tabbar)
+(add-to-list 'my-default-packages 'emmet-mode)
+(add-to-list 'my-default-packages 'w3)
+(add-to-list 'my-default-packages 'slime)
+(add-to-list 'my-default-packages 'undo-tree)
+(add-to-list 'my-default-packages 'neotree)
+(add-to-list 'my-default-packages 'google-translate)
+(add-to-list 'my-default-packages 'mongo)
+(add-to-list 'my-default-packages 'markdown-mode)
 (add-to-list 'my-default-packages 'go-mode)
 (add-to-list 'my-default-packages 'flymake-go)
-(add-to-list 'my-default-packages 'python-pep8)
+(add-to-list 'my-default-packages 'python-pylint)
 
+;; install package
 (dolist (p my-default-packages)
   (when (not (package-installed-p p))
 	(package-install p)))
 
-
-;; add load-path
-(add-to-list 'load-path (concat dotfiles-dir "/my-lisps"))
-(add-to-list 'load-path (concat dotfiles-dir "/plugins"))
 
 ;; custom file			 
 (setq  custom-file (concat dotfiles-dir "/custom.el"))
@@ -51,11 +52,14 @@
 (setq stack-trace-on-error t)
 
 ;; load my-setting
-(require 'hr-total-conf)
+;;(add-to-list 'load-path (concat dotfiles-dir "/my-lisps"))
+;;(require 'hr-total-conf)
 
 
-;; the init end here
 
-(put 'dired-find-alternate-file 'disabled nil)
-(put 'scroll-left 'disabled nil)
-(put 'upcase-region 'disabled nil)
+
+
+
+
+
+

@@ -1,6 +1,0 @@
-# key: ndview
-# name: node.js view function
-# --
-exports.${1} = function(req, res){
-    ${0}
-};

@@ -1,4 +1,0 @@
-# key: shi
-# name: show index from ..
-# --
-show index from $1;

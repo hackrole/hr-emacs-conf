@@ -1,10 +1,9 @@
 ;;; flymake-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-
+(add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads (flymake-find-file-hook flymake-mode-off flymake-mode-on
-;;;;;;  flymake-mode) "flymake" "flymake.el" (21419 43195 8641 818000))
+;;;### (autoloads nil "flymake" "flymake.el" (22611 36756 0 0))
 ;;; Generated autoloads from flymake.el
 
 (autoload 'flymake-mode "flymake" "\
@@ -32,15 +31,9 @@ Turn flymake mode off.
 
 ;;;***
 
-;;;### (autoloads nil nil ("flymake-pkg.el") (21419 43195 99653 210000))
-
-;;;***
-
-(provide 'flymake-autoloads)
 ;; Local Variables:
 ;; version-control: never
 ;; no-byte-compile: t
 ;; no-update-autoloads: t
-;; coding: utf-8
 ;; End:
 ;;; flymake-autoloads.el ends here

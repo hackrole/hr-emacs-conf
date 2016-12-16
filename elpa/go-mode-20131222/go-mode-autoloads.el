@@ -1,10 +1,9 @@
 ;;; go-mode-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-
+(add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads (go-download-play godoc gofmt-before-save go-mode)
-;;;;;;  "go-mode" "go-mode.el" (21419 43192 984641 876000))
+;;;### (autoloads nil "go-mode" "go-mode.el" (22611 36758 0 0))
 ;;; Generated autoloads from go-mode.el
 
 (autoload 'go-mode "go-mode" "\
@@ -87,15 +86,9 @@ buffer. Tries to look for a URL at point.
 
 ;;;***
 
-;;;### (autoloads nil nil ("go-mode-pkg.el") (21419 43193 71946 154000))
-
-;;;***
-
-(provide 'go-mode-autoloads)
 ;; Local Variables:
 ;; version-control: never
 ;; no-byte-compile: t
 ;; no-update-autoloads: t
-;; coding: utf-8
 ;; End:
 ;;; go-mode-autoloads.el ends here

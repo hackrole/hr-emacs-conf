@@ -1,7 +1,0 @@
-# name: #!/python ... #coding
-# key: head
-# --
-#!/usr/bin/env python
-#coding=utf8
-
-$1

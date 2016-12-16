@@ -1,8 +1,0 @@
-# -*- coding: utf-8 -*-
-# name: defdv
-# author: hackrole
-# key: defdv
-# --
-def ${1:name}(request$2):
-	""" $3 """
-    $0

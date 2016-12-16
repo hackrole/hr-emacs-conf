@@ -1,10 +1,10 @@
 ;;; python-pylint-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-
+(add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads (python-pylint) "python-pylint" "python-pylint.el"
-;;;;;;  (20830 39581))
+;;;### (autoloads nil "python-pylint" "python-pylint.el" (22611 36754
+;;;;;;  0 0))
 ;;; Generated autoloads from python-pylint.el
 
 (autoload 'python-pylint "python-pylint" "\
@@ -18,15 +18,9 @@ or \\<python-pylint-mode-map>\\[compile-goto-error] in the grep output buffer, t
 
 ;;;***
 
-;;;### (autoloads nil nil ("python-pylint-pkg.el") (20830 39581 966911))
-
-;;;***
-
-(provide 'python-pylint-autoloads)
 ;; Local Variables:
 ;; version-control: never
 ;; no-byte-compile: t
 ;; no-update-autoloads: t
-;; coding: utf-8
 ;; End:
 ;;; python-pylint-autoloads.el ends here

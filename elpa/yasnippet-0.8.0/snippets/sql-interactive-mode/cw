@@ -1,4 +1,0 @@
-# key: cw
-# name: select count(*) .. where
-# --
-select count(${0:*}) from $1 where $2;

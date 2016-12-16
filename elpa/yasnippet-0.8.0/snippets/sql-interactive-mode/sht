@@ -1,4 +1,0 @@
-# key: sht
-# name: show create table ...
-# --
-show create table $0

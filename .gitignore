@@ -10,5 +10,5 @@ session.*
 temp/
 eshell/history
 eshell/lastdir
-elpa/archives/*
+elpa/*
 conf_data/bookmarks
