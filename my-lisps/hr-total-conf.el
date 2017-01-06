@@ -8,7 +8,7 @@
 (require 'hr-cedet-conf)
 
 ;; ecb
-(require 'hr-ecb-conf)
+;;(require 'hr-ecb-conf)
 
 ;; cc-mode
 (require 'hr-cc-conf)
@@ -59,7 +59,7 @@
 
 ;; w3m and emms
 ;;(require 'hr-w3m-conf)
-(require 'hr-emms-conf)
+;;(require 'hr-emms-conf)
 
 ;; auto-complete
 (require 'hr-auto-complete-conf)
@@ -68,7 +68,10 @@
 (require 'hr-org-conf)
 
 ;; mu4e mail-client
-;;(require 'hr-mu4e-conf)
+(require 'hr-mu4e-conf)
+
+;; magit for Git
+(require 'hr-magit-conf)
 
 ;; eshell settings
 (require 'hr-eshell-conf)

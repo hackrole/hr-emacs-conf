@@ -4,8 +4,14 @@
 ;; ELPA 
 (require 'package)
 (setq package-user-dir (concat dotfiles-dir "/elpa"))
-(add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
-;;(add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
+;;(add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
+(add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
+;; set melpa proxy
+(setq url-proxy-services
+       '(("no_proxy" . "^\\(localhost\\|10.*\\)")
+         ("http" . "127.0.0.1:8090")
+         ("https" . "127.0.0.1:8090")))
+
 (package-initialize)
 
 (when (not package-archive-contents)
@@ -24,6 +30,7 @@
 (add-to-list 'my-default-packages 'popup)
 (add-to-list 'my-default-packages 'tabbar)
 (add-to-list 'my-default-packages 'emmet-mode)
+(add-to-list 'my-default-packages 'emms)
 (add-to-list 'my-default-packages 'w3)
 (add-to-list 'my-default-packages 'slime)
 (add-to-list 'my-default-packages 'undo-tree)
@@ -33,15 +40,15 @@
 (add-to-list 'my-default-packages 'markdown-mode)
 (add-to-list 'my-default-packages 'go-mode)
 (add-to-list 'my-default-packages 'flymake-go)
-(add-to-list 'my-default-packages 'python-pylint)
+(add-to-list 'my-default-packages 'pylint)
 
 ;; install package
 (dolist (p my-default-packages)
   (when (not (package-installed-p p))
-	(package-install p)))
+    (package-install p)))
 
 
-;; custom file			 
+;; custom file
 (setq  custom-file (concat dotfiles-dir "/custom.el"))
 
 ;; tramp back settings
@@ -52,8 +59,8 @@
 (setq stack-trace-on-error t)
 
 ;; load my-setting
-;;(add-to-list 'load-path (concat dotfiles-dir "/my-lisps"))
-;;(require 'hr-total-conf)
+(add-to-list 'load-path (concat dotfiles-dir "/my-lisps"))
+(require 'hr-total-conf)
 
 
 
