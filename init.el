@@ -42,6 +42,15 @@
 (add-to-list 'my-default-packages 'flymake-go)
 (add-to-list 'my-default-packages 'pylint)
 
+;; evil-mode packages
+(add-to-list 'my-default-packages 'evil)
+(add-to-list 'my-default-packages 'evil-org)
+(add-to-list 'my-default-packages 'evil-surround)
+(add-to-list 'my-default-packages 'evil-numbers)
+(add-to-list 'my-default-packages 'evil-leader)
+(add-to-list 'my-default-packages 'evil-nerd-commenter)
+(add-to-list 'my-default-packages 'evil-visualstar)
+
 ;; install package
 (dolist (p my-default-packages)
   (when (not (package-installed-p p))

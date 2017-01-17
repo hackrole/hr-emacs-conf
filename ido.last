@@ -14,6 +14,7 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "hr-evil-conf.el"
  "hr-total-conf.el"
  "hr-python-conf.el"
  "hr-magit-conf.el"
@@ -22,11 +23,11 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/daipeng/.emacs.d/my-lisps/" (22639 21960 0 0) "itranslate.el" "hr-yasnippet-conf.el" "hr-w3m-conf.el" "hr-undo-tree-conf.el" "hr-total-conf.el" "hr-sql-conf.el" "hr-speedbar-conf.el" "hr-slime-conf.el" "hr-ruby-conf.el" "hr-rst-conf.el" "hr-python-conf.el" "hr-org-conf.el" "hr-neotree-conf.el" "hr-mu4e-conf.el" "hr-mew-conf.el" "hr-magit-conf.el" "hr-keys-conf.el" "hr-js-conf.el" "hr-google-translate-conf.el" "hr-go-conf.el" "hr-eshell-conf.el" "hr-erlang-conf.el" "hr-emms-conf.el" "hr-ecb-conf.el" "hr-doc-view-conf.el" "hr-dired-conf.el" "hr-common-conf.el" "hr-color-theme-conf.el" "hr-cedet-conf.el" "hr-cc-conf.el" "hr-auto-complete-conf.el" "hr-anything-conf.el" "../" "./")
+ ("/Users/daipeng/.emacs.d/my-lisps/" (22644 39463 0 0) "itranslate.el" "hr-yasnippet-conf.el" "hr-w3m-conf.el" "hr-undo-tree-conf.el" "hr-total-conf.el" "hr-sql-conf.el" "hr-speedbar-conf.el" "hr-slime-conf.el" "hr-ruby-conf.el" "hr-rst-conf.el" "hr-python-conf.el" "hr-org-conf.el" "hr-neotree-conf.el" "hr-mu4e-conf.el" "hr-mew-conf.el" "hr-magit-conf.el" "hr-keys-conf.el" "hr-js-conf.el" "hr-google-translate-conf.el" "hr-go-conf.el" "hr-evil-conf.el" "hr-eshell-conf.el" "hr-erlang-conf.el" "hr-emms-conf.el" "hr-ecb-conf.el" "hr-doc-view-conf.el" "hr-dired-conf.el" "hr-common-conf.el" "hr-color-theme-conf.el" "hr-cedet-conf.el" "hr-cc-conf.el" "hr-auto-complete-conf.el" "hr-anything-conf.el" "../" "./")
 
- ("/Users/daipeng/.emacs.d/" (22636 46942 0 0) "temp/" "snippets/" "README.md" "org-agent/" "my-lisps/" "init.el" "ido.last" "eshell/" "emms/" "elpa/" "custom.el~" "custom.el" "bookmarks" "auto-save-list/" ".gitignore" ".git/" "../" "./")
+ ("/Users/daipeng/.emacs.d/" (22644 39469 0 0) "temp/" "snippets/" "README.md" "org-agent/" "my-lisps/" "init.el" "ido.last" "eshell/" "emms/" "elpa/" "custom.el~" "custom.el" "bookmarks" "auto-save-list/" ".gitignore" ".git/" "../" "./")
 
- ("/Users/daipeng/" (22639 20381 0 0) "workspaces/" "Public/" "projects/" "Pictures/" "Music/" "Movies/" "Mails/" "log_me.log" "Library/" "hr-conf/" "Downloads/" "Documents/" "Desktop/" "Applications/" "app/" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-hackrole的MacBook Pro-5.2" ".zcompdump-hackrole的MacBook Pro-5.0.8" ".vscode/" ".virtualenvs/" ".vimrc" ".viminfo" ".vim/" ".v8flags.5.4.500.44.daipeng.json" ".Trash/" ".tmux.conf" ".subversion/" ".ssh/" ".spacemacs" ".ShadowsocksX-NG/" ".ShadowsocksX/" ".pylint.d/" ".pip/" ".oh-my-zsh/" ".offlineimaprc" ".offlineimap/" ".npm/" ".nodenv/" ".node-gyp/" ".mysql_history" ".local/" ".ipython/" ".httpie/" ".hgignore_global" ".hammerspoon/" ".gitignore_global" ".gitconfig" ".emacs.d/" ".DS_Store" ".config/" ".CFUserTextEncoding" ".cache/" ".bash_sessions/" ".bash_history" ".alias" "../" "./")
+ ("/Users/daipeng/" (22644 38666 0 0) "workspaces/" "spacemacs.d.bak/" "Public/" "projects/" "Pictures/" "Music/" "Movies/" "Mails/" "log_me.log" "Library/" "hr-conf/" "Downloads/" "Documents/" "Desktop/" "Applications/" "app/" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-hackrole的MacBook Pro-5.2" ".zcompdump-hackrole的MacBook Pro-5.0.8" ".vscode/" ".virtualenvs/" ".vimrc" ".viminfo" ".vim/" ".v8flags.5.4.500.44.daipeng.json" ".Trash/" ".tmux.conf" ".subversion/" ".ssh/" ".spacemacs" ".ShadowsocksX-NG/" ".ShadowsocksX/" ".pylint.d/" ".pip/" ".oh-my-zsh/" ".offlineimaprc" ".offlineimap/" ".npm/" ".nodenv/" ".node-gyp/" ".mysql_history" ".local/" ".ipython/" ".httpie/" ".hgignore_global" ".hammerspoon/" ".gitignore_global" ".gitconfig" ".emacs.d/" ".DS_Store" ".config/" ".CFUserTextEncoding" ".cache/" ".bash_sessions/" ".bash_history" ".alias" "../" "./")
 
  ("/Users/" (22573 9474 0 0) "Shared/" "daipeng/" ".localized" "../" "./")
 

@@ -70,6 +70,9 @@
 ;; mu4e mail-client
 (require 'hr-mu4e-conf)
 
+;; evil-mode to use vim key-binding in emacs
+(require 'hr-evil-conf)
+
 ;; magit for Git
 (require 'hr-magit-conf)
 

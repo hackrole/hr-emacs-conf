@@ -21,7 +21,7 @@
 (define-key 'L-R-map (kbd "t") 'copy-rectangle-to-register)
 
 ;; for the key translate
-;; redefine the ctrl-x to ctrl-q, and unset the ctrl-x
+;; redefine the ctrl-x to ctrl-q, and unset the ctrl-xo
 (global-set-key (kbd "C-q") ctl-x-map)
 (global-unset-key (kbd "C-x"))
 
